@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Počasí"</string>
+	<!---->
+	<string name="no_weather">"Nejsou k dispozici žádné údaje o počasí"</string>
+	<!---->
+	<string name="menu_addlocation">"Přidat lokalitu"</string>
+	<!---->
+	<string name="menu_delete">"Odstranit lokalitu"</string>
+	<!---->
+	<string name="menu_remove">"Odebrat umístění"</string>
+	<!---->
+	<string name="menu_unit">"Změnit jednotky"</string>
+	<!---->
+	<string name="locate_auto">"Automatická lokalita"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nelze se připojit k internetu."</string>
+	<!---->
+	<string name="locate_goto_connect">"Přejít k nastavení připojení"</string>
+	<!---->
+	<string name="locate_failure">"Automatické určení lokality se nezdařilo. Proveďte prosím vyhledání lokality."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatické určení polohy se nezdařilo. Zkontrolujte prosím službu určování polohy Google."</string>
+	<!---->
+	<string name="insert_location">"Zadejte lokalitu"</string>
+	<!---->
+	<string name="search_location">"Vyhledat umístění"</string>
+	<!---->
+	<string name="connect_timeout">"Slabý signál. Opakujte prosím později."</string>
+	<!---->
+	<string name="connot_find_location">"Tuto lokalitu nelze najít."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Je nám líto, ale lze přidat pouze 11 měst. Odstraňte prosím některé z nich."</string>
+	<!---->
+	<string name="citys_six_full">"Je nám líto, ale lze přidat pouze 11 měst. Odstraňte prosím některé z nich."</string>
+	<!---->
+	<string name="citys_max_full">"Byl dosažen max. počet umístění. Nejprve odeberte umístění."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Vyhledávání..."</string>
+	<!---->
+	<string name="locating">"Určování lokality..."</string>
+	<!---->
+	<string name="loading">"Načítání..."</string>
+	<!---->
+	<string name="weather_offline">"Počasí offline"</string>
+	<!---->
+	<string name="update_time">"Čas aktualizace"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Zrušit"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Místo"</string>
+	<!---->
+	<string name="click_update">"Klepnutím proved. aktual."</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Žádná data o počasí"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Zkontrolujte připojení k internetu"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Žádné oprávnění"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Chcete-li zobrazit data o místním počasí, je potřeba přístupové oprávnění k informacím o poloze."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Žádné místo"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Přidejte polohu pomocí tohoto widgetu"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"NASTAVENÍ"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Přidat lokalitu"</string>
+	<!---->
+	<string name="weather_off_line_text">"Bohužel se nelze připojit."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Slunečno"</item>
+		<item>"Převážně slunečno"</item>
+		<item>"Polojasno"</item>
+		<item>"Částečně oblačno"</item>
+		<item>"Mlhavo s vyjasněním"</item>
+		<item>"Převážně oblačno"</item>
+		<item>"Oblačno"</item>
+		<item>"Pod mrakem"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mlha"</item>
+		<item>"Přeháňky"</item>
+		<item>"Převážně oblačno s přeháňkami"</item>
+		<item>"Polojasno s přeháňkami"</item>
+		<item>"Bouřky"</item>
+		<item>"Převážně oblačno s bouřkovými přeháňkami"</item>
+		<item>"Polojasno s bouřkovými přeháňkami"</item>
+		<item>"Déšť"</item>
+		<item>"Větrno s přeháňkami"</item>
+		<item>"Převážně oblačno s větrnými přeháňkami"</item>
+		<item>"Polojasno s větr. přeháň."</item>
+		<item>"Sníh"</item>
+		<item>"Převážně oblač. se sněhem"</item>
+		<item>"Námraza"</item>
+		<item>"Déšť se sněhem"</item>
+		<item>"Mrznoucí déšť"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Déšť se sněhem"</item>
+		<item>"Horko"</item>
+		<item>"Chladno"</item>
+		<item>"Větrno"</item>
+		<item>"Jasno"</item>
+		<item>"Skoro jasno"</item>
+		<item>"Částečně oblačno"</item>
+		<item>"Částečně oblačno"</item>
+		<item>"Mlhavo"</item>
+		<item>"Převážně oblačno"</item>
+		<item>"Částečně oblačno s přeháňkami"</item>
+		<item>"Převážně oblačno s přeháňkami"</item>
+		<item>"Částečně oblačno s bouřkovými přeháňkami"</item>
+		<item>"Převážně oblačno s bouřkovými přeháňkami"</item>
+		<item>"Převážně oblačno s větrnými přeháňkami"</item>
+		<item>"Převážně oblač. se sněhem"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Po"</item>
+		<item>"Út"</item>
+		<item>"St"</item>
+		<item>"Čt"</item>
+		<item>"Pá"</item>
+		<item>"So"</item>
+		<item>"Ne"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Obnovit"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nelze zjistit poslední polohu."</string>
+	<!---->
+	<string name="last_updated_label">"Poslední aktualizace:"</string>
+	<!---->
+	<string name="change_to_C">"Zobrazit ve °C"</string>
+	<!---->
+	<string name="change_to_F">"Zobrazit ve °F"</string>
+	<!---->
+	<string name="label_today">"Dnes"</string>
+	<!---->
+	<string name="label_humidity">"Vlhkost"</string>
+	<!---->
+	<string name="label_pressure">"Tlak"</string>
+	<!---->
+	<string name="label_wind">"Vítr"</string>
+	<!---->
+	<string name="label_visibility">"Viditelnost"</string>
+	<!---->
+	<string name="label_uv_index">"Index UV"</string>
+	<!---->
+	<string name="label_high">"Vysoké"</string>
+	<!---->
+	<string name="label_low">"Nízké"</string>
+	<!---->
+	<string name="label_high_rel">"Max."</string>
+	<!---->
+	<string name="label_low_rel">"Min."</string>
+	<!---->
+	<string name="label_precipitation">"Srážky"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Pondělí"</item>
+		<item>"Úterý"</item>
+		<item>"Středa"</item>
+		<item>"Čtvrtek"</item>
+		<item>"Pátek"</item>
+		<item>"Sobota"</item>
+		<item>"Neděle"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"MB"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi"</string>
+	<!---->
+	<string name="change_to_mi">"Změnit na míle"</string>
+	<!---->
+	<string name="change_to_km">"Změnit na km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Informace o počasí nelze načíst. Prosím zkontrolujte datové připojení."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+	<!---->
+	<string name="just_now">"Právě teď"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"před 1 sekundou"</item>
+		<item quantity="other">"před <xliff:g id="count">%d</xliff:g> sek."</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"před 1 minutou"</item>
+		<item quantity="other">"před <xliff:g id="COUNT">%d</xliff:g> min."</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"před 1 hodinou"</item>
+		<item quantity="other">"před <xliff:g id="COUNT">%d</xliff:g> hod."</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Včera"</item>
+		<item quantity="other">"před <xliff:g id="COUNT">%d</xliff:g> dny"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Před 1 týdnem"</item>
+		<item quantity="other">"Před <xliff:g id="count">%d</xliff:g> týd."</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Před 1 měsícem"</item>
+		<item quantity="other">"Před <xliff:g id="count">%d</xliff:g> měs."</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Nastavení"</string>
+	<!---->
+	<string name="pref_header_general">"Obecné"</string>
+	<!---->
+	<string name="pref_header_metrics">"Jednotky"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Automaticky aktualizovat data o počasí"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Kdykoli. Mohou vám být naúčtovány poplatky za přenesená data."</item>
+		<item>"Automaticky aktualizovat pouze přes připojení Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Teplota"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Stupně Fahrenheita (°F)"</item>
+		<item>"Stupně Celsia (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Vzdálenost"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Míle (mi.)"</item>
+		<item>"Kilometry (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Pokročilá data o počasí"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Zobrazit pocitovou teplotu"</string>
+	<!---->
+	<string name="just_updated">"Právě teď"</string>
+	<!---->
+	<string name="gotoSettingTips">"Chcete-li přijímat data o místním počasí, udělte přístup k poloze a telefonu."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Nastavení"</string>
+	<!---->
+	<string name="permission_poster_title">"Udělit přístup"</string>
+	<!---->
+	<string name="location_permission_description">"Aplikace Počasí vyžaduje přístupové oprávnění k poloze a telefonu, aby mohla informovat o místním počasí. Chcete-li používat tuto funkci, udělte přístupové oprávnění k poloze a telefonu."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"ROZUMÍM"</string>
+</resources>

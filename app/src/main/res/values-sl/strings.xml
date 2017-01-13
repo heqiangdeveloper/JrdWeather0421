@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vreme"</string>
+	<!---->
+	<string name="no_weather">"Podatki o vremenu niso na voljo"</string>
+	<!---->
+	<string name="menu_addlocation">"Dodaj lokacijo"</string>
+	<!---->
+	<string name="menu_delete">"Izbriši lokacijo"</string>
+	<!---->
+	<string name="menu_remove">"Odstrani lokacijo"</string>
+	<!---->
+	<string name="menu_unit">"Spremeni enoto"</string>
+	<!---->
+	<string name="locate_auto">"Samodejno lociranje"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Ni mogoče vzpostaviti povezave z internetom."</string>
+	<!---->
+	<string name="locate_goto_connect">"Pojdite na vzpostavitev povezave"</string>
+	<!---->
+	<string name="locate_failure">"Samodejno lociranje ni bilo uspešno. Raje poiščite lokacijo."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Samodejno lociranje ni bilo uspešno. Preverite Google lokacijsko storitev."</string>
+	<!---->
+	<string name="insert_location">"Vstavite lokacijo"</string>
+	<!---->
+	<string name="search_location">"Iskanje lokacije"</string>
+	<!---->
+	<string name="connect_timeout">"Slab signal. Poskusite kasneje."</string>
+	<!---->
+	<string name="connot_find_location">"Lokacije ni mogoče najti."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Dodate lahko le 11 mest. Odstranite eno."</string>
+	<!---->
+	<string name="citys_six_full">"Dodate lahko le 11 mest. Odstranite eno."</string>
+	<!---->
+	<string name="citys_max_full">"Doseženo največje število lokacij Najprej odstranite lokacijo."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Iskanje v teku..."</string>
+	<!---->
+	<string name="locating">"Lociranje v teku..."</string>
+	<!---->
+	<string name="loading">"Nalaganje v teku..."</string>
+	<!---->
+	<string name="weather_offline">"Vreme brez povezave"</string>
+	<!---->
+	<string name="update_time">"Čas posodobitve"</string>
+	<!---->
+	<string name="common_ok">"V REDU"</string>
+	<!---->
+	<string name="common_cancel">"Prekliči"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokacija"</string>
+	<!---->
+	<string name="click_update">"Kliknite tu, da posodobite"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Podatki o vremenu niso na voljo"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Preverite internetno povezavo."</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Ni dovoljenja"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Za prikaz podatkov o lokalnem vremenu je potreben dostop do lokacije."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Ni lokacije"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Uporabite ta pripomoček, da dodate lokacijo."</string>
+	<!---->
+	<string name="miniapp_widget_setting">"NASTAVITVE"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Dodaj lokacijo"</string>
+	<!---->
+	<string name="weather_off_line_text">"Oprostite, povezovanje ni uspelo."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sončno"</item>
+		<item>"Pretežno sončno"</item>
+		<item>"Delno sončno"</item>
+		<item>"Delno do pretežno oblačno"</item>
+		<item>"Megleno s soncem"</item>
+		<item>"Pretežno oblačno"</item>
+		<item>"Oblačno"</item>
+		<item>"Turobno"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Megla"</item>
+		<item>"Plohe"</item>
+		<item>"Pretežno oblačno s plohami"</item>
+		<item>"Delno sončno s plohami"</item>
+		<item>"Nevihte"</item>
+		<item>"Pretežno sončno z nevihtnimi plohami"</item>
+		<item>"Delno sončno z nevihtnimi plohami"</item>
+		<item>"Dež"</item>
+		<item>"Sneg"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+		<item>"Delno sončno s snegom"</item>
+		<item>"Sneg"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+		<item>"Led"</item>
+		<item>"Sodra"</item>
+		<item>"Mrzel dež"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Dež s snegom"</item>
+		<item>"Vroče"</item>
+		<item>"Mrzlo"</item>
+		<item>"Vetrovno"</item>
+		<item>"Jasno"</item>
+		<item>"Pretežno jasno"</item>
+		<item>"Delno oblačno"</item>
+		<item>"Delno do pretežno oblačno"</item>
+		<item>"Megla"</item>
+		<item>"Pretežno oblačno"</item>
+		<item>"Delno oblačno s plohami"</item>
+		<item>"Pretežno oblačno s plohami"</item>
+		<item>"Delno oblačno z nevihtnimi plohami"</item>
+		<item>"Pretežno oblačno z nevihtnimi plohami"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+		<item>"Pretežno oblačno s snegom"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pon"</item>
+		<item>"Tor"</item>
+		<item>"Sre"</item>
+		<item>"Čet"</item>
+		<item>"Pet"</item>
+		<item>"Sob"</item>
+		<item>"Ned"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Osveži"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Zadnje lokacije ni mogoče pridobiti."</string>
+	<!---->
+	<string name="last_updated_label">"Nazadnje posodobljeno:"</string>
+	<!---->
+	<string name="change_to_C">"Spremeni v °C"</string>
+	<!---->
+	<string name="change_to_F">"Spremeni v °F"</string>
+	<!---->
+	<string name="label_today">"Danes"</string>
+	<!---->
+	<string name="label_humidity">"Vlaga"</string>
+	<!---->
+	<string name="label_pressure">"Tlak"</string>
+	<!---->
+	<string name="label_wind">"Veter"</string>
+	<!---->
+	<string name="label_visibility">"Vidljivost"</string>
+	<!---->
+	<string name="label_uv_index">"Indeks UV"</string>
+	<!---->
+	<string name="label_high">"Visoko"</string>
+	<!---->
+	<string name="label_low">"Nizko"</string>
+	<!---->
+	<string name="label_high_rel">"Največ"</string>
+	<!---->
+	<string name="label_low_rel">"Najmanj"</string>
+	<!---->
+	<string name="label_precipitation">"Padavine"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Ponedeljek"</item>
+		<item>"Torek"</item>
+		<item>"Sreda"</item>
+		<item>"Četrtek"</item>
+		<item>"Petek"</item>
+		<item>"Sobota"</item>
+		<item>"Nedelja"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"milj/uro"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"Spremeni na milje"</string>
+	<!---->
+	<string name="change_to_km">"Spremeni na kilometre"</string>
+	<!---->
+	<string name="obtain_data_failed">"Podatkov o vremenu ni bilo mogoče pridobiti. Preverite internetno povezavo."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+	<!---->
+	<string name="just_now">"Samo zdaj"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"pred 1 sekundo"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> sekundami"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"pred 1 minuto"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> minutami"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"pred 1 uro"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> urami"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Včeraj"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> dnevi"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Pred 1 tednom"</item>
+		<item quantity="other">"Pred<xliff:g id="count">%d</xliff:g> tedni"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Pred 1 mesecem"</item>
+		<item quantity="other">"pred<xliff:g id="count">%d</xliff:g> meseci"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Nastavitve"</string>
+	<!---->
+	<string name="pref_header_general">"Splošno"</string>
+	<!---->
+	<string name="pref_header_metrics">"Enote"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Samodejna posodobitev podatkov o vremenu"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Kadarkoli. Podatki bodo lahko zaračunani."</item>
+		<item>"Samodejno posodobi samo prek omrežja Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatura"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celzij (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Razdalja"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Milja (mi.)"</item>
+		<item>"Kilometer (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Napredni podatki o vremenu"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Prikaži občutno temperaturo"</string>
+	<!---->
+	<string name="just_updated">"Samo zdaj"</string>
+	<!---->
+	<string name="gotoSettingTips">"Za prejemanje podatkov o lokalnem vremenu dodelite dostop do Lokacije in Telefona."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Nastavitve"</string>
+	<!---->
+	<string name="permission_poster_title">"Dovoli dostop"</string>
+	<!---->
+	<string name="location_permission_description">"Vreme potrebuje dostop do Lokacije in Telefona za posredovanje podatkov o lokalnem vremenu. Dodelite dostop do Lokacije in Telefona, da uporabite to funkcijo."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"Zabeleženo"</string>
+</resources>

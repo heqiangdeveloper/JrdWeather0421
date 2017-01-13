@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_background"
+    android:minWidth="200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/menu_addlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/menu_addlocation"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/menu_deletelocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/menu_remove"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/menu_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/lable_refresh"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/menu_changeunit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/change_to_F"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/menu_change_km_mi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/change_to_mi"
+        android:textColor="@android:color/black"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/menu_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:padding="15dp"
+        android:singleLine="true"
+        android:text="@string/title_activity_settings"
+        android:textColor="@android:color/black" />
+
+</TableLayout>

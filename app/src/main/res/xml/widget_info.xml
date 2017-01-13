@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:minWidth="@dimen/time_weather_widget_minwidth"
+    android:minHeight="@dimen/widget_miniheight"
+    android:minResizeWidth="@dimen/time_weather_widget_minwidth"
+    android:minResizeHeight="@dimen/widget_miniheight"
+    android:updatePeriodMillis="3600000"
+    android:previewImage="@drawable/widget_little_preview"
+    android:initialLayout="@layout/widget_weather_little_layout"
+    android:resizeMode="none"
+    android:widgetCategory="keyguard|home_screen" >
+
+</appwidget-provider>

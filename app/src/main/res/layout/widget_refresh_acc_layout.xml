@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="end"
+    android:id="@+id/miniapp_layout_refresh"
+    android:layoutAnimation="@anim/widget_layout_animation">
+
+    <ImageView
+        android:id="@+id/miniapp_iv_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:background="?android:attr/selectableItemBackground"
+        android:elevation="2dp"
+        android:src="@drawable/ic_refresh_dark" />
+
+</LinearLayout>

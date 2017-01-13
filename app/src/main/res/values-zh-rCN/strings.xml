@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"天气"</string>
+	<!---->
+	<string name="no_weather">"没有天气数据可获得"</string>
+	<!---->
+	<string name="menu_addlocation">"添加位置"</string>
+	<!---->
+	<string name="menu_delete">"删除位置"</string>
+	<!---->
+	<string name="menu_remove">"移除位置"</string>
+	<!---->
+	<string name="menu_unit">"切换单位"</string>
+	<!---->
+	<string name="locate_auto">"自动定位"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"无法连接网络。"</string>
+	<!---->
+	<string name="locate_goto_connect">"设置网络连接"</string>
+	<!---->
+	<string name="locate_failure">"自动定位失败。请输入要查询的位置。"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"自动定位失败，请检查网络位置服务。"</string>
+	<!---->
+	<string name="insert_location">"插入位置"</string>
+	<!---->
+	<string name="search_location">"搜索位置"</string>
+	<!---->
+	<string name="connect_timeout">"信号弱，请稍候再试。"</string>
+	<!---->
+	<string name="connot_find_location">"无法找到该位置。"</string>
+	<!---->
+	<string name="real_feel">"体感温度"</string>
+	<!---->
+	<string name="citys_full">"最多只可添加11个城市，请先删掉一个。"</string>
+	<!---->
+	<string name="citys_six_full">"最多只可添加11个城市，请先删掉一个。"</string>
+	<!---->
+	<string name="citys_max_full">"最大位置个数已经达到，请先删除一个位置。"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"搜索中…"</string>
+	<!---->
+	<string name="locating">"定位中…"</string>
+	<!---->
+	<string name="loading">"读取中…"</string>
+	<!---->
+	<string name="weather_offline">"天气预报离线"</string>
+	<!---->
+	<string name="update_time">"更新时间"</string>
+	<!---->
+	<string name="common_ok">"确定"</string>
+	<!---->
+	<string name="common_cancel">"取消"</string>
+	<!---->
+	<string name="date_am">"上午"</string>
+	<!---->
+	<string name="date_pm">"下午"</string>
+	<!---->
+	<string name="location">"地点"</string>
+	<!---->
+	<string name="click_update">"点击此处更新天气"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"没有天气数据"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"检查你的网络连接"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"没有权限"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"需要打开位置请求天气数据"</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"无位置信息"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"使用窗口小部件添加位置"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"设置"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"添加位置"</string>
+	<!---->
+	<string name="weather_off_line_text">"很抱歉，无法连接。"</string>
+	<string-array name="weather_icon_desc">
+		<item>"晴"</item>
+		<item>"大部多云"</item>
+		<item>"局部多云"</item>
+		<item>"晴偶有云"</item>
+		<item>"晴有薄雾"</item>
+		<item>"大部多云"</item>
+		<item>"多云"</item>
+		<item>"阴天"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"雾"</item>
+		<item>"阵雨"</item>
+		<item>"大部多云有雨"</item>
+		<item>"局部晴偶雨"</item>
+		<item>"雷阵雨"</item>
+		<item>"大部多云有雷阵雨"</item>
+		<item>"局部晴有雷阵雨"</item>
+		<item>"雨"</item>
+		<item>"阵风"</item>
+		<item>"大部多云有阵风"</item>
+		<item>"局部晴有阵风"</item>
+		<item>"雪"</item>
+		<item>"大部多云有雪"</item>
+		<item>"冰"</item>
+		<item>"雨夹雪"</item>
+		<item>"冻雨"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"雨雪"</item>
+		<item>"热"</item>
+		<item>"寒冷"</item>
+		<item>"有风"</item>
+		<item>"晴"</item>
+		<item>"大部晴朗"</item>
+		<item>"局部多云"</item>
+		<item>"晴偶有云"</item>
+		<item>"薄雾"</item>
+		<item>"大部多云"</item>
+		<item>"多云偶有阵雨"</item>
+		<item>"大部多云有雨"</item>
+		<item>"局部多云有阵雨"</item>
+		<item>"大部多云有阵雨"</item>
+		<item>"大部多云有阵风"</item>
+		<item>"大部多云有雪"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"周一"</item>
+		<item>"周二"</item>
+		<item>"周三"</item>
+		<item>"周四"</item>
+		<item>"周五"</item>
+		<item>"周六"</item>
+		<item>"周日"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"刷新"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"无法获得最新的位置。"</string>
+	<!---->
+	<string name="last_updated_label">"上次更新时间:"</string>
+	<!---->
+	<string name="change_to_C">"切换到°C"</string>
+	<!---->
+	<string name="change_to_F">"切换到°F"</string>
+	<!---->
+	<string name="label_today">"今天"</string>
+	<!---->
+	<string name="label_humidity">"湿度"</string>
+	<!---->
+	<string name="label_pressure">"气压"</string>
+	<!---->
+	<string name="label_wind">"风力"</string>
+	<!---->
+	<string name="label_visibility">"可见度"</string>
+	<!---->
+	<string name="label_uv_index">"紫外线指数"</string>
+	<!---->
+	<string name="label_high">"最高"</string>
+	<!---->
+	<string name="label_low">"最低"</string>
+	<!---->
+	<string name="label_high_rel">"最高"</string>
+	<!---->
+	<string name="label_low_rel">"最低"</string>
+	<!---->
+	<string name="label_precipitation">"降水"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"星期一"</item>
+		<item>"星期二"</item>
+		<item>"星期三"</item>
+		<item>"星期四"</item>
+		<item>"星期五"</item>
+		<item>"星期六"</item>
+		<item>"星期日"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"毫巴"</string>
+	<!---->
+	<string name="label_mm">"毫米"</string>
+	<!---->
+	<string name="label_wind_unit_km">"公里/小时"</string>
+	<!---->
+	<string name="label_wind_unit_m">"米每秒"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"英里/小时"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"英里/时"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"公里"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"英里"</string>
+	<!---->
+	<string name="change_to_mi">"切换为英里"</string>
+	<!---->
+	<string name="change_to_km">"切换为公里"</string>
+	<!---->
+	<string name="obtain_data_failed">"无法获取天气信息，请检查网络是否已连接。"</string>
+	<!---->
+	<string name="tokyo_name">"东京"</string>
+	<!---->
+	<string name="just_now">"刚刚"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 秒前"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> 秒前"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 分钟前"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> 分钟前"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 小时前"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> 小时前"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"昨天"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> 天前"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"一周前"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> 周前"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 个月前"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> 月前"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"设置"</string>
+	<!---->
+	<string name="pref_header_general">"常规"</string>
+	<!---->
+	<string name="pref_header_metrics">"单位"</string>
+	<!---->
+	<string name="title_pref_auto_update">"自动更新天气数据"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"任何时候，可能会消耗流量。"</item>
+		<item>"只在WLAN下自动更新天气数据"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"温度"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"华氏度 (°F)"</item>
+		<item>"摄氏度 (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"距离"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"英里 (mi.)"</item>
+		<item>"公里 (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"显示更多数据"</string>
+	<!---->
+	<string name="title_pref_feels_like">"显示体感温度"</string>
+	<!---->
+	<string name="just_updated">"刚刚"</string>
+	<!---->
+	<string name="gotoSettingTips">"获取本地天气数据，请授予位置和电话权限。"</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"设置"</string>
+	<!---->
+	<string name="permission_poster_title">"权限请求"</string>
+	<!---->
+	<string name="location_permission_description">"天气应用需要位置，电话权限来获取本地天气数据，授予位置和电话权限以使用该功能。"</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"知道了"</string>
+</resources>

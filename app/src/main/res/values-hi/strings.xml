@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"मौसम"</string>
+	<!---->
+	<string name="no_weather">"कोई मौसम डेटा उपलब्‍ध नहीं"</string>
+	<!---->
+	<string name="menu_addlocation">"स्‍थान जोड़ें"</string>
+	<!---->
+	<string name="menu_delete">"स्‍थान हटाएं"</string>
+	<!---->
+	<string name="menu_remove">"स्‍थान हटाएं"</string>
+	<!---->
+	<string name="menu_unit">"इकाई बदलें"</string>
+	<!---->
+	<string name="locate_auto">"स्‍वत: स्‍थान जानें"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"इंटरनेट से कनेक्ट नहीं कर सकता."</string>
+	<!---->
+	<string name="locate_goto_connect">"कनेक्‍ट पर जाएं"</string>
+	<!---->
+	<string name="locate_failure">"स्‍वत: स्‍थान जानना विफल. कृपया इसके बजाय एक स्‍थान खोजें."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"स्‍वत: स्‍थान जानना विफल, कृपया नेटवर्क स्‍थान सेवा जांचें."</string>
+	<!---->
+	<string name="insert_location">"एक स्‍थान डालें"</string>
+	<!---->
+	<string name="search_location">"स्‍थान खोजें"</string>
+	<!---->
+	<string name="connect_timeout">"कमज़ोर सिग्‍नल. कृपया बाद में फिर से कोशिश करें।"</string>
+	<!---->
+	<string name="connot_find_location">"यह स्‍थान नहीं मिला."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"खेद है, आप केवल 11 शहर जोड़ सकते हैं. कृपया एक हटा दें."</string>
+	<!---->
+	<string name="citys_six_full">"आप केवल 11 शहर जोड़ सकते हैं. एक को हटाएं."</string>
+	<!---->
+	<string name="citys_max_full">"अधिकतम स्‍थान तक पहुंच गए. पहले एक स्‍थान हटाएं."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"खोज रहा है..."</string>
+	<!---->
+	<string name="locating">"स्‍थान पता लगा रहा है..."</string>
+	<!---->
+	<string name="loading">"लोड हो रहा है…"</string>
+	<!---->
+	<string name="weather_offline">"मौसम ऑफलाइन"</string>
+	<!---->
+	<string name="update_time">"समय अपडेट करें"</string>
+	<!---->
+	<string name="common_ok">"ठीक"</string>
+	<!---->
+	<string name="common_cancel">"रद्द करें"</string>
+	<!---->
+	<string name="date_am">"सुबह"</string>
+	<!---->
+	<string name="date_pm">"शाम"</string>
+	<!---->
+	<string name="location">"स्थान"</string>
+	<!---->
+	<string name="click_update">"अपडेट करने के लिए यहां स्पर्श करें"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"कोई मौसम डेटा नहीं"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"अपना इंटरनेट कनेक्‍शन जांचें"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"कोई अनुमति नहीं"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"स्‍थानीय मौसम डेटा दिखाने के लिए स्‍थान एक्‍सेस आवश्‍यक है."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"कोई स्‍थान नहीं"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"स्‍थान जोड़ने के लिए इस विजेट का प्रयोग करें"</string>
+	<!-- no translation found for miniapp_widget_setting -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_add_location">"स्‍थान जोड़ें"</string>
+	<!---->
+	<string name="weather_off_line_text">"खेद है, कनेक्‍ट करने में असमर्थ."</string>
+	<string-array name="weather_icon_desc">
+		<item>"धूपभरा"</item>
+		<item>"ज़्यादातर धूपभरा"</item>
+		<item>"आंशिक धूपभरा"</item>
+		<item>"बीच-बीच में बादलभरा"</item>
+		<item>"धुंधभरी धूप"</item>
+		<item>"ज़्यादातर बादलभरा"</item>
+		<item>"बादल भरा"</item>
+		<item>"उदास"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"कोहरा"</item>
+		<item>"फुहारें"</item>
+		<item>"फुहारों के साथ ज़्यादातर बादलभरा"</item>
+		<item>"फुहारों के साथ आंशिक धूपभरा"</item>
+		<item>"गरज के साथ तूफान"</item>
+		<item>"गरज के साथ फुहारों के साथ ज़्यादातर बादलभरा"</item>
+		<item>"गरज के साथ फुहारों के साथ आंशिक धूपभरा"</item>
+		<item>"बारिश"</item>
+		<item>"हल्‍की बर्फकारी"</item>
+		<item>"हल्‍की बर्फबारी के साथ ज़्यादातर बादलभरा"</item>
+		<item>"हल्‍की बर्फबारी के साथ आंशिक धूपभरा"</item>
+		<item>"बर्फ"</item>
+		<item>"बर्फबारी के साथ ज़्यादातर बादलभरा"</item>
+		<item>"जमी बर्फ"</item>
+		<item>"बर्फीला कीचड़"</item>
+		<item>"बेहद सर्द बारिश"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"बारिश और बर्फबारी मिलीजुली"</item>
+		<item>"गर्म"</item>
+		<item>"ठंडा"</item>
+		<item>"तेज़ हवाएं"</item>
+		<item>"हटा दें"</item>
+		<item>"ज़्यादातर साफ"</item>
+		<item>"आंशिक बादलभरा"</item>
+		<item>"बीच-बीच में बादलभरा"</item>
+		<item>"धुंधभरा"</item>
+		<item>"ज़्यादातर बादलभरा"</item>
+		<item>"फुहारों के साथ आंशिक बादलभरा"</item>
+		<item>"फुहारों के साथ ज़्यादातर बादलभरा"</item>
+		<item>"गरज के साथ फुहारों के साथ आंशिक बादलभरा"</item>
+		<item>"गरज के साथ फुहारों के साथ ज़्यादातर बादलभरा"</item>
+		<item>"हल्‍की बर्फबारी के साथ ज़्यादातर बादलभरा"</item>
+		<item>"बर्फबारी के साथ ज़्यादातर बादलभरा"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"सोम"</item>
+		<item>"मंगल"</item>
+		<item>"बुध"</item>
+		<item>"गुरु"</item>
+		<item>"शुक्र"</item>
+		<item>"शनि"</item>
+		<item>"रवि"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"रीफ्रेश करें"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"अंतिम स्‍थान प्राप्‍त करने में असमर्थ."</string>
+	<!---->
+	<string name="last_updated_label">"अंतिम अपडेट:"</string>
+	<!---->
+	<string name="change_to_C">"°C में बदलें"</string>
+	<!---->
+	<string name="change_to_F">"°F में बदलें"</string>
+	<!---->
+	<string name="label_today">"आज"</string>
+	<!---->
+	<string name="label_humidity">"उमस"</string>
+	<!---->
+	<string name="label_pressure">"दबाव"</string>
+	<!---->
+	<string name="label_wind">"हवा"</string>
+	<!---->
+	<string name="label_visibility">"दृश्‍यता"</string>
+	<!---->
+	<string name="label_uv_index">"यूवी इंडेक्‍स"</string>
+	<!---->
+	<string name="label_high">"उच्च"</string>
+	<!---->
+	<string name="label_low">"निम्न"</string>
+	<!---->
+	<string name="label_high_rel">"अधिकतम"</string>
+	<!---->
+	<string name="label_low_rel">"न्‍यूनतम"</string>
+	<!---->
+	<string name="label_precipitation">"अवक्षेपण"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"सोमवार"</item>
+		<item>"मंगलवार"</item>
+		<item>"बुधवार"</item>
+		<item>"गुरुवार"</item>
+		<item>"शुक्रवार"</item>
+		<item>"शनिवार"</item>
+		<item>"रविवार"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"एमबी"</string>
+	<!---->
+	<string name="label_mm">"मिमी"</string>
+	<!---->
+	<string name="label_wind_unit_km">"किमी/घ"</string>
+	<!---->
+	<string name="label_wind_unit_m">"मि/से"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"मी/घ"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"मील/घ"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"किमी"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"मि."</string>
+	<!---->
+	<string name="change_to_mi">"मि. में बदलें"</string>
+	<!---->
+	<string name="change_to_km">"किमी में बदलें"</string>
+	<!---->
+	<string name="obtain_data_failed">"मौसम का डेटा प्राप्‍त करने में असमर्थ. कृपया इंटरनेट कनेक्‍शन जांचें."</string>
+	<!---->
+	<string name="tokyo_name">"टोक्यो"</string>
+	<!---->
+	<string name="just_now">"अभी-अभी"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 सेकंड पहले"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> सेकंड पहले"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 मिनट पहले"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> मिनट पहले"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 घंटे पहले"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> घंटे पहले"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"बीता कल"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> दिन पहले"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 सप्‍ताह पहले"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> सप्‍ताह पहले"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 माह पहले"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> माह पहले"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"सेटिंग्‍स"</string>
+	<!---->
+	<string name="pref_header_general">"सामान्य"</string>
+	<!---->
+	<string name="pref_header_metrics">"इकाइयां"</string>
+	<!---->
+	<string name="title_pref_auto_update">"स्‍वत:-अपडेट मौसम डेटा"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"कभी भी. डेटा शुल्‍क लग सकते हैं।"</item>
+		<item>"केवल वाई-फाई से स्‍वत:-अपडेट करें"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"तापमान"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"फारेनहाइट (°F)"</item>
+		<item>"सेल्सियस (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"दूरी"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"मील (mi.)"</item>
+		<item>"किलोमीटर (किमी)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"उन्‍नत मौसम डेटा"</string>
+	<!---->
+	<string name="title_pref_feels_like">"अनुभूत तापमान दिखाएं"</string>
+	<!---->
+	<string name="just_updated">"अभी-अभी"</string>
+	<!---->
+	<string name="gotoSettingTips">"स्‍थानीय मौसम डेटा प्राप्‍त करने के लिए, स्‍थान और फोन एक्‍सेस प्रदान करें."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"सेटिंग्‍स"</string>
+	<!---->
+	<string name="permission_poster_title">"एक्‍सेस प्रदान करें"</string>
+	<!---->
+	<string name="location_permission_description">"स्‍थानीय मौसम डेटा प्रदान करने के लिए, Weather को स्‍थान और फोन एक्‍सेस चाहिए. इस सुविधा का उपयोग करने के लिए स्‍थान और फोन एक्‍सेस प्रदान करें."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"मिल गया"</string>
+</resources>

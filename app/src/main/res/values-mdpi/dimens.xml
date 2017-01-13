@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <dimen name="mini_widget_minwidth">240dip</dimen>
+     <dimen name="mini_widget_minheight">118dip</dimen>
+     
+     <dimen name="widget_miniwidth">240dp</dimen>
+     <dimen name="widget_miniheight">54dp</dimen>
+     
+     <dimen name="widget_width">240dp</dimen>
+     
+     <dimen name="miniapp_weatherdes_width">140dp</dimen>
+     <dimen name="searchview_maxwidth">240dp</dimen>
+     
+     <!--added by tingma at 2015-05-21  -->
+     <dimen name="llday_params_topbottom">0px</dimen>
+
+    <dimen name="weather_margin_bottom">40dp</dimen>
+
+     <dimen name="miniapp_imageview_refresh_size">24dp</dimen>
+     
+</resources>

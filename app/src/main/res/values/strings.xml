@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">"Weather"</string>
+    <string name="no_weather">"No weather data available"</string>
+    <string name="menu_addlocation">"Add location"</string>
+    <string name="menu_delete">"Delete location"</string>
+    <string name="menu_remove">"Remove location"</string>
+    <string name="menu_unit">"Change unit"</string>
+    <string name="locate_auto">"Auto locate"</string>
+    <string name="locate_or">OR</string>
+    <string name="locate_connect_error">"Cannot connect to the Internet."</string>
+    <string name="locate_goto_connect">"Go to connect"</string>
+    <string name="locate_failure">"Auto locate failed. Please search for a location instead."</string>
+    <string name="locate_search">Search a Location</string>
+    <string name="locate_location_service">"Auto locate failure, please check the network location service."</string>
+    <string name="insert_location">"Insert a location"</string>
+    <string name="search_location">"Search location"</string>
+    <string name="connect_timeout">"Weak signal. Please try again later."</string>
+    <string name="connot_find_location">"This location cannot be found."</string>
+    <string name="real_feel">"RealFeel"</string>
+    <string name="citys_full">"Sorry, you can only add 11 cities. Please remove one."</string>
+    <string name="citys_six_full">"You can only add 11 cities. Remove one."</string>
+    <string name="citys_max_full">"Max locations reached. Remove a location first."</string>
+    <string name="update_faild">Update failure,please check your internet connection.</string>
+    <string name="searching">"Searching…"</string>
+    <string name="locating">"Locating…"</string>
+    <string name="loading">"Loading..."</string>
+    <string name="weather_offline">"Weather Offline"</string>
+    <string name="update_time">"Update time"</string>
+    <string name="common_ok">"OK"</string>
+    <string name="common_cancel">"Cancel"</string>
+    <string name="date_am">"AM"</string>
+    <string name="date_pm">"PM"</string>
+    <string name="location">"Location"</string>
+    <string name="click_update">"Click here to update"</string>
+
+    <string name="miniapp_widget_no_data">"No weather data"</string>
+    <string name="miniapp_widget_no_data_desc">"Check your Internet connection"</string>
+    <string name="miniapp_widget_no_permission">"No permission"</string>
+    <string name="miniapp_widget_no_permission_desc">"Location access needed to show local weather data."</string>
+    <string name="miniapp_widget_no_location">"No location"</string>
+    <string name="miniapp_widget_no_location_desc">"Use this widget to add a location"</string>
+    <string name="miniapp_widget_setting">"Settings"</string>
+    <string name="miniapp_widget_add_location">"Add location"</string>
+
+    <!-- PR 454243 - ting.chen@tct-nj.com - added begin -->
+    <string name="weather_off_line_text">"Sorry, unable to connect."</string>
+    <!-- PR 454243 - ting.chen@tct-nj.com - added end -->
+
+    <string-array name="weather_icon_desc">
+        <item>Sunny</item>
+        <item>Mostly sunny</item>
+        <item>Partly sunny</item>
+        <item>Intermittent clouds</item>
+        <item>Hazy sunshine</item>
+        <item>Mostly cloudy</item>
+        <item>Cloudy</item>
+        <item>Dreary</item>
+        <item/>
+        <item/>
+        <item>Fog</item>
+        <item>Showers</item>
+        <item>Mostly cloudy with showers</item>
+        <item>Partly sunny with showers</item>
+        <item>Thunderstorms</item>
+        <item>Mostly cloudy with thunder showers</item>
+        <item>Partly sunny with thunder showers</item>
+        <item>Rain</item>
+        <item>Flurries</item>
+        <item>Mostly cloudy with flurries</item>
+        <item>Partly sunny with flurries</item>
+        <item>Snow</item>
+        <item>Mostly cloudy with snow</item>
+        <item>Ice</item>
+        <item>Sleet</item>
+        <item>Freezing rain</item>
+        <item/>
+        <item/>
+        <item>Rain and snow mixed</item>
+        <item>Hot</item>
+        <item>Cold</item>
+        <item>Windy</item>
+        <item>Clear</item>
+        <item>Mostly clear</item>
+        <item>Partly cloudy</item>
+        <item>Intermittent clouds</item>
+        <item>Hazy</item>
+        <item>Mostly cloudy</item>
+        <item>Partly cloudy with showers</item>
+        <item>Mostly cloudy with showers</item>
+        <item>Partly cloudy with thunder showers</item>
+        <item>Mostly cloudy with thunder showers</item>
+        <item>Mostly cloudy with flurries</item>
+        <item>Mostly cloudy with snow</item>
+    </string-array>
+    <string-array name="weather_weekly">
+        <item>"Mon"</item>
+        <item>"Tue"</item>
+        <item>"Wed"</item>
+        <item>"Thu"</item>
+        <item>"Fri"</item>
+        <item>"Sat"</item>
+        <item>"Sun"</item>
+    </string-array>
+
+    <!-- add by lijun.ye for PR462130 2013-06-01 START-->
+    <string name="default_temp" translatable="false">"-°"</string>
+    <!--[FEATURE]-Add-BEGIN by TSCD.peng.du,12/17/2015,1176380,[Weather]ACC Widget DEV -->
+    <string name="widget_12_hours_format" translatable="false">h:mm</string>
+    <string name="widget_24_hours_format" translatable="false">kk:mm</string>
+    <!--string name="widget_12_hours_format" translatable="false">h:mm</string>
+    <string name="widget_24_hours_format" translatable="false">kk:mm</string-->
+    <!-- [FEATURE]-Add-END by TSCD.peng.du-->
+    <string name="am_pm_12_hours" translatable="false">aa</string>
+    <string name="am_pm_24_hours" translatable="false"/>
+    <!-- CR746638 Change date&time display format by jielong.xing at 2014-07-27 begin -->
+    <string name="weekday_keyguard" translatable="false">"EEEE, "</string>
+    <!-- CR746638 Change date&time display format by jielong.xing at 2014-07-27 end -->
+    <!-- add by lijun.ye for PR462130 2013-06-01 END-->
+    <!--add by jiajun.shen for 1016688 at 2015.6.5-->
+    <string name="japan_month_day_keyguard_24_hours" translatable="false">M 月 d 日</string>
+    <string name="japan_weekday_keyguard" translatable="false">" "(EEE)</string>
+    <!-- CR-490103 Neo Skunkworks - Nicky Ni -001 start -->
+    <string name="lable_refresh">"Refresh"</string>
+    <!-- CR-490103 Neo Skunkworks - Nicky Ni -001 end -->
+
+    <string name="msg_unable_obtain_location">"Unable to obtain the latest location."</string>
+    <!-- FR821437 Translate the new string by jielong.xing at 2014-10-30 begin -->
+    <string name="last_updated_label">"Last updated:"</string>
+    <string name="change_to_C">"Change to °C"</string>
+    <string name="change_to_F">"Change to °F"</string>
+    <!-- FR821437 Translate the new string by jielong.xing at 2014-10-30 end -->
+
+    <string name="label_today">"Today"</string>
+    <string name="label_humidity">"Humidity"</string>
+    <string name="label_pressure">"Pressure"</string>
+    <string name="label_wind">"Wind"</string>
+    <string name="label_visibility">"Visibility"</string>
+    <string name="label_degree" translatable="false">"°"</string>
+    <string name="label_uv_index">"UV index"</string>
+    <string name="label_high">"High"</string>
+    <string name="label_low">"Low"</string>
+    <!-- [BUGFIX]-Add-BEGIN by peng.du  for 860906 [Android5.1][Weather_v5.2.2.1.0306.0]The high
+     and low tenperature should be Max and Min-->
+    <string name="label_high_rel">"Max"</string>
+    <string name="label_low_rel">"Min"</string>
+    <!-- [BUGFIX]-Add-END by peng.du -->
+    <string name="label_precipitation">"Precipitation"</string>
+
+    <string-array name="weather_weekly_fullname">
+        <item>"Monday"</item>
+        <item>"Tuesday"</item>
+        <item>"Wednesday"</item>
+        <item>"Thursday"</item>
+        <item>"Friday"</item>
+        <item>"Saturday"</item>
+        <item>"Sunday"</item>
+    </string-array>
+
+    <!--Fixed PR1002054 Centigrade symbol should be together with the temperature on the next line by tingma at 2015-05-18 begin  -->
+    <string name="label_temp_unit_celsius" translatable="false">"°C"</string>
+    <string name="label_temp_unit_fahrenheit" translatable="false">"°F"</string>
+    <!--Fixed PR1002054 Centigrade symbol should be together with the temperature on the next line by tingma at 2015-05-18 end  -->
+    <string name="label_pressure_unit">"mb"</string>
+    <string name="label_mm">"mm"</string>
+
+
+    <string name="label_humidity_unit" translatable="false">"%"</string>
+    <string name="label_wind_unit_km">"km/h"</string>
+    <string name="label_wind_unit_m">"m/s"</string>
+    <string name="label_wind_unit_mi">"mph"</string>
+    <!--add by peng.du for PR860910-->
+    <string name="label_wind_unit_mi_rel">"mi/h"</string>
+    <!--end by peng.du for PR860910-->
+    <string name="label_visibility_unit_km">"km"</string>
+    <string name="label_visibility_unit_mi">"mi."</string>
+
+    <string name="change_to_mi">"Change to mi."</string>
+    <string name="change_to_km">"Change to km"</string>
+
+    <string name="obtain_data_failed">"Unable to obtain weather data. Please check the Internet connection."</string>
+
+    <!--add by jiajun.shen for 1016685-->
+    <string name="tokyo_name">"Tokyo"</string>
+
+    <!-- [BUGFIX]-Add-BEGIN by qian-li,11/03/2015,702201,[Android5.1][Weather_v5.1.3.4.0303.0]It should display just now when the update time is less than 60s -->
+    <string name="just_now">"Just now"</string>
+    <!-- [BUGFIX]-Add-END by qian-li -->
+
+    <!-- add by jiajun.shen for 1010042 -->
+    <plurals name="seconds_ago">
+        <item quantity="one">"1 second ago"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> seconds ago"</item>
+        "
+    </plurals>
+    <plurals name="minutes_ago">
+        <item quantity="one">"1 minute ago"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> minutes ago"</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="one">"1 hour ago"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> hours ago"</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="one">"Yesterday"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> days ago"</item>
+    </plurals>
+    <!-- [BUGFIX]-Add-BEGIN by qian-li,11/03/2015,702164,[Android5.1][Weather_v5.1.3.4.0303.0]The weather update time is overlap -->
+    <plurals name="weeks_ago">
+        <item quantity="one">"1 week ago"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> weeks ago"</item>
+    </plurals>
+    <plurals name="months_ago">
+        <item quantity="one">"1 month ago"</item>
+        <item quantity="other">"<xliff:g id="count">%d</xliff:g> months ago"</item>
+    </plurals>
+    <!-- [BUGFIX]-Add-END by qian-li -->
+
+    <string name="title_activity_settings">"Settings"</string>
+    <string name="pref_header_general">"General"</string>
+    <string name="pref_header_metrics">"Units"</string>
+
+    <string name="title_pref_auto_update">"Auto-update weather data"</string>
+    <string-array name="pref_auto_update_titles">
+        <item>"Any time. Data charges may apply."</item>
+        <item>"Auto-update over Wi-Fi only"</item>
+    </string-array>
+
+    <string name="title_pref_temp">"Temperature"</string>
+    <string-array name="pref_temp_unit_titles">
+        <item>"Fahrenheit (°F)"</item>
+        <item>"Celcius (°C)"</item>
+    </string-array>
+
+    <string name="title_pref_distance">"Distance"</string>
+    <string-array name="pref_distance_unit_titles">
+        <item>"Mile (mi.)"</item>
+        <item>"Kilometre (km)"</item>
+    </string-array>
+
+    <string name="title_pref_advanced_data">"Advanced weather data"</string>
+    <string name="title_pref_feels_like">"Show sensible temperature"</string>
+
+    <string name="just_updated">"Just now"</string>
+
+    <!--permission strings-->
+    <string name="gotoSettingTips">"To receive local weather data, grant Location and Phone access."</string>
+    <string name="gotoSettingTips_no_phone">"To receive local weather data, grant Location access."</string>
+    <string name="settings">"Settings"</string>
+    <string name="permission_poster_title">"Grant access"</string>
+    <string name="location_permission_description">"Weather needs Location and Phone permission to provide local weather data. Grant Location and Phone access to use this feature."</string>
+    <string name="location_permission_description_no_phone">"Weather needs Location to provide local weather data. Grant Location access to use this feature."</string>
+    <string name="gotit">"Got it"</string>
+
+    <string name="turnon_locationservice">Turn on location services to receive local weather information</string>
+    <string name="bt_turnon_location">SETTINGS</string>
+</resources>

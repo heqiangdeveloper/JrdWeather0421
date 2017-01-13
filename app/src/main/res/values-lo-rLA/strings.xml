@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for app_name -->
+	<skip />
+	<!-- no translation found for no_weather -->
+	<skip />
+	<!-- no translation found for menu_addlocation -->
+	<skip />
+	<!-- no translation found for menu_delete -->
+	<skip />
+	<!-- no translation found for menu_remove -->
+	<skip />
+	<!-- no translation found for menu_unit -->
+	<skip />
+	<!-- no translation found for locate_auto -->
+	<skip />
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!-- no translation found for locate_connect_error -->
+	<skip />
+	<!-- no translation found for locate_goto_connect -->
+	<skip />
+	<!-- no translation found for locate_failure -->
+	<skip />
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!-- no translation found for locate_location_service -->
+	<skip />
+	<!-- no translation found for insert_location -->
+	<skip />
+	<!-- no translation found for search_location -->
+	<skip />
+	<!-- no translation found for connect_timeout -->
+	<skip />
+	<!-- no translation found for connot_find_location -->
+	<skip />
+	<!-- no translation found for real_feel -->
+	<skip />
+	<!-- no translation found for citys_full -->
+	<skip />
+	<!-- no translation found for citys_six_full -->
+	<skip />
+	<!-- no translation found for citys_max_full -->
+	<skip />
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!-- no translation found for searching -->
+	<skip />
+	<!-- no translation found for locating -->
+	<skip />
+	<!-- no translation found for loading -->
+	<skip />
+	<!-- no translation found for weather_offline -->
+	<skip />
+	<!-- no translation found for update_time -->
+	<skip />
+	<!---->
+	<string name="common_ok">"ຕົກລົງ"</string>
+	<!---->
+	<string name="common_cancel">"ຍົກເລີກ"</string>
+	<!-- no translation found for date_am -->
+	<skip />
+	<!-- no translation found for date_pm -->
+	<skip />
+	<!---->
+	<string name="location">"ຕຳແໜ່ງ"</string>
+	<!-- no translation found for click_update -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_data -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_data_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_location -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_location_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_setting -->
+	<skip />
+	<!-- no translation found for miniapp_widget_add_location -->
+	<skip />
+	<!-- no translation found for weather_off_line_text -->
+	<skip />
+	<string-array name="weather_icon_desc">
+		<item>"Sunny"</item>
+		<item>"Mostly Sunny"</item>
+		<item>"Partly Sunny"</item>
+		<item>"Intermittent Clouds"</item>
+		<item>"Hazy Sunshine"</item>
+		<item>"Mostly Cloudy"</item>
+		<item>"Cloudy"</item>
+		<item>"Dreary"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Fog"</item>
+		<item>"Showers"</item>
+		<item>"Mostly Cloudy with Showers"</item>
+		<item>"Partly Sunny with Showers"</item>
+		<item>"Thunderstorms"</item>
+		<item>"Mostly Cloudy with Thunder Showers"</item>
+		<item>"Partly Sunny with Thunder Showers"</item>
+		<item>"Rain"</item>
+		<item>"Flurries"</item>
+		<item>"Mostly Cloudy with Flurries"</item>
+		<item>"Partly Sunny with Flurries"</item>
+		<item>"Snow"</item>
+		<item>"Mostly Cloudy with Snow"</item>
+		<item>"Ice"</item>
+		<item>"Sleet"</item>
+		<item>"Freezing Rain"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Rain and Snow Mixed"</item>
+		<item>"Hot"</item>
+		<item>"Cold"</item>
+		<item>"Windy"</item>
+		<item>"Clear"</item>
+		<item>"Mostly Clear"</item>
+		<item>"Partly Cloudy"</item>
+		<item>"Intermittent Clouds"</item>
+		<item>"Hazy"</item>
+		<item>"Mostly Cloudy"</item>
+		<item>"Partly Cloudy with Showers"</item>
+		<item>"Mostly Cloudy with Showers"</item>
+		<item>"Partly Cloudy with Thunder Showers"</item>
+		<item>"Mostly Cloudy with Thunder Showers"</item>
+		<item>"Mostly Cloudy with Flurries"</item>
+		<item>"Mostly Cloudy with Snow"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<!--inherit from default language-->
+		<item>"Mon"</item>
+		<!--inherit from default language-->
+		<item>"Tue"</item>
+		<!--inherit from default language-->
+		<item>"Wed"</item>
+		<!--inherit from default language-->
+		<item>"Thu"</item>
+		<!--inherit from default language-->
+		<item>"Fri"</item>
+		<!--inherit from default language-->
+		<item>"Sat"</item>
+		<!--inherit from default language-->
+		<item>"Sun"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"ຣີເຟຣດ"</string>
+	<!-- no translation found for msg_unable_obtain_location -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+	<!---->
+	<string name="label_today">"ມື້ນີ້"</string>
+	<!-- no translation found for label_humidity -->
+	<skip />
+	<!-- no translation found for label_pressure -->
+	<skip />
+	<!-- no translation found for label_wind -->
+	<skip />
+	<!-- no translation found for label_visibility -->
+	<skip />
+	<!-- no translation found for label_uv_index -->
+	<skip />
+	<!-- no translation found for label_high -->
+	<skip />
+	<!-- no translation found for label_low -->
+	<skip />
+	<!-- no translation found for label_high_rel -->
+	<skip />
+	<!-- no translation found for label_low_rel -->
+	<skip />
+	<!-- no translation found for label_precipitation -->
+	<skip />
+	<string-array name="weather_weekly_fullname">
+		<!--inherit from default language-->
+		<item>"Monday"</item>
+		<!--inherit from default language-->
+		<item>"Tuesday"</item>
+		<!--inherit from default language-->
+		<item>"Wednesday"</item>
+		<!--inherit from default language-->
+		<item>"Thursday"</item>
+		<!--inherit from default language-->
+		<item>"Friday"</item>
+		<!--inherit from default language-->
+		<item>"Saturday"</item>
+		<!--inherit from default language-->
+		<item>"Sunday"</item>
+	</string-array>
+	<!-- no translation found for label_pressure_unit -->
+	<skip />
+	<!-- no translation found for label_mm -->
+	<skip />
+	<!-- no translation found for label_wind_unit_km -->
+	<skip />
+	<!-- no translation found for label_wind_unit_m -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi_rel -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_km -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_mi -->
+	<skip />
+	<!-- no translation found for change_to_mi -->
+	<skip />
+	<!-- no translation found for change_to_km -->
+	<skip />
+	<!-- no translation found for obtain_data_failed -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for just_now -->
+	<skip />
+	<!-- no translation found for seconds_ago -->
+	<skip />
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 ກ່ອນນາທີ"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> ກ່ອນນາທີ"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 ກ່ອນຊົວໂມງ"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> ກ່ອນຊົວໂມງ"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"ມື້ວານ"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> ກ່ອນວັນ"</item>
+	</plurals>
+	<!-- no translation found for weeks_ago -->
+	<skip />
+	<!-- no translation found for months_ago -->
+	<skip />
+	<!-- no translation found for title_activity_settings -->
+	<skip />
+	<!-- no translation found for pref_header_general -->
+	<skip />
+	<!-- no translation found for pref_header_metrics -->
+	<skip />
+	<!-- no translation found for title_pref_auto_update -->
+	<skip />
+	<string-array name="pref_auto_update_titles">
+		<!--inherit from default language-->
+		<item>"Any time. Data charges may apply."</item>
+		<!--inherit from default language-->
+		<item>"Auto-update over Wi-Fi only"</item>
+	</string-array>
+	<!-- no translation found for title_pref_temp -->
+	<skip />
+	<string-array name="pref_temp_unit_titles">
+		<!--inherit from default language-->
+		<item>"Fahrenheit (°F)"</item>
+		<!--inherit from default language-->
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_distance -->
+	<skip />
+	<string-array name="pref_distance_unit_titles">
+		<!--inherit from default language-->
+		<item>"Mile (mi.)"</item>
+		<!--inherit from default language-->
+		<item>"Kilometre (km)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_advanced_data -->
+	<skip />
+	<!-- no translation found for title_pref_feels_like -->
+	<skip />
+	<!-- no translation found for just_updated -->
+	<skip />
+	<!-- no translation found for gotoSettingTips -->
+	<skip />
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!-- no translation found for settings -->
+	<skip />
+	<!-- no translation found for permission_poster_title -->
+	<skip />
+	<!-- no translation found for location_permission_description -->
+	<skip />
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!-- no translation found for gotit -->
+	<skip />
+</resources>

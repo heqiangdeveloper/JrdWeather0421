@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="popupmenu_width">160dip</dimen>
+    <!-- PR669281-Neo Skunworks-kehao.wei-001 modify begin -->
+    <dimen name="popupmenu_height">180dip</dimen>
+    <!-- PR669281-Neo Skunworks-kehao.wei-001 modify end -->
+
+    <dimen name="mini_widget_minwidth">320dip</dimen>
+    <dimen name="mini_widget_minheight">118dip</dimen>
+
+    <dimen name="widget_miniwidth">320dp</dimen>
+    <dimen name="widget_miniheight">54dp</dimen>
+    <!-- app configuration begin -->
+    <dimen name="weather_text_size">14sp</dimen>
+    <dimen name="weather_temp_size">32sp</dimen>
+    <dimen name="weather_degree_size">36dp</dimen>
+    <dimen name="weather_unit_size">24dp</dimen>
+    <dimen name="weather_city_size">14sp</dimen>
+    <dimen name="weather_time_size">14sp</dimen>
+    <dimen name="current_label">14sp</dimen>
+    <dimen name="weather_val">14sp</dimen>
+    <dimen name="weather_tunit">14sp</dimen>
+
+    <dimen name="weather_info_value_size">18sp</dimen>
+    <dimen name="weather_info_key_size">11sp</dimen>
+    <dimen name="weather_info_unit_size">11sp</dimen>
+
+    <dimen name="forecast_weekly_size">16dp</dimen>
+    <dimen name="forecast_temp_size">16dp</dimen>
+
+    <dimen name="weather_city_gap">10dp</dimen>
+    <dimen name="info_forecast_gap">22dp</dimen>
+    <dimen name="high_low_gap">6dp</dimen>
+
+    <dimen name="autolocate_icon_width">10dp</dimen>
+    <dimen name="autolocate_icon_height">15dp</dimen>
+    <dimen name="forecast_icon_size">42dp</dimen>
+
+    <dimen name="weather_margin_left">44dp</dimen>
+    <dimen name="weather_margin_left2">20dp</dimen>
+    <dimen name="weather_margin_right2">20dp</dimen>
+    <dimen name="weather_margin_bottom">40dp</dimen>
+    <dimen name="weather_info_margin_bottom">56dp</dimen>
+
+    <dimen name="page_indicate_size">5dp</dimen>
+    <dimen name="logo_size">5dp</dimen>
+
+    <dimen name="forecast_item_height">70dp</dimen>
+    <!--Fixed PR1002116 by tingma at 2015-05-19 begin -->
+    <!-- <dimen name="forecast_margin_left">32dp</dimen>
+    <dimen name="forecast_margin_right">32dp</dimen> -->
+    <dimen name="forecast_margin_left">20dp</dimen>
+    <dimen name="forecast_margin_right">20dp</dimen>
+    <!--Fixed PR1002116 by tingma at 2015-05-19 end -->
+
+    <dimen name="text_city_width">144dp</dimen>
+    <!-- app configuration end -->
+
+    <!-- miniApp configuration begin -->
+    <dimen name="miniapp_widget_width">320dp</dimen>
+    <dimen name="miniapp_widget_height">170dp</dimen>
+    <dimen name="miniapp_amplification_icon_size">48dp</dimen>
+    <dimen name="miniapp_weather_text_size">8dp</dimen>
+    <dimen name="miniapp_weather_temp_size">26dp</dimen>
+    <dimen name="miniapp_autolocate_icon_width">8dp</dimen>
+    <dimen name="miniapp_autolocate_icon_height">10dp</dimen>
+    <dimen name="miniapp_weather_city_size">7dp</dimen>
+    <dimen name="miniapp_weather_city_gap">7dp</dimen>
+    <dimen name="miniapp_weather_info_margin_left">3dp</dimen>
+    <dimen name="miniapp_weather_info_margin_top">6dp</dimen>
+    <dimen name="miniapp_weather_info_margin_bottom">3dp</dimen>
+    <dimen name="miniapp_forecast_weekly_size">11dp</dimen>
+    <dimen name="miniapp_forecast_icon_size">24dp</dimen>
+    <dimen name="miniapp_forecast_temp_size">11dp</dimen>
+
+    <dimen name="miniapp_weatherdes_width">210dp</dimen>
+    <dimen name="searchview_maxwidth">310dp</dimen>
+
+    <!-- miniApp configuration end -->
+
+    <dimen name="info_margin_bottom">48dp</dimen>
+
+    <!-- widget configuration begin -->
+    <dimen name="widget_width">320dip</dimen>
+    <dimen name="widget_height">84dip</dimen>
+    <!-- widget configuration end -->
+
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+
+    <dimen name="floating_action_menu_translation_z">12dp</dimen>
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="content_margin">10dp</dimen>
+    <dimen name="daily_text_size">12sp</dimen>
+</resources>

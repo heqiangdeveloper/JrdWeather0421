@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"موسم"</string>
+	<!---->
+	<string name="no_weather">"کوئی موسمیاتی ڈیٹا دستیاب نہیں ہے"</string>
+	<!---->
+	<string name="menu_addlocation">"ایک مقام شامل کریں"</string>
+	<!---->
+	<string name="menu_delete">"مقام حذف کریں"</string>
+	<!---->
+	<string name="menu_remove">"مقام ہٹائیں"</string>
+	<!---->
+	<string name="menu_unit">"اکائی کو تبدیل کریں"</string>
+	<!---->
+	<string name="locate_auto">"خود کار تعین"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"انٹرنیٹ سے جڑ نہیں سکتے."</string>
+	<!---->
+	<string name="locate_goto_connect">"جڑنے کے لئے جائیں"</string>
+	<!---->
+	<string name="locate_failure">"خودکار تلاش ناکام ہوئی۔ براۓ مہربانی اس کے بجائے مقام کی تلاش کریں."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"خود کار تعین کی ناکامی، براہ کرم نیٹورک لوکیشن خدمت کی جانچ کریں۔"</string>
+	<!---->
+	<string name="insert_location">"کوئی مقام داخل کریں"</string>
+	<!---->
+	<string name="search_location">"مقام تلاش کریں"</string>
+	<!---->
+	<string name="connect_timeout">"کمزور اشارہ۔ براہ کرم بعد میں دوبارہ کوشش کریں۔"</string>
+	<!---->
+	<string name="connot_find_location">"اس مقام کو نہیں پایا جا سکتا۔"</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"معاف کریں، آپ صرف 11 شہر ہی شامل کر سکتے ہیں۔ براہ کرم ایک کو ہٹائیں۔"</string>
+	<!---->
+	<string name="citys_six_full">"آپ صرف 11 شہروں کو شامل کر سکتے ہیں۔ ایک کو ہٹائیں۔"</string>
+	<!---->
+	<string name="citys_max_full">"زیادہ سے زیادہ مقام تک پہنچ گيا۔ پہلے مقام ہٹائيں۔"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"تلاش کر رہا ہے..."</string>
+	<!---->
+	<string name="locating">"تعین کر رہا ہے..."</string>
+	<!---->
+	<string name="loading">"لوڈ ہو رہی ہے…"</string>
+	<!---->
+	<string name="weather_offline">"موسم آف لائن"</string>
+	<!---->
+	<string name="update_time">"اپ ڈیٹ کا وقت"</string>
+	<!---->
+	<string name="common_ok">"ٹھیک ہے"</string>
+	<!---->
+	<string name="common_cancel">"منسوخ"</string>
+	<!---->
+	<string name="date_am">"دن"</string>
+	<!---->
+	<string name="date_pm">"رات"</string>
+	<!---->
+	<string name="location">"مقام"</string>
+	<!---->
+	<string name="click_update">"اپ ڈیٹ کرنے کے لئے یہاں کلک کریں"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"کوئی موسمی ڈیٹا نہیں ہے"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"اپنے انٹرنیٹ کنکشن کی پڑتال کریں۔"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"کوئی اجازت نہیں"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"مقامی موسمیاتی ڈیٹا کو دکھانے کے لئے محل وقوع رسائی کی ضرورت ہے۔"</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"کوئی محل وقوع نہیں"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"کوئی مقام شامل کرنے کے لیے اس ویجٹ کا استعمال کریں"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"ترتیبات"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"ایک مقام شامل کریں"</string>
+	<!---->
+	<string name="weather_off_line_text">"معذرت، جڑنے سے قاصر"</string>
+	<string-array name="weather_icon_desc">
+		<item>"تاباں"</item>
+		<item>"زیادہ تر تاباں"</item>
+		<item>"جزوی طور پر تاباں"</item>
+		<item>"وقفہ وقفہ سے بادل"</item>
+		<item>"دھندلی دھوپ"</item>
+		<item>"زیادہ تر ابر آلود"</item>
+		<item>"ابرآلود"</item>
+		<item>"اُداس"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"دھند"</item>
+		<item>"بوچھاڑ"</item>
+		<item>"بوچھاڑ کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"بوچھاڑ کے ساتھ جزوی طور پر آفتاب کی روشنی"</item>
+		<item>"گرج"</item>
+		<item>"گرجداربوچھاڑ کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"گرجدار بوچھاڑ کے ساتھ جزوی طور پر آفتاب کی روشنی"</item>
+		<item>"بارش"</item>
+		<item>"ہلکی برف باری"</item>
+		<item>"ہلکی برفباری کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"ہلکی برفباری کے ساتھ جزوی طورپرابر آلود"</item>
+		<item>"برف"</item>
+		<item>"برفباری کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"برف"</item>
+		<item>"ژالہ باری"</item>
+		<item>"برفیلی بارش"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"بارش اور برف باری کا مجموعہ"</item>
+		<item>"گرم"</item>
+		<item>"ٹھنڈی"</item>
+		<item>"تیز ہوا"</item>
+		<item>"صاف کریں"</item>
+		<item>"زیادہ تر صاف"</item>
+		<item>"جزوی طور پر ابرآلود"</item>
+		<item>"وقفہ وقفہ سے بادل"</item>
+		<item>"دھنلا"</item>
+		<item>"زیادہ تر ابر آلود"</item>
+		<item>"بوچھاڑ کے ساتھ جزوی طورپرابر آلود"</item>
+		<item>"بوچھاڑ کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"گرجداربوچھاڑ کے ساتھ جزوی طورپرابر آلود"</item>
+		<item>"گرجداربوچھاڑ کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"ہلکی برفباری کے ساتھ زیادہ تر ابر آلود"</item>
+		<item>"برفباری کے ساتھ زیادہ تر ابر آلود"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"پیر"</item>
+		<item>"منگل"</item>
+		<item>"بدھ"</item>
+		<item>"جمعرات"</item>
+		<item>"جمعہ"</item>
+		<item>"ہفتہ"</item>
+		<item>"اتوار"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"دوبارہ تازہ کریں"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"تازہ ترین مقام حاصل کرنے سے قاصر۔"</string>
+	<!---->
+	<string name="last_updated_label">"آخری بار اپ ڈیٹ کردہ:"</string>
+	<!---->
+	<string name="change_to_C">"°C میں تبدیل کریں"</string>
+	<!---->
+	<string name="change_to_F">"°F میں تبدیل کریں"</string>
+	<!---->
+	<string name="label_today">"آج"</string>
+	<!---->
+	<string name="label_humidity">"نمی"</string>
+	<!---->
+	<string name="label_pressure">"دباؤ"</string>
+	<!---->
+	<string name="label_wind">"ہوا"</string>
+	<!---->
+	<string name="label_visibility">"مرئیت"</string>
+	<!---->
+	<string name="label_uv_index">"UV انڈیکس"</string>
+	<!---->
+	<string name="label_high">"اعلی"</string>
+	<!---->
+	<string name="label_low">"کم"</string>
+	<!---->
+	<string name="label_high_rel">"زیادہ سے زیادہ"</string>
+	<!---->
+	<string name="label_low_rel">"کم سے کم"</string>
+	<!---->
+	<string name="label_precipitation">"ترسیب"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"پیر"</item>
+		<item>"منگل"</item>
+		<item>"بدھ"</item>
+		<item>"جمعرات"</item>
+		<item>"جمعہ"</item>
+		<item>"ہفتہ"</item>
+		<item>"اتوار"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"MB"</string>
+	<!---->
+	<string name="label_mm">"ملی میٹر"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"میٹر میں بدلیں."</string>
+	<!---->
+	<string name="change_to_km">"کلومیٹر میں بدلیں"</string>
+	<!---->
+	<string name="obtain_data_failed">"موسمی ڈیٹا حاصل کرنے سے قاصر. براہ کرم انٹرنیٹ کنیکشن کی پڑتال کریں."</string>
+	<!---->
+	<string name="tokyo_name">"ٹوکیو"</string>
+	<!---->
+	<string name="just_now">"بس ابھی"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 سیکنڈ پہلے"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> سیکنڈ پہلے"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 منٹ پہلے"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> منٹ پہلے"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 گھنٹہ پہلے"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> گھنٹے پہلے"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"گزشتہ کل"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g>  دنوں پہلے"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 ہفتہ پہلے"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ہفتے پہلے"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 مہینہ پہلے"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> مہینہ پہلے"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"ترتیبات"</string>
+	<!---->
+	<string name="pref_header_general">"عمومی"</string>
+	<!---->
+	<string name="pref_header_metrics">"یونٹس"</string>
+	<!---->
+	<string name="title_pref_auto_update">"خودکار موسمی ڈیٹا اپ ڈیٹ"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"کسی بھی وقت۔ ڈیٹا کے چارجز لگ سکتے ہیں۔"</item>
+		<item>"صرف Wi-F پر خود کار تجدیدi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"درجۂ حرارت"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"فارن ہائیٹ (°F)"</item>
+		<item>"سیلسیس (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"فاصلہ"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"میل (mi.)"</item>
+		<item>"کلومیٹر (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"اعلی درجے کا موسمی ڈیٹا"</string>
+	<!---->
+	<string name="title_pref_feels_like">"حساس درجہ حرارت"</string>
+	<!---->
+	<string name="just_updated">"بس ابھی"</string>
+	<!---->
+	<string name="gotoSettingTips">"مقامی موسم کا ڈیٹا حاصل کرنے کے لئے، محل وقوع اور فون تک رسائی عطا کریں۔"</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"ترتیبات"</string>
+	<!---->
+	<string name="permission_poster_title">"رسائی کی اجازت دیں"</string>
+	<!---->
+	<string name="location_permission_description">"موسم کو مقامی موسم کے ڈیٹا فراہم کرنے کے لئے محل وقوع اور فون کی اجازت کی ضرورت ہے۔ اس سہولت کا استعمال کرنے کے لئے محل وقوع اور فون تک رسائی عطا کریں۔"</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"سمجھ گیا"</string>
+</resources>

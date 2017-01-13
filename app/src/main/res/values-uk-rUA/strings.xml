@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Погода"</string>
+	<!---->
+	<string name="no_weather">"Немає інформації про погоду"</string>
+	<!---->
+	<string name="menu_addlocation">"Додати розташування"</string>
+	<!---->
+	<string name="menu_delete">"Видал.розташув."</string>
+	<!---->
+	<string name="menu_remove">"Видалити розташування"</string>
+	<!---->
+	<string name="menu_unit">"Змін. одиницю"</string>
+	<!---->
+	<string name="locate_auto">"Автоматичне визначення розташування"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Неможливо підключитися до Інтернету."</string>
+	<!---->
+	<string name="locate_goto_connect">"Перейдіть, щоб підключитися"</string>
+	<!---->
+	<string name="locate_failure">"Збій авт. визначення розташування. Виконайте пошук розташування."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Збій автоматичного визначення розташування. Перевірте послугу розташування Google."</string>
+	<!---->
+	<string name="insert_location">"Вставте розташув."</string>
+	<!---->
+	<string name="search_location">"Пошук розташування"</string>
+	<!---->
+	<string name="connect_timeout">"Слабкий сигнал. Спробуйте пізніше."</string>
+	<!---->
+	<string name="connot_find_location">"Неможливо знайти це розташування."</string>
+	<!---->
+	<string name="real_feel">"Самопоч"</string>
+	<!---->
+	<string name="citys_full">"Можна додати лише 11 міст. Видаліть одне."</string>
+	<!---->
+	<string name="citys_six_full">"Можна додати лише 11 міст. Видаліть одне."</string>
+	<!---->
+	<string name="citys_max_full">"Досягнуто макс. кількості розташувань. Спочатку видаліть розташування."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Пошук..."</string>
+	<!---->
+	<string name="locating">"Розташування…"</string>
+	<!---->
+	<string name="loading">"Завантаження..."</string>
+	<!---->
+	<string name="weather_offline">"Прогноз погоди в режимі офлайн"</string>
+	<!---->
+	<string name="update_time">"Оновити час"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Скасувати"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Розташування"</string>
+	<!---->
+	<string name="click_update">"Клацніть тут для оновлення."</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Немає інформації про погоду"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Перевірте підключення до Інтернету"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Немає дозволу"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Потрібен доступ до розташування для відображення локального прогнозу погоди."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Немає розташування"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Використовуйте цей віджет для додавання розташування"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"НАЛАШТУВАННЯ"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Додати розташування"</string>
+	<!---->
+	<string name="weather_off_line_text">"На жаль, неможливо підключитися."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Сонячно"</item>
+		<item>"Переважно сонячно"</item>
+		<item>"Місцями сонячно"</item>
+		<item>"Мінлива хмарність"</item>
+		<item>"Вдень туман"</item>
+		<item>"Переважно хмарно"</item>
+		<item>"Хмарно"</item>
+		<item>"Похмуро"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Туман"</item>
+		<item>"Зливи"</item>
+		<item>"Переважно хмарно зі зливами"</item>
+		<item>"Місцями сонячно зі зливами"</item>
+		<item>"Грози"</item>
+		<item>"Переважно хмарно з грозами"</item>
+		<item>"Місцями сонячно з грозами"</item>
+		<item>"Дощ"</item>
+		<item>"Сильні пориви вітру"</item>
+		<item>"Переважно хмарно з поривами вітру"</item>
+		<item>"Місц.сонячно з сильними поривами вітру"</item>
+		<item>"Сніг"</item>
+		<item>"Переважно хмарно зі снігом"</item>
+		<item>"Ожеледиця"</item>
+		<item>"Дощ із градом"</item>
+		<item>"Дощ зі зледенінням"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дощ зі снігом"</item>
+		<item>"Спека"</item>
+		<item>"Холодно"</item>
+		<item>"Вітряно"</item>
+		<item>"Ясно"</item>
+		<item>"Переважно ясно"</item>
+		<item>"Місцями хмарно"</item>
+		<item>"Мінлива хмарність"</item>
+		<item>"Туман"</item>
+		<item>"Переважно хмарно"</item>
+		<item>"Місцями хмарно зі зливами"</item>
+		<item>"Переважно хмарно зі зливами"</item>
+		<item>"Місцями хмарно з грозами"</item>
+		<item>"Переважно хмарно з грозами"</item>
+		<item>"Переважно хмарно з поривами вітру"</item>
+		<item>"Переважно хмарно зі снігом"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Пн"</item>
+		<item>"Вт"</item>
+		<item>"Ср"</item>
+		<item>"Чт"</item>
+		<item>"Пт"</item>
+		<item>"Сб"</item>
+		<item>"Нд"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Оновити"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Неможливо отримати відомості про останнє розташування."</string>
+	<!---->
+	<string name="last_updated_label">"Ост. оновл.:"</string>
+	<!---->
+	<string name="change_to_C">"Змінити на °C"</string>
+	<!---->
+	<string name="change_to_F">"Змінити на °F"</string>
+	<!---->
+	<string name="label_today">"Сьогодні"</string>
+	<!---->
+	<string name="label_humidity">"Вологість"</string>
+	<!---->
+	<string name="label_pressure">"Тиск"</string>
+	<!---->
+	<string name="label_wind">"Вітер"</string>
+	<!---->
+	<string name="label_visibility">"Видимість"</string>
+	<!---->
+	<string name="label_uv_index">"УФ-індекс"</string>
+	<!---->
+	<string name="label_high">"Високий"</string>
+	<!---->
+	<string name="label_low">"Низький"</string>
+	<!---->
+	<string name="label_high_rel">"Максимальний"</string>
+	<!---->
+	<string name="label_low_rel">"Мінімальний"</string>
+	<!---->
+	<string name="label_precipitation">"Опади"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Понеділок"</item>
+		<item>"Вівторок"</item>
+		<item>"Середа"</item>
+		<item>"Четвер"</item>
+		<item>"П\'ятниця"</item>
+		<item>"Субота"</item>
+		<item>"Неділя"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"мбар"</string>
+	<!---->
+	<string name="label_mm">"мм"</string>
+	<!---->
+	<string name="label_wind_unit_km">"км/год"</string>
+	<!---->
+	<string name="label_wind_unit_m">"м/с"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"миль/год"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"миль/год"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"км"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"миля."</string>
+	<!---->
+	<string name="change_to_mi">"Змінити на милі"</string>
+	<!---->
+	<string name="change_to_km">"Змінити на км"</string>
+	<!---->
+	<string name="obtain_data_failed">"Неможливо отримати відомості щодо погоди. Перевірте підключення до Інтернету."</string>
+	<!---->
+	<string name="tokyo_name">"Токіо"</string>
+	<!---->
+	<string name="just_now">"Зараз"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 сек. тому"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> сек. тому"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 хвилину тому"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> хв. тому"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 год. тому"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> год. тому"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Вчора"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> дн. тому"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 тиждень тому"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> тижнів тому"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 міс. тому"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> місяців тому"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Установки"</string>
+	<!---->
+	<string name="pref_header_general">"Загальні"</string>
+	<!---->
+	<string name="pref_header_metrics">"Одиниці"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Автоматичне оновлення інформації про погоду"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"У будь-який час. Може стягуватися плата за передачу даних."</item>
+		<item>"Автоматичне оновлення лише через Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Температура"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Фаренгейт (°F)"</item>
+		<item>"Цельсій (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Відстань"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Миля (миля)"</item>
+		<item>"Кілометр (км)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Розширена інформація про погоду"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Відображати температуру, що відчувається"</string>
+	<!---->
+	<string name="just_updated">"Зараз"</string>
+	<!---->
+	<string name="gotoSettingTips">"Щоб отримати локальний прогноз погоди, надайте доступ до програм «Розташування» і «Телефон»."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Установки"</string>
+	<!---->
+	<string name="permission_poster_title">"Надати доступ"</string>
+	<!---->
+	<string name="location_permission_description">"Програма прогнозу погоди потребує дозволу програм «Розташування» і «Телефон» для надання локального прогнозу погоди. Надати програмам «Розташування» і «Телефон» доступ для використання цієї функції."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"ГОТОВО"</string>
+</resources>

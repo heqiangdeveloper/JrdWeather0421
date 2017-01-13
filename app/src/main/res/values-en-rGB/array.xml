@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!--[BUGFIX]-Add-BEGIN by TSCD.xiangnan.zhou,02/26/2016,1692505,[Language][G01][Galician][Basque][Weather][ V5.2.8.1.0313.0]The interface of forecast with weather was no translate.-->
+    <string-array name="language">
+        <item>en</item>
+        <item>zh</item>
+        <item>ru</item>
+        <item>de</item>
+        <item>fr</item>
+        <item>ar</item>
+        <item>az</item>
+        <item>bn</item>
+        <item>bs</item>
+        <item>bg</item>
+        <item>ca</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>et</item>
+        <item>fa</item>
+        <item>fil</item>
+        <item>fi</item>
+        <item>el</item>
+        <item>gu</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>hu</item>
+        <item>is</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>kk</item>
+        <item>ko</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>mk</item>
+        <item>ms</item>
+        <item>sr-me</item>
+        <item>nb</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>sr</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>sw</item>
+        <item>sv</item>
+        <item>tl</item>
+        <item>ta</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>uz</item>
+        <item>vi</item>
+    </string-array>
+    <!-- [BUGFIX]-Add-END by TSCD.xiangnan.zhou -->
+
+</resources>

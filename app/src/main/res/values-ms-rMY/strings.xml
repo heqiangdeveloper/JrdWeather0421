@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Cuaca"</string>
+	<!---->
+	<string name="no_weather">"Tiada data cuaca tersedia"</string>
+	<!---->
+	<string name="menu_addlocation">"Tambah lokasi"</string>
+	<!---->
+	<string name="menu_delete">"Padam lokasi"</string>
+	<!---->
+	<string name="menu_remove">"Alih keluar lokasi"</string>
+	<!---->
+	<string name="menu_unit">"Ubah unit"</string>
+	<!---->
+	<string name="locate_auto">"Auto kesan"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Tidak boleh menyambung ke internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Pergi ke sambung"</string>
+	<!---->
+	<string name="locate_failure">"Auto kesan gagal. Sebaliknya sila cari lokasi."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Auto kesan gagal. Sila semak perkhidmatan lokasi Google."</string>
+	<!---->
+	<string name="insert_location">"Masukkan lokasi"</string>
+	<!---->
+	<string name="search_location">"Cari lokasi"</string>
+	<!---->
+	<string name="connect_timeout">"Isyarat lemah. Sila cuba kemudian."</string>
+	<!---->
+	<string name="connot_find_location">"Lokasi ini tidak boleh ditemui."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Maaf, anda hanya boleh menambah 11 bandar. Sila alih keluar satu."</string>
+	<!---->
+	<string name="citys_six_full">"Maaf, anda hanya boleh menambah 11 bandar. Sila alih keluar satu."</string>
+	<!---->
+	<string name="citys_max_full">"Lokasi maksimum dicapai. Alih keluar satu lokasi terlebih dahulu."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Mencari..."</string>
+	<!---->
+	<string name="locating">"Mengesan..."</string>
+	<!---->
+	<string name="loading">"Memuatkan..."</string>
+	<!---->
+	<string name="weather_offline">"Cuaca Luar Talian"</string>
+	<!---->
+	<string name="update_time">"Kemas kini masa"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Batal"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lokasi"</string>
+	<!---->
+	<string name="click_update">"Klik di sini untuk mengemas kini"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Data data cuaca"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Periksa sambungan Internet anda"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Tiada kebenaran"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Akses lokasi diperlukan untuk menunjukkan data cuaca tempatan."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Tiada lokasi"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Gunakan widget ini untuk menambah lokasi"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"SETING"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Tambah lokasi"</string>
+	<!---->
+	<string name="weather_off_line_text">"Maaf, tidak dapat menyambung."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Cerah"</item>
+		<item>"Kebanyakannya Cerah"</item>
+		<item>"Sebahagiannya Cerah"</item>
+		<item>"Awan Sekejap-sekejap"</item>
+		<item>"Matahari Berjerubu"</item>
+		<item>"Kebanyakannya Mendung"</item>
+		<item>"Mendung"</item>
+		<item>"Suram"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Kabus"</item>
+		<item>"Hujan"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan"</item>
+		<item>"Sebahagiannya Panas dengan Hujan"</item>
+		<item>"Ribut Petir"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Petir"</item>
+		<item>"Sebahagiannya Panas dengan Hujan Petir"</item>
+		<item>"Hujan"</item>
+		<item>"Hujan Lari"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Lari"</item>
+		<item>"Sebahagiannya Cerah dengan Hujan Lari"</item>
+		<item>"Salji"</item>
+		<item>"Kebanyakannya Mendung dengan Salji"</item>
+		<item>"Ais"</item>
+		<item>"Hujan Beku"</item>
+		<item>"Hujan Beku"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Hujan dan Salji Bercampur"</item>
+		<item>"Panas"</item>
+		<item>"Sejuk"</item>
+		<item>"Berangin"</item>
+		<item>"Cerah"</item>
+		<item>"Kebanyakannya Cerah"</item>
+		<item>"Sebahagiannya Mendung"</item>
+		<item>"Awan Sekejap-sekejap"</item>
+		<item>"Berjerubu"</item>
+		<item>"Kebanyakannya Mendung"</item>
+		<item>"Sebahagiannya Mendung dengan Hujan"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan"</item>
+		<item>"Sebahagiannya Mendung dengan Hujan Petir"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Petir"</item>
+		<item>"Kebanyakannya Mendung dengan Hujan Lari"</item>
+		<item>"Kebanyakannya Mendung dengan Salji"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Isn"</item>
+		<item>"Sel"</item>
+		<item>"Rab"</item>
+		<item>"Kha"</item>
+		<item>"Jum"</item>
+		<item>"Sab"</item>
+		<item>"Aha"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Segar semula"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Tidak boleh mendapatkan lokasi terkini."</string>
+	<!---->
+	<string name="last_updated_label">"Terakhir dikemas kini:"</string>
+	<!---->
+	<string name="change_to_C">"Tukar ke C"</string>
+	<!---->
+	<string name="change_to_F">"Tukar ke F"</string>
+	<!---->
+	<string name="label_today">"Hari ini"</string>
+	<!---->
+	<string name="label_humidity">"Kelembapan"</string>
+	<!---->
+	<string name="label_pressure">"Tekanan"</string>
+	<!---->
+	<string name="label_wind">"Angin"</string>
+	<!---->
+	<string name="label_visibility">"Keterlihatan"</string>
+	<!---->
+	<string name="label_uv_index">"Indeks UV"</string>
+	<!---->
+	<string name="label_high">"Tinggi"</string>
+	<!---->
+	<string name="label_low">"Rendah"</string>
+	<!---->
+	<string name="label_high_rel">"Maks"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Kerpasan"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Isnin"</item>
+		<item>"Selasa"</item>
+		<item>"Rabu"</item>
+		<item>"Khamis"</item>
+		<item>"Jumaat"</item>
+		<item>"Sabtu"</item>
+		<item>"Ahad"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"MB"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/j"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"bsj"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"ba/j"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"batu"</string>
+	<!---->
+	<string name="change_to_mi">"Tukar kepada batu"</string>
+	<!---->
+	<string name="change_to_km">"Tukar kepada km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Gagal mendapatkan data cuaca. Sila periksa sambungan Internet."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Baru sahaja"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 saat yang lalu"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> saat yang lalu"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 minit yang lalu"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> minit yang lalu"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 jam yang lalu"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> jam yang lalu"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Semalam"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> hari yang lalu"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 minggu yang lalu"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> minggu yang lalu"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 bulan yang lalu"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> bulan yang lalu"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Tetapan"</string>
+	<!---->
+	<string name="pref_header_general">"Umum"</string>
+	<!---->
+	<string name="pref_header_metrics">"Unit"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Kemas kini automatik data cuaca"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Bila-bila masa. Caj data mungkin dikenakan."</item>
+		<item>"Kemas kini auto melalui Wi-Fi sahaja"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Suhu"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Jarak"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Batu (ba.)"</item>
+		<item>"Kilometer (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Data cuaca lanjutan"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Tunjukkan suhu deria"</string>
+	<!---->
+	<string name="just_updated">"Baru sahaja"</string>
+	<!---->
+	<string name="gotoSettingTips">"Untuk menerima data cuaca tempatan, berikan akses kepada Lokasi dan Telefon."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Tetapan"</string>
+	<!---->
+	<string name="permission_poster_title">"Berikan akses"</string>
+	<!---->
+	<string name="location_permission_description">"Cuaca memerlukan kebenaran Lokasi dan Telefon untuk memberikan data cuaca tempatan. Berikan akses kepada Lokasi dan Telefon untuk menggunakan ciri ini."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"DAPAT"</string>
+</resources>

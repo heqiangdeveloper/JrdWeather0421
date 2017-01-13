@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding ="utf-8" ?><!--
+/**
+* Copyright (c) 2009, The Android Open Source Project
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License. 
+* You may obtain a copy of the License at 
+*
+*     http://www.apache.org/licenses/LICENSE-2.0 
+*
+* Unless required by applicable law or agreed to in writing, software 
+* distributed under the License is distributed on an "AS IS" BASIS, 
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+* See the License for the specific language governing permissions and 
+* limitations under the License.
+*/
+--><!--
+TOOLS: prd2h-v5.7
+USER: hongjun.tang
+DATE: 2014-04-10
+TIME: 13:30:33 (G4T)
+-->
+<resources>
+    <!-- eBOOLEAN def_weather_use_baidumap - location source control: 0x01: use baidumap in china. 0x00: use accuweather for other country -->
+    <bool name="def_weather_use_baidumap">false</bool>
+    <!-- eBOOLEAN def_weather_use_province_as_locationname - location source control: 0x01: use in taiwan.It will use the province name as location name 0x00: in other position,use the city name,0x00 for default -->
+    <bool name="def_weather_use_province_as_locationname">false</bool>
+    <!-- AsciiString def_weather_unit_name - To customize the temperature unit. "isUnitF" for Fahrenheit, "isUnitC" for Celsius. -->
+    <string name="def_weather_unit_name">"isUnitC"</string>
+    <!-- delete by jielong.xing PR932873 at 2014-02-13 begin -->
+    <!-- PR729705 The hourlyactivity is not hide when the value of def_weather_hide_hourlyactivity is 1 by jielong.xing at 2014-07-15 begin -->
+    <!-- eBOOLEAN def_weather_hide_hourlyactivity - location source control: 0x01: use in russia.It will hide the hourlyactivity  0x00: in other position,when click the weather will show the hourlyactivity,0x00 for default -->
+    <!-- <bool name="def_weather_hide_hourlyactivity" >false</bool> -->
+    <!-- PR729705 The hourlyactivity is not hide when the value of def_weather_hide_hourlyactivity is 1 by jielong.xing at 2014-07-15 end -->
+    <!-- PR796640 need pre-set Tokyo as prefer city in this app by jielong.xing at 2014-09-30 begin -->
+    <!-- eBOOLEAN feature_jrdweather_forceSetTokyoAsDefaultCity_on - control whether force set Tokyo when start app: 0x01: force to set  0x00: donot force to set,0x00 for default -->
+    <!-- <bool name="def_weather_forceSetTokyoAsDefaultCity_on" >false</bool> -->
+    <!-- PR796640 need pre-set Tokyo as prefer city in this app by jielong.xing at 2014-09-30 end -->
+    <!-- delete by jielong.xing PR932873 at 2014-02-13 end -->
+    <!-- add by jielong.xing at 2015-3-17 begin -->
+    <!-- AsciiString def_weather_wind_visibility_unit_name - To customize the wind visibility unit, "km" for kilometre, "mi" for mile, default is "km" -->
+    <string name="def_weather_wind_visibility_unit_name">"km"</string>
+    <!-- add by jielong.xing at 2015-3-17 bend -->
+    <bool name="def_weather_forceSetTokyoAsDefaultCity_on">false</bool>
+    <!-- System date format: 0x00: use system date format; 0x01: use system long date format, for pixi3-5 4G. Default value: 0x00 -->
+    <bool name="def_weather_dateformat_long">false</bool>
+    <bool name="hide_unit_setting">false</bool>
+    <bool name="use_baidu_location">false</bool>
+    <bool name="is_background_dynamic">false</bool>
+    <bool name="wind_speed_unit_m">false</bool>
+    <bool name="use_twc_weather">false</bool>
+</resources>

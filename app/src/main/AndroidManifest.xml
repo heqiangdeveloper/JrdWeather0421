@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tct.weather"
+    android:versionCode="0315100901"
+    android:versionName="v5.1.3.4.0305.0">
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!--for GPS loaction-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--for Internet loaction-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!--for baidu loaction-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/weather_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MainTheme"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PermissionActivity"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTop"
+            android:theme="@style/MainTheme">
+        </activity>
+
+        <activity
+            android:name=".LocateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/LocateTheme"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_settings"
+            android:launchMode="singleTask"
+            android:theme="@style/SettingTheme" />
+
+        <service
+            android:name="com.tct.weather.service.UpdateService"
+            android:enabled="true" />
+
+        <receiver android:name="com.tct.weather.receiver.AutoLocateBroadCastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.android.broadcast.LOCKSCREEN_UPDATED" />
+                <!-- added by jielong.xing at 2015-3-23 begin -->
+                <action android:name="com.tct.weather.SERVICE_DESTROY" />
+                <!-- added by jielong.xing at 2015-3-23 end -->
+                <!-- [FEATURE]-Add-BEGIN by TSCD.qian-li,01/27/2016,1532388,[Weather]MIE call weather interface to locate automaticly -->
+                <action android:name="com.tct.weather.START_AUTO_LOCATION_TASK_ACTION" />
+                <!-- [FEATURE]-Add-END by TSCD.qian-li -->
+                <action android:name="com.tct.action.LOCATION_TIMER_TASK_ACTION" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tct.weather.receiver.WidgetUpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEXT_CITY_WIDGET_UPDATE" />
+                <!-- added by ting.ma at 2015-03-07 begin -->
+                <action android:name="android.intent.action.NEXT_CITY_MINIWIDGET_UPDATE" />
+                <!-- added by ting.ma at 2015-03-07 end -->
+                <action android:name="android.intent.action.REFRESH_WIDGET_VIEW" />
+                <!-- added by jielong.xing at 2015-3-23 begin -->
+                <action android:name="android.intent.action.WEATHER_BROADCAST" />
+                <!-- added by jielong.xing at 2015-3-23 end -->
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.tct.weather.service.MiniWeatherWidgetService"
+            android:priority="1000" />
+
+        <receiver android:name="com.tct.weather.widget.MiniWeatherWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/appwidget_info" />
+        </receiver>
+
+        <service
+            android:name="com.tct.weather.service.WeatherTimeWidgetService"
+            android:priority="1000" />
+
+        <receiver android:name="com.tct.weather.widget.WeatherTimeWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.WEATHER_BROADCAST" />
+                <action android:name="android.intent.action.DELETE_CITY" />
+                <action android:name="android.intent.action.WALLPAPER_CHANGED" />
+                <action android:name="android.intent.action.UNIT_BROADCAST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_weather_time" />
+        </receiver>
+        <!--[BUGFIX]-Add-END by TSCD.peng.du-->
+
+        <receiver android:name="com.tct.widget.WeatherWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.intent.action.WEATHER_BROADCAST" />
+                <action android:name="android.intent.action.DELETE_CITY" />
+                <action android:name="android.intent.action.WALLPAPER_CHANGED" />
+                <action android:name="android.intent.action.UNIT_BROADCAST" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget_info" />
+        </receiver>
+
+        <receiver android:name="com.tct.weather.receiver.DeviceResetReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.LAUNCH_DEVICE_RESET"/>
+            </intent-filter>
+        </receiver>
+
+        <provider
+            android:name="com.tct.weather.provider.WeatherContentProvider"
+            android:authorities="com.tct.provider.weatherinfo"
+            android:exported="true" />
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote"></service>
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="C704c66781c37b94ca24a7fcefb44303" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Thời tiết"</string>
+	<!---->
+	<string name="no_weather">"Không có dữ liệu về thời tiết"</string>
+	<!---->
+	<string name="menu_addlocation">"Thêm địa điểm"</string>
+	<!---->
+	<string name="menu_delete">"Xóa địa điểm"</string>
+	<!---->
+	<string name="menu_remove">"Xóa bỏ vị trí"</string>
+	<!---->
+	<string name="menu_unit">"Thay đổi đơn vị"</string>
+	<!---->
+	<string name="locate_auto">"Định vị tự động"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Không thể kết nối với Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Kết nối"</string>
+	<!---->
+	<string name="locate_failure">"Định vị tự động không thành công. Vui lòng tìm kiếm địa điểm."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Tự động định vị không thành công. Vui lòng kiểm tra dịch vụ vị trí của Google."</string>
+	<!---->
+	<string name="insert_location">"Chèn địa điểm"</string>
+	<!---->
+	<string name="search_location">"Tìm kiếm vị trí"</string>
+	<!---->
+	<string name="connect_timeout">"Tín hiệu yếu. Vui lòng thử sau."</string>
+	<!---->
+	<string name="connot_find_location">"Không tìm thấy địa điểm này."</string>
+	<!---->
+	<string name="real_feel">"Cảm giác thật"</string>
+	<!---->
+	<string name="citys_full">"Rất tiếc, bạn chỉ có thể thêm 11 thành phố. Vui lòng xóa một thành phố."</string>
+	<!---->
+	<string name="citys_six_full">"Rất tiếc, bạn chỉ có thể thêm 11 thành phố. Vui lòng xóa một thành phố."</string>
+	<!---->
+	<string name="citys_max_full">"Đã đạt đến số lượng vị trí tối đa. Trước hết xóa bỏ vị trí."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Đang tìm kiếm..."</string>
+	<!---->
+	<string name="locating">"Đang định vị..."</string>
+	<!---->
+	<string name="loading">"Đang tải..."</string>
+	<!---->
+	<string name="weather_offline">"Thời tiết ngoại tuyến"</string>
+	<!---->
+	<string name="update_time">"Cập nhật thời gian"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Hủy"</string>
+	<!---->
+	<string name="date_am">"SA"</string>
+	<!---->
+	<string name="date_pm">"CH"</string>
+	<!---->
+	<string name="location">"Vị trí"</string>
+	<!---->
+	<string name="click_update">"Nhấp vào đây để cập nhật"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Không có dữ liệu thời tiết"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Hãy kiểm tra kết nối Internet của bạn"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Không cho phép"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Cần truy cập vị trí để hiển thị dữ liệu thời tiết tại địa phương."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Không có vị trí nào"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Sử dụng widget này để thêm vị trí"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"CÀI ĐẶT"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Thêm địa điểm"</string>
+	<!---->
+	<string name="weather_off_line_text">"Xin lỗi, không thể kết nối."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Có nắng"</item>
+		<item>"Nhiều nắng"</item>
+		<item>"Ít nắng"</item>
+		<item>"Có lúc có mây"</item>
+		<item>"Mù sương sau có nắng"</item>
+		<item>"Nhiều mây"</item>
+		<item>"Có mây"</item>
+		<item>"Ảm đạm"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Có sương"</item>
+		<item>"Mưa rào"</item>
+		<item>"Nhiều mây kèm mưa rào"</item>
+		<item>"Ít mây kèm mưa rào"</item>
+		<item>"Mưa giông"</item>
+		<item>"Nhiều mây, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Ít nắng, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Mưa"</item>
+		<item>"Có gió mạnh"</item>
+		<item>"Nhiều mây kèm gió mạnh"</item>
+		<item>"Ít nắng kèm gió mạnh"</item>
+		<item>"Tuyết"</item>
+		<item>"Nhiều mây kèm tuyết"</item>
+		<item>"Đóng băng"</item>
+		<item>"Mưa tuyết"</item>
+		<item>"Mưa đá"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mưa và tuyết"</item>
+		<item>"Nóng"</item>
+		<item>"Lạnh"</item>
+		<item>"Có gió"</item>
+		<item>"Quang mây"</item>
+		<item>"Ít mây"</item>
+		<item>"Ít mây"</item>
+		<item>"Có lúc có mây"</item>
+		<item>"Mù sương"</item>
+		<item>"Nhiều mây"</item>
+		<item>"Ít mây kèm mưa rào"</item>
+		<item>"Nhiều mây kèm mưa rào"</item>
+		<item>"Ít mây, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Nhiều mây, có lúc có mưa rào kèm sấm sét"</item>
+		<item>"Nhiều mây kèm gió mạnh"</item>
+		<item>"Nhiều mây kèm tuyết"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Th2"</item>
+		<item>"Th3"</item>
+		<item>"Th4"</item>
+		<item>"Th5"</item>
+		<item>"Th6"</item>
+		<item>"Th7"</item>
+		<item>"CN"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Làm mới"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Không thể lấy được vị trí mới nhất."</string>
+	<!---->
+	<string name="last_updated_label">"Cập nhật lần cuối:"</string>
+	<!---->
+	<string name="change_to_C">"Đổi sang °C"</string>
+	<!---->
+	<string name="change_to_F">"Đổi sang °F"</string>
+	<!---->
+	<string name="label_today">"Hôm nay"</string>
+	<!---->
+	<string name="label_humidity">"Độ ẩm"</string>
+	<!---->
+	<string name="label_pressure">"Áp lực"</string>
+	<!---->
+	<string name="label_wind">"Gió"</string>
+	<!---->
+	<string name="label_visibility">"Hiển thị"</string>
+	<!---->
+	<string name="label_uv_index">"Chỉ số UV"</string>
+	<!---->
+	<string name="label_high">"Cao"</string>
+	<!---->
+	<string name="label_low">"Thấp"</string>
+	<!---->
+	<string name="label_high_rel">"Tối đa"</string>
+	<!---->
+	<string name="label_low_rel">"Phút"</string>
+	<!---->
+	<string name="label_precipitation">"Tích tụ"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Thứ 2"</item>
+		<item>"Thứ 3"</item>
+		<item>"Thứ 4"</item>
+		<item>"Thứ 5"</item>
+		<item>"Thứ 6"</item>
+		<item>"Thứ 7"</item>
+		<item>"Chủ nhật"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/giờ"</string>
+	<!---->
+	<string name="label_wind_unit_m">"mét/giây"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/giờ"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"phút"</string>
+	<!---->
+	<string name="change_to_mi">"Thay đổi thành phút."</string>
+	<!---->
+	<string name="change_to_km">"Thay đổi thành km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Không thể lấy được dữ liệu thời tiết. Hãy kiểm tra kết nối internet."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Ngay bây giờ"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 giây trước"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> giây trước"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 phút trước"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> phút trước"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 giờ trước"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> giờ trước"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Hôm qua"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ngày trước"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 tuần trước"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> tuần trước"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 tháng trước"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> tháng trước"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Cài đặt"</string>
+	<!---->
+	<string name="pref_header_general">"Chung"</string>
+	<!---->
+	<string name="pref_header_metrics">"Các đơn vị"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Tự động cập nhật dữ liệu thời tiết"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Bất kỳ lúc nào. Có thể áp dụng tính phí dữ liệu."</item>
+		<item>"Tự động cập nhật chỉ qua Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Nhiệt độ"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Độ F (°F)"</item>
+		<item>"Độ C (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Khoảng cách"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Dặm (mi.)"</item>
+		<item>"Kilomet (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Dữ liệu thời tiết nâng cao"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Hiển thị nhiệt độ nhạy cảm"</string>
+	<!---->
+	<string name="just_updated">"Ngay bây giờ"</string>
+	<!---->
+	<string name="gotoSettingTips">"Để nhận dữ liệu thời tiết tại địa phương, cho phép truy cập Định vị và Điện thoại."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Cài đặt"</string>
+	<!---->
+	<string name="permission_poster_title">"Cấp quyền truy cập"</string>
+	<!---->
+	<string name="location_permission_description">"Ứng dụng thời tiết cần được cho phép truy cập Định vị và Điện thoại để cung cấp dữ liệu thời tiết tại địa phương. Cho phép truy cập Định vị và Điện thoại để sử dụng tính năng này."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"HIỂU RỒI"</string>
+</resources>

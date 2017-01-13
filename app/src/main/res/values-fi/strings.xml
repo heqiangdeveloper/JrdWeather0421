@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Jun 18 11:13:37 GMT+08:00 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Sää"</string>
+	<!---->
+	<string name="menu_addlocation">"Lisää sijainti"</string>
+	<!---->
+	<string name="menu_delete">"Poista sijainti"</string>
+	<!---->
+	<string name="menu_unit">"Vaihda yksikkö"</string>
+	<!---->
+	<string name="locate_auto">"Paikanna automaattisesti"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Yhteyden muodostaminen Internetiin ei onnistu."</string>
+	<!---->
+	<string name="locate_goto_connect">"Yhdistä"</string>
+	<!---->
+	<string name="locate_failure">"Automaattinen paikannus epäonnistui. Etsi sijaintia manuaalisesti."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automaattinen paikannus epäonnistui. Tarkista Googlen sijaintipalvelu."</string>
+	<!---->
+	<string name="insert_location">"Anna sijainti"</string>
+	<!---->
+	<string name="connect_timeout">"Heikko signaali. Yritä myöhemmin uudelleen."</string>
+	<!---->
+	<string name="connot_find_location">"Tätä sijaintia ei löydy."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Voit lisätä vain 11 kaupunkia. Poista yksi."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Etsitään..."</string>
+	<!---->
+	<string name="locating">"Paikannetaan..."</string>
+	<!---->
+	<string name="loading">"Ladataan..."</string>
+	<!---->
+	<string name="weather_offline">"Sää-sovellus offline-tilassa"</string>
+	<!---->
+	<string name="update_time">"Päivitysaika"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Peruuta"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Sijainti"</string>
+	<!---->
+	<string name="click_update">"Napsauta tätä, jos haluat päivittää"</string>
+	<!---->
+	<string name="weather_off_line_text">"Yhteyden luonti ei onnistu."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Aurinkoista"</item>
+		<item>"Enimmäkseen aurinkoista"</item>
+		<item>"Puolipilvistä"</item>
+		<item>"Ajoittaista pilvisyyttä"</item>
+		<item>"Utuinen auringonpaiste"</item>
+		<item>"Enimmäkseen pilvistä"</item>
+		<item>"Pilvistä"</item>
+		<item>"Synkkää"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Sumua"</item>
+		<item>"Sadekuuroja"</item>
+		<item>"Enimmäkseen pilvistä, sadekuuroja"</item>
+		<item>"Puolipilvistä, sadekuuroja"</item>
+		<item>"Ukkosta"</item>
+		<item>"Enimmäkseen pilvistä, ukkoskuuroja"</item>
+		<item>"Puolipilvistä, ukkoskuuroja"</item>
+		<item>"Sadetta"</item>
+		<item>"Tuiskua"</item>
+		<item>"Enimmäkseen pilvistä, tuiskua"</item>
+		<item>"Puolipilvistä, tuiskua"</item>
+		<item>"Lumisadetta"</item>
+		<item>"Enimmäkseen pilvistä, lumisadetta"</item>
+		<item>"Jäistä"</item>
+		<item>"Räntää"</item>
+		<item>"Jäistä sadetta"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Vesi- ja lumisadetta"</item>
+		<item>"Hellettä"</item>
+		<item>"Kylmää"</item>
+		<item>"Tuulista"</item>
+		<item>"Selkeää"</item>
+		<item>"Enimmäkseen selkeää"</item>
+		<item>"Puolipilvistä"</item>
+		<item>"Ajoittaista pilvisyyttä"</item>
+		<item>"Utua"</item>
+		<item>"Enimmäkseen pilvistä"</item>
+		<item>"Puolipilvistä, sadekuuroja"</item>
+		<item>"Enimmäkseen pilvistä, sadekuuroja"</item>
+		<item>"Puolipilvistä, ukkoskuuroja"</item>
+		<item>"Enimmäkseen pilvistä, ukkoskuuroja"</item>
+		<item>"Enimmäkseen pilvistä, tuiskua"</item>
+		<item>"Enimmäkseen pilvistä, lumisadetta"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Ma"</item>
+		<item>"Ti"</item>
+		<item>"Ke"</item>
+		<item>"To"</item>
+		<item>"Pe"</item>
+		<item>"La"</item>
+		<item>"Su"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Päivitä"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Viime sijaintia ei saada."</string>
+	<!---->
+	<string name="last_updated_label">"Viimeksi päivitetty:"</string>
+	<!---->
+	<string name="change_to_C">"Vaihda yksiköksi °C"</string>
+	<!---->
+	<string name="change_to_F">"Vaihda yksiköksi °F"</string>
+	<!---->
+	<string name="label_today">"Tänään"</string>
+	<!---->
+	<string name="label_humidity">"Kosteus"</string>
+	<!---->
+	<string name="label_wind">"Tuuli"</string>
+	<!---->
+	<string name="label_visibility">"Näkyvyys"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Maanantai"</item>
+		<item>"Tiistai"</item>
+		<item>"Keskiviikko"</item>
+		<item>"Torstai"</item>
+		<item>"Perjantai"</item>
+		<item>"Lauantai"</item>
+		<item>"Sunnuntai"</item>
+	</string-array>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"Vaihda yksiköksi mailit"</string>
+	<!---->
+	<string name="change_to_km">"Vaihda yksiköksi kilometrit"</string>
+	<!---->
+	<string name="obtain_data_failed">"Säätietojen haku epäonnistui. Tarkista Internet-yhteys."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+</resources>

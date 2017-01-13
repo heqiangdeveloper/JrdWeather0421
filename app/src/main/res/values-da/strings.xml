@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23, Thu Jun 18 11:13:37 GMT+08:00 2015
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vejr"</string>
+	<!---->
+	<string name="menu_addlocation">"Tilføj en placering"</string>
+	<!---->
+	<string name="menu_delete">"Slet placering"</string>
+	<!---->
+	<string name="menu_unit">"Skift enhed"</string>
+	<!---->
+	<string name="locate_auto">"Placer automatisk"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Det er ikke muligt at oprette forbindelse til internettet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Gå til forbindelse"</string>
+	<!---->
+	<string name="locate_failure">"Automatisk placering mislykkedes. Søg efter en placering i stedet."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatisk placering mislykkedes. Kontrollér Googles placeringstjeneste."</string>
+	<!---->
+	<string name="insert_location">"Indsæt en placering"</string>
+	<!---->
+	<string name="connect_timeout">"Svagt signal. Prøv igen senere."</string>
+	<!---->
+	<string name="connot_find_location">"Denne placering blev ikke fundet."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Beklager, du kan kun tilføje 11 byer. Fjern en."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Søger..."</string>
+	<!---->
+	<string name="locating">"Placerer..."</string>
+	<!---->
+	<string name="loading">"Indlæser..."</string>
+	<!---->
+	<string name="weather_offline">"Vejr offline"</string>
+	<!---->
+	<string name="update_time">"Opdater klokkeslæt"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Annuller"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Placering"</string>
+	<!---->
+	<string name="click_update">"Klik her for at opdatere"</string>
+	<!---->
+	<string name="weather_off_line_text">"Kan desværre ikke oprette forbindelse."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Solrigt"</item>
+		<item>"Mest sol"</item>
+		<item>"Delvis sol"</item>
+		<item>"Pletvis skyet"</item>
+		<item>"Diset solskin"</item>
+		<item>"Mest skyet"</item>
+		<item>"Skyet"</item>
+		<item>"Trist"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Tåge"</item>
+		<item>"Regnbyger"</item>
+		<item>"Mest skyet med regnbyger"</item>
+		<item>"Delvis sol med regnbyger"</item>
+		<item>"Tordenvejr"</item>
+		<item>"Mest skyet med tordenbyger"</item>
+		<item>"Delvis sol med tordenbyger"</item>
+		<item>"Regn"</item>
+		<item>"Vindstød"</item>
+		<item>"Mest skyet med vindstød"</item>
+		<item>"Delvis sol med vindstød"</item>
+		<item>"Sne"</item>
+		<item>"Mest skyet med sne"</item>
+		<item>"Is"</item>
+		<item>"Slud"</item>
+		<item>"Isslag"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Regn og sne blandet"</item>
+		<item>"Varmt"</item>
+		<item>"Koldt"</item>
+		<item>"Blæst"</item>
+		<item>"Klart"</item>
+		<item>"Mest klart"</item>
+		<item>"Delvist skyet"</item>
+		<item>"Pletvis skyet"</item>
+		<item>"Diset"</item>
+		<item>"Mest skyet"</item>
+		<item>"Delvist skyet med regnbyger"</item>
+		<item>"Mest skyet med regnbyger"</item>
+		<item>"Delvist skyet med tordenbyger"</item>
+		<item>"Mest skyet med tordenbyger"</item>
+		<item>"Mest skyet med vindstød"</item>
+		<item>"Mest skyet med sne"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Man"</item>
+		<item>"Tir"</item>
+		<item>"Ons"</item>
+		<item>"Tor"</item>
+		<item>"Fre"</item>
+		<item>"Lør"</item>
+		<item>"Søn"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Opdater"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Kunne ikke finde den seneste placering."</string>
+	<!---->
+	<string name="last_updated_label">"Sidst opdateret:"</string>
+	<!---->
+	<string name="change_to_C">"Skift til °C"</string>
+	<!---->
+	<string name="change_to_F">"Skift til °F"</string>
+	<!---->
+	<string name="label_today">"I dag"</string>
+	<!---->
+	<string name="label_humidity">"Luftfugt."</string>
+	<!---->
+	<string name="label_wind">"Blæst"</string>
+	<!---->
+	<string name="label_visibility">"Synlighed"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Mandag"</item>
+		<item>"Tirsdag"</item>
+		<item>"Onsdag"</item>
+		<item>"Torsdag"</item>
+		<item>"Fredag"</item>
+		<item>"Lørdag"</item>
+		<item>"Søndag"</item>
+	</string-array>
+	<!---->
+	<string name="label_wind_unit_km">"km/t"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"miles"</string>
+	<!---->
+	<string name="change_to_mi">"Skift til miles"</string>
+	<!---->
+	<string name="change_to_km">"Skift til km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Kan ikke hente vejrdata. Tjek internetforbindelsen."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+</resources>

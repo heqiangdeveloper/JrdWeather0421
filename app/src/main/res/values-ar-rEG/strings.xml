@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"الطقس"</string>
+	<!---->
+	<string name="no_weather">"لا توجد بيانات طقس متوفرة"</string>
+	<!---->
+	<string name="menu_addlocation">"إضافة موقع"</string>
+	<!---->
+	<string name="menu_delete">"حذف الموقع"</string>
+	<!---->
+	<string name="menu_remove">"إزالة الموقع"</string>
+	<!---->
+	<string name="menu_unit">"تغيير الوحدة"</string>
+	<!---->
+	<string name="locate_auto">"تحديد موقع تلقائي"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"يتعذر الاتصال بالإنترنت."</string>
+	<!---->
+	<string name="locate_goto_connect">"انتقال للاتصال"</string>
+	<!---->
+	<string name="locate_failure">"فشل تحديد الموقع التلقائي. يرجى البحث عن أحد المواقع بدلاً من ذلك."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"فشل تحديد الموقع التلقائي. يرجى التحقق من خدمة تحديد المواقع من Google."</string>
+	<!---->
+	<string name="insert_location">"إدخال موقع"</string>
+	<!---->
+	<string name="search_location">"البحث عن موقع"</string>
+	<!---->
+	<string name="connect_timeout">"إشارة ضعيفة. يرجى إعادة المحاولة في وقت لاحق."</string>
+	<!---->
+	<string name="connot_find_location">"يتعذر العثور على هذا الموقع."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"معذرة، يمكنك إضافة 11 مدينة فقط. يرجى إزالة واحدة منها."</string>
+	<!---->
+	<string name="citys_six_full">"معذرة، يمكنك إضافة 11 مدينة فقط. يرجى إزالة واحدة منها."</string>
+	<!---->
+	<string name="citys_max_full">"تم بلوغ الحد الأقصى من المواقع. إزالة الموقع أولاً."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"جارٍ البحث..."</string>
+	<!---->
+	<string name="locating">"جارٍ تحديد الموقع..."</string>
+	<!---->
+	<string name="loading">"جارٍ التحميل..."</string>
+	<!---->
+	<string name="weather_offline">"واجهة الطقس غير متصلة"</string>
+	<!---->
+	<string name="update_time">"زمن التحديث"</string>
+	<!---->
+	<string name="common_ok">"موافق"</string>
+	<!---->
+	<string name="common_cancel">"إلغاء"</string>
+	<!---->
+	<string name="date_am">"ص"</string>
+	<!---->
+	<string name="date_pm">"م"</string>
+	<!---->
+	<string name="location">"الموقع"</string>
+	<!---->
+	<string name="click_update">"انقر هنا للتحديث"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"لا توجد بيانات طقس"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"تحقق من اتصال الإنترنت"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"لا يوجد إذن"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"هناك حاجة للوصول إلى الموقع لعرض بيانات الطقس المحلية."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"لا موقع"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"استخدام عنصر واجهة المستخدم هذا لإضافة موقع"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"الإعدادات"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"إضافة موقع"</string>
+	<!---->
+	<string name="weather_off_line_text">"معذرة، غير قادر على الاتصال."</string>
+	<string-array name="weather_icon_desc">
+		<item>"مشمس"</item>
+		<item>"غائم في الغالب"</item>
+		<item>"مشمس جزئيًا"</item>
+		<item>"سحب متقطعة"</item>
+		<item>"ضبابي مع سطوع الشمس"</item>
+		<item>"غائم جزئيًا"</item>
+		<item>"غائم"</item>
+		<item>"موحش"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ضباب"</item>
+		<item>"هطول أمطار"</item>
+		<item>"غائم في الغالب مع هطول أمطار"</item>
+		<item>"مشمس جزئيًا مع هطول أمطار"</item>
+		<item>"عواصف رعدية"</item>
+		<item>"غائم في الغالب مع أمطار رعدية"</item>
+		<item>"مشمس جزئيًا مع أمطار رعدية"</item>
+		<item>"مطر"</item>
+		<item>"هبات رياح"</item>
+		<item>"غائم في الغالب مع هبات رياح"</item>
+		<item>"مشمس جزئيًا مع هطول أمطار"</item>
+		<item>"جليد"</item>
+		<item>"غائم في الغالب مع الثلوج"</item>
+		<item>"ثلج"</item>
+		<item>"مطر ثلجي"</item>
+		<item>"أمطار متجمدة"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"مزيج من الأمطار والثلوج"</item>
+		<item>"حار"</item>
+		<item>"بارد"</item>
+		<item>"شديد الرياح"</item>
+		<item>"صافي"</item>
+		<item>"صافي في الغالب"</item>
+		<item>"غائم جزئيًا"</item>
+		<item>"سحب متقطعة"</item>
+		<item>"ضبابي"</item>
+		<item>"غائم في الغالب"</item>
+		<item>"غائم جزئيًا مع هطول أمطار"</item>
+		<item>"غائم في الغالب مع هطول أمطار"</item>
+		<item>"غائم جزئيًا مع هطول أمطار رعدية"</item>
+		<item>"غائم في الغالب مع هطول أمطار رعدية"</item>
+		<item>"غائم في الغالب مع هبات رياح"</item>
+		<item>"غائم في الغالب مع سقوط ثلوج"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"الاثنين"</item>
+		<item>"الثلاثاء"</item>
+		<item>"الأربعاء"</item>
+		<item>"الخميس"</item>
+		<item>"الجمعة"</item>
+		<item>"السبت"</item>
+		<item>"الأحد"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"تحديث"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"تعذر الحصول على أحدث موقع."</string>
+	<!---->
+	<string name="last_updated_label">"آخر تحديث"</string>
+	<!---->
+	<string name="change_to_C">"تغيير إلى °C"</string>
+	<!---->
+	<string name="change_to_F">"تغيير إلى °F"</string>
+	<!---->
+	<string name="label_today">"اليوم"</string>
+	<!---->
+	<string name="label_humidity">"الرطوبة"</string>
+	<!---->
+	<string name="label_pressure">"الضغط"</string>
+	<!---->
+	<string name="label_wind">"الرياح"</string>
+	<!---->
+	<string name="label_visibility">"الظهور"</string>
+	<!---->
+	<string name="label_uv_index">"مؤشر الأشعة فوق البنفسجية"</string>
+	<!---->
+	<string name="label_high">"مرتفع"</string>
+	<!---->
+	<string name="label_low">"منخفض"</string>
+	<!---->
+	<string name="label_high_rel">"الحد الأقصى"</string>
+	<!---->
+	<string name="label_low_rel">"الحد الأدنى"</string>
+	<!---->
+	<string name="label_precipitation">"هطول الأمطار"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"الاثنين"</item>
+		<item>"الثلاثاء"</item>
+		<item>"الأربعاء"</item>
+		<item>"الخميس"</item>
+		<item>"الجمعة"</item>
+		<item>"السبت"</item>
+		<item>"الأحد"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"ميجابايت"</string>
+	<!---->
+	<string name="label_mm">"ملليمتر"</string>
+	<!---->
+	<string name="label_wind_unit_km">"كم/س"</string>
+	<!---->
+	<string name="label_wind_unit_m">"م/ث"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"ميل في الساعة"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"ميل/ساعه"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"كم"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"ميل"</string>
+	<!---->
+	<string name="change_to_mi">"التغيير إلى ميل"</string>
+	<!---->
+	<string name="change_to_km">"التغيير إلى كم"</string>
+	<!---->
+	<string name="obtain_data_failed">"تعذّر الحصول على بيانات الطقس. رجاء التحقق من إتصال الإنترنت."</string>
+	<!---->
+	<string name="tokyo_name">"طوكيو"</string>
+	<!---->
+	<string name="just_now">"الآن"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"منذ ثانية"</item>
+		<item quantity="other">"منذ <xliff:g id="count">%d</xliff:g> ثانية"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"منذ دقيقة"</item>
+		<item quantity="other">"منذ <xliff:g id="count">%d</xliff:g> دقيقة"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"منذ ساعة"</item>
+		<item quantity="other">"منذ <xliff:g id="count">%d</xliff:g> ساعة"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"أمس"</item>
+		<item quantity="other">"منذ <xliff:g id="count">%d</xliff:g> يوم"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"منذ أسبوع واحد"</item>
+		<item quantity="other">"منذ <xliff:g id="count">%d</xliff:g> من الأسابيع"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"منذ شهر"</item>
+		<item quantity="other">"منذ <xliff:g id="count">%d</xliff:g> من الشهور"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"الإعدادات"</string>
+	<!---->
+	<string name="pref_header_general">"عام"</string>
+	<!---->
+	<string name="pref_header_metrics">"وحدات"</string>
+	<!---->
+	<string name="title_pref_auto_update">"تحديث بيانات الطقس تلقائيًا"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"في أي وقت. وقد يتم فرض رسوم على البيانات."</item>
+		<item>"تحديث تلقائي عبر Wi-Fi فقط"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"درجة الحرارة"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"فهرنهايت (°F)"</item>
+		<item>"درجة مئوية (°م)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"مسافة"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"ميل"</item>
+		<item>"كيلومتر (كم)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"بيانات الطقس المتقدمة"</string>
+	<!---->
+	<string name="title_pref_feels_like">"إظهار درجة حرارة مقبولة"</string>
+	<!---->
+	<string name="just_updated">"الآن"</string>
+	<!---->
+	<string name="gotoSettingTips">"لاستلام بيانات الطقس المحلي، امنح الوصول إلى المكان والهاتف."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"الإعدادات"</string>
+	<!---->
+	<string name="permission_poster_title">"منح الوصول"</string>
+	<!---->
+	<string name="location_permission_description">"سواء هناك حاجة إلى إذن مكان وهاتف لتوفير بيانات الطقس المحلي. منح الوصول إلى المكان والهاتف لاستخدام هذه الميزة."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"تم"</string>
+</resources>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Eguraldia"</string>
+	<!---->
+	<string name="no_weather">"Ez dago eguraldiaren daturik"</string>
+	<!---->
+	<string name="menu_addlocation">"Gehitu kokapena"</string>
+	<!---->
+	<string name="menu_delete">"Ezabatu kokapena"</string>
+	<!---->
+	<string name="menu_remove">"Kendu kokapena"</string>
+	<!---->
+	<string name="menu_unit">"Aldatu unitatea"</string>
+	<!---->
+	<string name="locate_auto">"Kokapen automatikoa"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Ezin da Internetera konektatu"</string>
+	<!---->
+	<string name="locate_goto_connect">"Joan konektatu aukerara"</string>
+	<!---->
+	<string name="locate_failure">"Ezin izan da kokapena automatikoki aurkitu. Bilatu kokapena."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Ezin izan da kokapena automatikoki zehaztu. Egiaztatu Google-ren kokapen-zerbitzua."</string>
+	<!---->
+	<string name="insert_location">"Sartu kokapena"</string>
+	<!---->
+	<string name="search_location">"Bilatu kokapena"</string>
+	<!---->
+	<string name="connect_timeout">"Seinalea ahula da. Saiatu geroago."</string>
+	<!---->
+	<string name="connot_find_location">"Ezin da kokapena aurkitu."</string>
+	<!---->
+	<string name="real_feel">"S.Termik."</string>
+	<!---->
+	<string name="citys_full">"Sentitzen dugu, 11 hiri bakarrik gehi ditzakezu. Kendu bat."</string>
+	<!---->
+	<string name="citys_six_full">"Sentitzen dugu, 11 hiri bakarrik gehi ditzakezu. Kendu bat."</string>
+	<!---->
+	<string name="citys_max_full">"Kokapen muga gainditu da. Aurrena, kendu kokapenen bat."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Bilatzen…"</string>
+	<!---->
+	<string name="locating">"Kokapena ezartzen…"</string>
+	<!---->
+	<string name="loading">"Kargatzen…"</string>
+	<!---->
+	<string name="weather_offline">"Eguraldiaren aukera desaktibatuta"</string>
+	<!---->
+	<string name="update_time">"Eguneratze-ordua"</string>
+	<!---->
+	<string name="common_ok">"Ados"</string>
+	<!---->
+	<string name="common_cancel">"Utzi"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Kokalekua"</string>
+	<!---->
+	<string name="click_update">"Egin klik eguneratzeko"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Ez dago eguraldiaren daturik"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Egiaztatu Interneteko konexioa"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Ez dago baimenik"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Kokapen-sarbidea behar da tokiko eguraldiaren datuak erakusteko."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Ez dago kokalekurik"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Erabili widgeta hau kokapena gehitzeko"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"EZARPENAK"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Gehitu kokapena"</string>
+	<!---->
+	<string name="weather_off_line_text">"Ezin da konektatu."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Eguzkitsua"</item>
+		<item>"Nagusiki eguzkitsu"</item>
+		<item>"Nahiko eguzkitsu"</item>
+		<item>"Tarteka lainotuta"</item>
+		<item>"Eguzki lanbrotsua"</item>
+		<item>"Nagusiki lainotuta"</item>
+		<item>"Lainotuta"</item>
+		<item>"Grisa"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Lainotuta"</item>
+		<item>"Euri-zaparradak"</item>
+		<item>"Nagusiki lainotuta eta euri-zaparradak"</item>
+		<item>"Nahiko eguzkitsu eta euri-zaparradak"</item>
+		<item>"Ekaitzak"</item>
+		<item>"Nagusiki lainotuta eta ekaitzak"</item>
+		<item>"Nahiko eguzkitsu eta ekaitzak"</item>
+		<item>"Euria"</item>
+		<item>"Euri-jasak"</item>
+		<item>"Nagusiki lainotuta eta euri-jasak"</item>
+		<item>"Nahiko eguzkitsu eta euri-jasak"</item>
+		<item>"Elurra"</item>
+		<item>"Nagusiki lainotuta eta elurra"</item>
+		<item>"Izotza"</item>
+		<item>"Elur bustia"</item>
+		<item>"Euri izoztua"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Euria eta elurra"</item>
+		<item>"Bero"</item>
+		<item>"Hotz"</item>
+		<item>"Haizetsu"</item>
+		<item>"Oskarbi"</item>
+		<item>"Nagusiki oskarbi"</item>
+		<item>"Nahiko oskarbi"</item>
+		<item>"Tarteka lainoak"</item>
+		<item>"Lanbrotsu"</item>
+		<item>"Nagusiki lainotuta"</item>
+		<item>"Nahiko lainotuta eta euri-zaparradak"</item>
+		<item>"Nagusiki lainotuta eta euri-zaparradak"</item>
+		<item>"Nahiko lainotuta eta ekaitzak"</item>
+		<item>"Nagusiki lainotuta eta ekaitzak"</item>
+		<item>"Nagusiki lainotuta eta euri-jasak"</item>
+		<item>"Nagusiki lainotuta eta elurra"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Al."</item>
+		<item>"Ar."</item>
+		<item>"Az."</item>
+		<item>"Og."</item>
+		<item>"Or."</item>
+		<item>"Lr."</item>
+		<item>"Ig."</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Freskatu"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Ezin izan da azken kokapena lortu."</string>
+	<!---->
+	<string name="last_updated_label">"Azken eguneratzea:"</string>
+	<!---->
+	<string name="change_to_C">"Erabili °C"</string>
+	<!---->
+	<string name="change_to_F">"Erabili °F"</string>
+	<!---->
+	<string name="label_today">"Gaur"</string>
+	<!---->
+	<string name="label_humidity">"Hezetas."</string>
+	<!---->
+	<string name="label_pressure">"Presioa"</string>
+	<!---->
+	<string name="label_wind">"Haizea"</string>
+	<!---->
+	<string name="label_visibility">"Ikusgaitas."</string>
+	<!---->
+	<string name="label_uv_index">"UV indizea"</string>
+	<!---->
+	<string name="label_high">"Handia"</string>
+	<!---->
+	<string name="label_low">"Txikia"</string>
+	<!---->
+	<string name="label_high_rel">"Gehienez"</string>
+	<!---->
+	<string name="label_low_rel">"Gutxienez"</string>
+	<!---->
+	<string name="label_precipitation">"Euria"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Astelehena"</item>
+		<item>"Asteartea"</item>
+		<item>"Asteazkena"</item>
+		<item>"Osteguna"</item>
+		<item>"Ostirala"</item>
+		<item>"Larunbata"</item>
+		<item>"Igandea"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mi/h"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi"</string>
+	<!---->
+	<string name="change_to_mi">"Aldatu miliatara"</string>
+	<!---->
+	<string name="change_to_km">"Aldatu kilometrotara"</string>
+	<!---->
+	<string name="obtain_data_failed">"Ezin izan dira lortu eguraldiaren datuak. Egiaztatu Interneteko konexioa."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+	<!---->
+	<string name="just_now">"Oraintxe"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"duela segundo bat"</item>
+		<item quantity="other">"duela <xliff:g id="count">%d</xliff:g> segundo"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"duela minutu bat"</item>
+		<item quantity="other">"duela <xliff:g id="count">%d</xliff:g> minutu"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"duela ordubete"</item>
+		<item quantity="other">"duela <xliff:g id="count">%d</xliff:g> ordu"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Atzo"</item>
+		<item quantity="other">"duela <xliff:g id="count">%d</xliff:g> egun"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Duela astebete"</item>
+		<item quantity="other">"Duela <xliff:g id="count">%d</xliff:g> aste"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Duela 1 hilabete"</item>
+		<item quantity="other">"Duela <xliff:g id="count">%d</xliff:g> hilabete"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Ezarpenak"</string>
+	<!---->
+	<string name="pref_header_general">"Orokorra"</string>
+	<!---->
+	<string name="pref_header_metrics">"Unitateak"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Eguneratu eguraldiaren datuak automatikoki"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Edonoiz. Datu-erabileragatiko gastuak ordaindu behar izan ditzakezu."</item>
+		<item>"Eguneratu automatikoki Wi-Fi bidez soilik"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Tenperatura"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distantzia"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Milia (mi.)"</item>
+		<item>"Kilometro (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Eguraldiaren datu aurreratuak"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Erakutsi tenperatura sentikorra"</string>
+	<!---->
+	<string name="just_updated">"Oraintxe"</string>
+	<!---->
+	<string name="gotoSettingTips">"Tokiko eguraldiaren datuak jasotzeko, eman Kokapena eta Telefonoa eginbideetarako sarbidea."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Ezarpenak"</string>
+	<!---->
+	<string name="permission_poster_title">"Eman sarbidea"</string>
+	<!---->
+	<string name="location_permission_description">"Eguraldia eginbideak Kokapena eta Telefonoa eginbideen baimena behar du tokiko eguraldiaren datuak eskaintzeko. Eman Kokapena eta Telefonoa eginbideei eginbide honetarako sarbidea."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"ADOS"</string>
+</resources>

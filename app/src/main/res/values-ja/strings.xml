@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"天気"</string>
+	<!---->
+	<string name="no_weather">"気象データを利用できません"</string>
+	<!---->
+	<string name="menu_addlocation">"位置情報の追加"</string>
+	<!---->
+	<string name="menu_delete">"位置情報を削除"</string>
+	<!---->
+	<string name="menu_remove">"ロケーションの削除"</string>
+	<!---->
+	<string name="menu_unit">"単位の変更"</string>
+	<!---->
+	<string name="locate_auto">"現在地の自動検出"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"インターネットに接続できません。"</string>
+	<!---->
+	<string name="locate_goto_connect">"接続します"</string>
+	<!---->
+	<string name="locate_failure">"現在地の自動検出に失敗しました。検索したい場所を入力して再検索してください。"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"現在地の自動検出に失敗しました。ネットワークの位置情報サービスを確認してください。"</string>
+	<!---->
+	<string name="insert_location">"位置情報の挿入"</string>
+	<!---->
+	<string name="search_location">"ロケーションの検索"</string>
+	<!---->
+	<string name="connect_timeout">"受信電波が微弱です。後ほど、再試行してください。"</string>
+	<!---->
+	<string name="connot_find_location">"指定された場所が見つかりません。"</string>
+	<!---->
+	<string name="real_feel">"体感温度"</string>
+	<!---->
+	<string name="citys_full">"追加できる都市は 11 都市までです。いずれかを削除してください。"</string>
+	<!---->
+	<string name="citys_six_full">"追加できる都市は 11 都市までです。1件削除"</string>
+	<!---->
+	<string name="citys_max_full">"ロケーションの上限に達しました。ロケーションを削除してください。"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"検索中..."</string>
+	<!---->
+	<string name="locating">"位置情報を検出中..."</string>
+	<!---->
+	<string name="loading">"読み込み中..."</string>
+	<!---->
+	<string name="weather_offline">"天気オフライン"</string>
+	<!---->
+	<string name="update_time">"時刻の更新"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"キャンセル"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"現在地情報"</string>
+	<!---->
+	<string name="click_update">"ここをタップして更新"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"気象データがありません"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"インターネットへの接続を確認してください"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"許可なし"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"地域の気象データを表示するには Location へのアクセスが必要です。"</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"位置情報なし"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"このウィジェットを使用して位置を追加する"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"設定"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"位置情報の追加"</string>
+	<!---->
+	<string name="weather_off_line_text">"接続できません"</string>
+	<string-array name="weather_icon_desc">
+		<item>"晴れ"</item>
+		<item>"おおむね晴れ"</item>
+		<item>"晴れ時々曇り"</item>
+		<item>"断続的に曇り"</item>
+		<item>"薄曇り"</item>
+		<item>"おおむね曇り"</item>
+		<item>"曇り"</item>
+		<item>"曇り"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"霧"</item>
+		<item>"にわか雨"</item>
+		<item>"曇り一時にわか雨"</item>
+		<item>"晴れ時々曇り一時にわか雨"</item>
+		<item>"雷雨"</item>
+		<item>"曇り一時雷雨"</item>
+		<item>"晴れ時々曇り一時雷雨"</item>
+		<item>"雨"</item>
+		<item>"にわか雨"</item>
+		<item>"曇り一時にわか雪"</item>
+		<item>"晴れ時々曇り一時にわか雪"</item>
+		<item>"雪"</item>
+		<item>"曇り一時雪"</item>
+		<item>"あられ"</item>
+		<item>"みぞれ"</item>
+		<item>"雨氷"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"みぞれ"</item>
+		<item>"高温"</item>
+		<item>"低温"</item>
+		<item>"強風"</item>
+		<item>"晴れ"</item>
+		<item>"おおむね快晴"</item>
+		<item>"晴れ時々曇り"</item>
+		<item>"断続的に曇り"</item>
+		<item>"かすみ"</item>
+		<item>"おおむね曇り"</item>
+		<item>"晴れ時々曇り一時にわか雨"</item>
+		<item>"曇り一時にわか雨"</item>
+		<item>"晴れ時々曇り一時雷雨"</item>
+		<item>"曇り一時雷雨"</item>
+		<item>"曇り一時にわか雪"</item>
+		<item>"曇り一時雪"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"月曜日"</item>
+		<item>"火曜日"</item>
+		<item>"水曜日"</item>
+		<item>"木曜日"</item>
+		<item>"金曜日"</item>
+		<item>"土曜日"</item>
+		<item>"日曜日"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"更新"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"最新の位置情報の取得に失敗しました。"</string>
+	<!---->
+	<string name="last_updated_label">"最終更新："</string>
+	<!---->
+	<string name="change_to_C">"°Cに変更"</string>
+	<!---->
+	<string name="change_to_F">"°Fに変更"</string>
+	<!---->
+	<string name="label_today">"今日"</string>
+	<!---->
+	<string name="label_humidity">"湿度"</string>
+	<!---->
+	<string name="label_pressure">"圧力"</string>
+	<!---->
+	<string name="label_wind">"風"</string>
+	<!---->
+	<string name="label_visibility">"視界"</string>
+	<!---->
+	<string name="label_uv_index">"赤外線指数"</string>
+	<!---->
+	<string name="label_high">"高"</string>
+	<!---->
+	<string name="label_low">"低"</string>
+	<!---->
+	<string name="label_high_rel">"最高"</string>
+	<!---->
+	<string name="label_low_rel">"分"</string>
+	<!---->
+	<string name="label_precipitation">"参加"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"月曜日"</item>
+		<item>"火曜日"</item>
+		<item>"水曜日"</item>
+		<item>"木曜日"</item>
+		<item>"金曜日"</item>
+		<item>"土曜日"</item>
+		<item>"日曜日"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"マイル/時"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"miに変更"</string>
+	<!---->
+	<string name="change_to_km">"kmに変更"</string>
+	<!---->
+	<string name="obtain_data_failed">"天気情報が取得できません、インターネット接続を確認してください。"</string>
+	<!---->
+	<string name="tokyo_name">"東京"</string>
+	<!---->
+	<string name="just_now">"たった今"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1秒前"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>秒前"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1分前"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>分前"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1時間前"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>時間前"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"昨日"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g>日前"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 週間前"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g>週間前"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1か月前"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g>か月前"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"設定"</string>
+	<!---->
+	<string name="pref_header_general">"全般"</string>
+	<!---->
+	<string name="pref_header_metrics">"ユニット"</string>
+	<!---->
+	<string name="title_pref_auto_update">"天候データの自動更新"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"常時データ料金が適用される場合があります。"</item>
+		<item>"自動アップデートは Wi-Fi のみで可能です"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"温度"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"華氏(°F)"</item>
+		<item>"摂氏(°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"距離"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"マイル(mi.)"</item>
+		<item>"キロメートル(km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"詳細天候データ"</string>
+	<!---->
+	<string name="title_pref_feels_like">"知覚可能な温度を表示"</string>
+	<!---->
+	<string name="just_updated">"今すぐ"</string>
+	<!---->
+	<string name="gotoSettingTips">"地域の気象データを受信するには、位置と電話へのアクセスを許可する"</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"設定"</string>
+	<!---->
+	<string name="permission_poster_title">"アクセス権限を付与"</string>
+	<!---->
+	<string name="location_permission_description">"地域の気象データ提供には、Wether に位置と電話へのアクセス許可が必要です。位置と電話へのアクセスを許可してこの機能を使用する。"</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"了解"</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="dardTextColor" format="color"/>
+    <attr name="lightTextColor" format="color"/>
+    <attr name="lightCardColor" format="color"/>
+    <attr name="heavyCardColor" format="color"/>
+    <attr name="darkCardTextColor" format="color"/>
+
+    <declare-styleable name="VerticalSlidingView">
+        <attr name="dardTextColor"/>
+        <attr name="lightTextColor"/>
+        <attr name="lightCardColor"/>
+        <attr name="heavyCardColor"/>
+        <attr name="darkCardTextColor"/>
+    </declare-styleable>
+</resources>

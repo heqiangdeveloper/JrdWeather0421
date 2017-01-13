@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Hava durumu"</string>
+	<!---->
+	<string name="no_weather">"Hava durumu verisi yok"</string>
+	<!---->
+	<string name="menu_addlocation">"Konum ekle"</string>
+	<!---->
+	<string name="menu_delete">"Konumu sil"</string>
+	<!---->
+	<string name="menu_remove">"Konumu kaldır"</string>
+	<!---->
+	<string name="menu_unit">"Birimi değiştir"</string>
+	<!---->
+	<string name="locate_auto">"Otomatik konumlandır"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"İnternete bağlanılamıyor."</string>
+	<!---->
+	<string name="locate_goto_connect">"Bağlan\'a gidin"</string>
+	<!---->
+	<string name="locate_failure">"Otomatik konum bulma başarısız. Lütfen bunun yerine bir konum arayın."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Otomatik konumlandırma başarısız. Lütfen Google\'ın konum hizmetini kontrol edin."</string>
+	<!---->
+	<string name="insert_location">"Bir konum girin"</string>
+	<!---->
+	<string name="search_location">"Konum ara"</string>
+	<!---->
+	<string name="connect_timeout">"Zayıf sinyal. Lütfen daha sonra yeniden deneyin."</string>
+	<!---->
+	<string name="connot_find_location">"Bu konum bulunamıyor."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Yalnızca 11 şehir ekleyebilirsiniz. Lütfen birini kaldırın."</string>
+	<!---->
+	<string name="citys_six_full">"Yalnızca 11 şehir ekleyebilirsiniz. Lütfen birini kaldırın."</string>
+	<!---->
+	<string name="citys_max_full">"Maksimum konuma ulaşıldı. Önce bir konum kaldırın."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Aranıyor..."</string>
+	<!---->
+	<string name="locating">"Konum bulunuyor..."</string>
+	<!---->
+	<string name="loading">"Yükleniyor..."</string>
+	<!---->
+	<string name="weather_offline">"Hava Durumu Çevrimdışı"</string>
+	<!---->
+	<string name="update_time">"Güncelleme zamanı"</string>
+	<!---->
+	<string name="common_ok">"TAMAM"</string>
+	<!---->
+	<string name="common_cancel">"İptal"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Konum"</string>
+	<!---->
+	<string name="click_update">"Güncellemek için buraya tıklayın"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Hava durumu verisi yok"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"İnternet bağlantınızı denetleyin"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"İzin yok"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Yerel hava durumu verilerini göstermek için, konum erişimi gerekli."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Konum bilgisi yok"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Konum eklemek için bu widget\'i kullanın"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"AYARLAR"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Konum ekle"</string>
+	<!---->
+	<string name="weather_off_line_text">"Üzgünüm, bağlantı kurulamıyor."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Güneşli"</item>
+		<item>"Çoğunlukla Güneşli"</item>
+		<item>"Parçalı Bulutlu ve Güneşli"</item>
+		<item>"Parçalı Bulutlu"</item>
+		<item>"Sisli ve Güneşli"</item>
+		<item>"Çoğunlukla Bulutlu"</item>
+		<item>"Bulutlu"</item>
+		<item>"Kapalı"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Sis"</item>
+		<item>"Sağanak Yağışlı"</item>
+		<item>"Çoğunlukla Bulutlu ve Sağanak Yağışlı"</item>
+		<item>"Sağanak Yağışlı ve Parçalı Bulutlu"</item>
+		<item>"Gök gürültülü ve sağanak yağışlı"</item>
+		<item>"Gök Gürültülü ve Sağanak Yağış İle Çoğunlukla Bulutlu"</item>
+		<item>"Gök Gürültülü ve Sağanak Yağış İle Parçalı Bulutlu ve Güneşli"</item>
+		<item>"Yağmurlu"</item>
+		<item>"Mevzii yağış"</item>
+		<item>"Mevzii Yağışlı Çoğunlukla Bulutlu"</item>
+		<item>"Mevzii Yağışlı ve Parçalı Bulutlu Güneşli"</item>
+		<item>"Kar yağışlı"</item>
+		<item>"Kar yağışlı ve çoğunlukla bulutlu"</item>
+		<item>"Buz"</item>
+		<item>"Sulu kar"</item>
+		<item>"Donan yağmur"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Karla Karışık Yağmurlu"</item>
+		<item>"Sıcak"</item>
+		<item>"Soğuk"</item>
+		<item>"Rüzgarlı"</item>
+		<item>"Açık"</item>
+		<item>"Çoğunlukla Açık"</item>
+		<item>"Parçalı Bulutlu"</item>
+		<item>"Parçalı Bulutlu"</item>
+		<item>"Sisli"</item>
+		<item>"Çoğunlukla Bulutlu"</item>
+		<item>"Parçalı Bulutlu ve Sağanak Yağışlı"</item>
+		<item>"Parçalı Bulutlu ve Sağanak Yağışlı"</item>
+		<item>"Parçalı Bulutlu ve Gök Gürültülü Sağanak Yağışlı"</item>
+		<item>"Gök Gürültülü Sağanak Yağışlı ve Çoğunlukla Bulutlu"</item>
+		<item>"Mevzii Yağışlı Çoğunlukla Bulutlu"</item>
+		<item>"Kar ve Çoğunlukla Bulutlu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pzt"</item>
+		<item>"Salı"</item>
+		<item>"Çrş"</item>
+		<item>"Prş"</item>
+		<item>"Cum"</item>
+		<item>"Ctsi"</item>
+		<item>"Pzr"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Yenile"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Son konum alınamıyor."</string>
+	<!---->
+	<string name="last_updated_label">"Son güncelleme:"</string>
+	<!---->
+	<string name="change_to_C">"°C olarak değiştir"</string>
+	<!---->
+	<string name="change_to_F">"°F olarak değiştir"</string>
+	<!---->
+	<string name="label_today">"Bugün"</string>
+	<!---->
+	<string name="label_humidity">"Nem"</string>
+	<!---->
+	<string name="label_pressure">"Basınç"</string>
+	<!---->
+	<string name="label_wind">"Rüzgar"</string>
+	<!---->
+	<string name="label_visibility">"Görüş"</string>
+	<!---->
+	<string name="label_uv_index">"UV dizini"</string>
+	<!---->
+	<string name="label_high">"Yüksek"</string>
+	<!---->
+	<string name="label_low">"Düşük"</string>
+	<!---->
+	<string name="label_high_rel">"Maksimum"</string>
+	<!---->
+	<string name="label_low_rel">"Minimum"</string>
+	<!---->
+	<string name="label_precipitation">"Yağış"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Pazartesi"</item>
+		<item>"Salı"</item>
+		<item>"Çarşamba"</item>
+		<item>"Perşembe"</item>
+		<item>"Cuma"</item>
+		<item>"Cumartesi"</item>
+		<item>"Pazar"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/s"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/sn"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mil/saat"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"Mil olarak değiştir"</string>
+	<!---->
+	<string name="change_to_km">"Km olarak değiştir"</string>
+	<!---->
+	<string name="obtain_data_failed">"Hava durumu verileri alınamadı. Lütfen İnternet bağlantınızı kontrol edin."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Şimdi"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 saniye önce"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> saniye önce"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 Dakika önce"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> dakika önce"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 saat önce"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> saat önce"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Dün"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> gün önce"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 hafta önce"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> hafta önce"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 ay önce"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ay önce"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Ayarlar"</string>
+	<!---->
+	<string name="pref_header_general">"Genel"</string>
+	<!---->
+	<string name="pref_header_metrics">"Birimler"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Hava durumu verilerini otomatik güncelle"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Herhangi bir zamanda. Veri ücretleri uygulanabilir."</item>
+		<item>"Yalnızca Wi-Fi üzerinden otomatik güncelle"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Sıcaklık"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenhayt (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Mesafe"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mil (mi.)"</item>
+		<item>"Kilometre (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Gelişmiş hava durumu verileri"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Hissedilir sıcaklığı göster"</string>
+	<!---->
+	<string name="just_updated">"Yeniler"</string>
+	<!---->
+	<string name="gotoSettingTips">"Yerel hava durumu verilerini almak için, Konum ve Telefon izni verin."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Ayarlar"</string>
+	<!---->
+	<string name="permission_poster_title">"Erişim ver"</string>
+	<!---->
+	<string name="location_permission_description">"Yerel hava durumu verilerini sağlaması için Hava Durumuna, Konum ve Telefon izni verilmesi gerekir. Bu özelliği kullanmak için, Konum ve Telefon erişimi verin."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"ANLAŞILDI"</string>
+</resources>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Tempo"</string>
+	<!---->
+	<string name="no_weather">"Non hai datos dispoñibles sobre o tempo"</string>
+	<!---->
+	<string name="menu_addlocation">"Engada unha localización"</string>
+	<!---->
+	<string name="menu_delete">"Eliminar localización"</string>
+	<!---->
+	<string name="menu_remove">"Quitar localización"</string>
+	<!---->
+	<string name="menu_unit">"Cambiar unidade de temperatura"</string>
+	<!---->
+	<string name="locate_auto">"Localizar automaticamente"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Non se pode conectar a Internet"</string>
+	<!---->
+	<string name="locate_goto_connect">"Vaia a Conectar"</string>
+	<!---->
+	<string name="locate_failure">"Fallou a localización automática. Procure a localización manualmente."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Fallou a localización automática. Comprobe o servizo de localización de Google."</string>
+	<!---->
+	<string name="insert_location">"Insira unha localizac."</string>
+	<!---->
+	<string name="search_location">"Procurar localización"</string>
+	<!---->
+	<string name="connect_timeout">"Sinal feble, ténteo máis tarde."</string>
+	<!---->
+	<string name="connot_find_location">"Localización non atopada"</string>
+	<!---->
+	<string name="real_feel">"Sen. term"</string>
+	<!---->
+	<string name="citys_full">"Só pode engadir 11 cidades. Elimine unha."</string>
+	<!---->
+	<string name="citys_six_full">"Só pode engadir 11 cidades. Elimine unha."</string>
+	<!---->
+	<string name="citys_max_full">"Atinxiu o máximo de localizacións. Quite unha localización."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Procurando..."</string>
+	<!---->
+	<string name="locating">"Localizando..."</string>
+	<!---->
+	<string name="loading">"Cargando..."</string>
+	<!---->
+	<string name="weather_offline">"Tempo dispoñible sen conexión"</string>
+	<!---->
+	<string name="update_time">"Actualizar hora"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Cancelar"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Lugar"</string>
+	<!---->
+	<string name="click_update">"Faga clic aquí para actualizar"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Non hai información meteorolóxica"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Comprobe a súa conexión a Internet"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Ningún permiso"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Precisa acceder á localización para amosar a información meteorolóxica."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Non hai localización"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Use este widget para engadir unha localización."</string>
+	<!---->
+	<string name="miniapp_widget_setting">"AXUSTES"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Engada unha localización"</string>
+	<!---->
+	<string name="weather_off_line_text">"Non se pode establecer a conexión."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sol"</item>
+		<item>"Predominantemente soleado"</item>
+		<item>"Parcialmente soleado"</item>
+		<item>"Chuvias intermitentes"</item>
+		<item>"Cuberto con sol"</item>
+		<item>"Predominantemente nubrado"</item>
+		<item>"Nubrado"</item>
+		<item>"Gris"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Néboa"</item>
+		<item>"Chuvascos"</item>
+		<item>"Predominantemente nubrado con chuvascos"</item>
+		<item>"Parcialmente soleado con chuvascos"</item>
+		<item>"Tormentas"</item>
+		<item>"Predominantemente nubrado con chuvascos tormentosos"</item>
+		<item>"Parcialmente soleado con chuvascos tormentosos"</item>
+		<item>"Chuvia"</item>
+		<item>"Refachos"</item>
+		<item>"Predominantemente nubrado con refachos"</item>
+		<item>"Parcialmente soleado con refachos"</item>
+		<item>"Neve"</item>
+		<item>"Predominantemente nubrado con neve"</item>
+		<item>"Xeo"</item>
+		<item>"Torba"</item>
+		<item>"Chuvia xeada"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Neve e chuvias"</item>
+		<item>"Calor"</item>
+		<item>"Frío"</item>
+		<item>"Vento"</item>
+		<item>"Despexado"</item>
+		<item>"Predominantemente despexado"</item>
+		<item>"Parcialmente nubrado"</item>
+		<item>"Chuvias intermitentes"</item>
+		<item>"Cuberto"</item>
+		<item>"Predominantemente nubrado"</item>
+		<item>"Parcialmente nubrado con chuvascos"</item>
+		<item>"Predominantemente nubrado con chuvascos"</item>
+		<item>"Parcialmente nubrado con chuvascos tormentosos"</item>
+		<item>"Predominantemente nubrado con chuvascos tormentosos"</item>
+		<item>"Predominantemente nubrado con refachos"</item>
+		<item>"Predominantemente nubrado con neve"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Lun"</item>
+		<item>"Mar"</item>
+		<item>"Mer"</item>
+		<item>"Xov"</item>
+		<item>"Ven"</item>
+		<item>"Sab"</item>
+		<item>"Dom"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Refrescar"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Non se pode obter a localización máis recente."</string>
+	<!---->
+	<string name="last_updated_label">"Última actualización:"</string>
+	<!---->
+	<string name="change_to_C">"Cambiar a ºC"</string>
+	<!---->
+	<string name="change_to_F">"Cambiar a ºF"</string>
+	<!---->
+	<string name="label_today">"Hoxe"</string>
+	<!---->
+	<string name="label_humidity">"Humidade"</string>
+	<!---->
+	<string name="label_pressure">"Pres. atm."</string>
+	<!---->
+	<string name="label_wind">"Vento"</string>
+	<!---->
+	<string name="label_visibility">"Visibilid."</string>
+	<!---->
+	<string name="label_uv_index">"Índice UV"</string>
+	<!---->
+	<string name="label_high">"Alta"</string>
+	<!---->
+	<string name="label_low">"Baixa"</string>
+	<!---->
+	<string name="label_high_rel">"Máx"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Precipitacións"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Luns"</item>
+		<item>"Martes"</item>
+		<item>"Mércores"</item>
+		<item>"Xoves"</item>
+		<item>"Venres"</item>
+		<item>"Sábado"</item>
+		<item>"Domingo"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"millas"</string>
+	<!---->
+	<string name="change_to_mi">"Cambiar a millas"</string>
+	<!---->
+	<string name="change_to_km">"Cambiar a km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Non se puideron obter datos sobre o tempo. Comprobe que ten internet."</string>
+	<!---->
+	<string name="tokyo_name">"Toquio"</string>
+	<!---->
+	<string name="just_now">"Xusto agora"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"Hai 1 segundo"</item>
+		<item quantity="other">"hai <xliff:g id="count">%d</xliff:g> segundos"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Hai 1 minuto"</item>
+		<item quantity="other">"hai <xliff:g id="count">%d</xliff:g> minutos"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"Hai 1 hora"</item>
+		<item quantity="other">"hai <xliff:g id="count">%d</xliff:g> horas"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Onte"</item>
+		<item quantity="other">"hai <xliff:g id="count">%d</xliff:g> días"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Hai 1 semana"</item>
+		<item quantity="other">"Hai <xliff:g id="count">%d</xliff:g> semanas"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Hai 1 mes"</item>
+		<item quantity="other">"Hai <xliff:g id="count">%d</xliff:g> meses"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Axustes"</string>
+	<!---->
+	<string name="pref_header_general">"Xeral"</string>
+	<!---->
+	<string name="pref_header_metrics">"Unidades"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Actualizar datos meteorolóxicos automaticamente"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"En calquera momento. Isto pode ter custos por consumo de datos."</item>
+		<item>"Actualizar información meteorolóxica só por wifi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatura"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celsius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distancia"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Milla (mi)"</item>
+		<item>"Quilómetro (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Datos meteorolóxicos avanzados"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Amosar sensación térmica"</string>
+	<!---->
+	<string name="just_updated">"Xusto agora"</string>
+	<!---->
+	<string name="gotoSettingTips">"Para recibir a información meteorolóxica local, permita o acceso a Localización e Teléfono."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Axustes"</string>
+	<!---->
+	<string name="permission_poster_title">"Dar acceso"</string>
+	<!---->
+	<string name="location_permission_description">"Tempo precisa permisos de acceso a Localización e Teléfono para dar a información meteorolóxica local. Déalle acceso a Localización e Teléfono para usar esta función."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"CAPTADO"</string>
+</resources>

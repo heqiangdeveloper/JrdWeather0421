@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"আবহাওয়া"</string>
+	<!-- no translation found for no_weather -->
+	<skip />
+	<!---->
+	<string name="menu_addlocation">"একটি অবস্থান যোগ করুন"</string>
+	<!---->
+	<string name="menu_delete">"একটি অবস্থান মুছে ফেলুন"</string>
+	<!---->
+	<string name="menu_remove">"পাঁচ সরান"</string>
+	<!---->
+	<string name="menu_unit">"ইউনিট পরিবর্তন করুন"</string>
+	<!---->
+	<string name="locate_auto">"স্বয়ংক্রিয় সনাক্তকরণ"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"ইন্টারনেটের সাথে সংযুক্ত করতে পারা যাচ্ছে না ।"</string>
+	<!---->
+	<string name="locate_goto_connect">"সংযোগ স্থাপন করতে যাওয়া"</string>
+	<!---->
+	<string name="locate_failure">"স্বয়ংক্রিয় সনাক্তকরণ ব্যর্থ । অনুগ্রহ করে এর পরিবর্তে একটি অবস্থান খুঁজুন ।"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"স্বয়ংক্রিয় সনাক্তকরণ ব্যর্থ । অনুগ্রহ করে গুগলের অবস্থান পরিষেবা পরীক্ষা করুন ।"</string>
+	<!---->
+	<string name="insert_location">"একটি অবস্থান প্রবেশ করান"</string>
+	<!---->
+	<string name="search_location">"অনুসন্ধান পাঁচ"</string>
+	<!---->
+	<string name="connect_timeout">"দুর্বল সিগন্যাল, অনুগ্রহ করে পরে চেষ্টা করুন ।"</string>
+	<!---->
+	<string name="connot_find_location">"অবস্থান খুঁজে পাওয়া যাচ্ছে না ।"</string>
+	<!---->
+	<string name="real_feel">"রিয়াল ফিল"</string>
+	<!---->
+	<string name="citys_full">"দুঃখিত, আপনি কেবলমাত্র ১১ টি শহর যোগ করতে পারেন । অনুগ্রহ করে একটি মুছে ফেলুন ।"</string>
+	<!-- no translation found for citys_six_full -->
+	<skip />
+	<!-- no translation found for citys_max_full -->
+	<skip />
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"অনুসন্ধান..."</string>
+	<!---->
+	<string name="locating">"অবস্থান নির্ণয়"</string>
+	<!---->
+	<string name="loading">"লোডিং..."</string>
+	<!---->
+	<string name="weather_offline">"আবহাওয়া অফলাইন"</string>
+	<!---->
+	<string name="update_time">"টাইম আপডেট করুন"</string>
+	<!---->
+	<string name="common_ok">"ঠিক আছে"</string>
+	<!---->
+	<string name="common_cancel">"বাতিল"</string>
+	<!---->
+	<string name="date_am">"সকাল"</string>
+	<!---->
+	<string name="date_pm">"বিকাল"</string>
+	<!---->
+	<string name="location">"লোকেশন"</string>
+	<!---->
+	<string name="click_update">"আপডেট করতে এখানে ক্লিক করুন"</string>
+	<!-- no translation found for miniapp_widget_no_data -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_data_desc -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_no_permission">"অনুমতি নেই"</string>
+	<!-- no translation found for miniapp_widget_no_permission_desc -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_no_location">"কোন লোকেশন নেই"</string>
+	<!-- no translation found for miniapp_widget_no_location_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_setting -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_add_location">"একটি অবস্থান যোগ করুন"</string>
+	<!---->
+	<string name="weather_off_line_text">"দুঃখিত, সংযুক্ত করতে অক্ষম।"</string>
+	<string-array name="weather_icon_desc">
+		<item>"রৌদ্রজ্জ্বল"</item>
+		<item>"অধিকাংশ ক্ষেত্রে রৌদ্রজ্জ্বল"</item>
+		<item>"আংশিকভাবে রৌদ্রজ্জ্বল"</item>
+		<item>"থেকে থেকে মেঘলা"</item>
+		<item>"কুয়াশাচ্ছন্ন সূর্যালোক"</item>
+		<item>"অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"মেঘলা"</item>
+		<item>"নিষ্প্রভ"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"কুয়াশা"</item>
+		<item>"বৃষ্টি"</item>
+		<item>"বৃষ্টি সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"বৃষ্টি সহ আংশিকভাবে রৌদ্রজ্জ্বল"</item>
+		<item>"ঝড়-বৃষ্টি"</item>
+		<item>"বজ্র-বৃষ্টি সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"বজ্র-বৃষ্টি সহ আংশিকভাবে রৌদ্রজ্জ্বল"</item>
+		<item>"বৃষ্টি"</item>
+		<item>"ঝোড়োবাতাস"</item>
+		<item>"ঝোড়োবাতাস সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"ঝোড়ো বাতাস সহ আংশিকভাবে রৌদ্রজ্জ্বল"</item>
+		<item>"তুষার"</item>
+		<item>"তুষার সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"বরফ"</item>
+		<item>"শিলাবৃষ্টি"</item>
+		<item>"বরফ-শীতল বৃষ্টি"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"বৃষ্টি এবং তুষার"</item>
+		<item>"উষ্ণ"</item>
+		<item>"ঠান্ডা"</item>
+		<item>"প্রবল বাতাস যুক্ত"</item>
+		<item>"পরিস্কার"</item>
+		<item>"অধিকাংশ ক্ষেত্রে পরিস্কার"</item>
+		<item>"আংশিকভাবে মেঘলা"</item>
+		<item>"থেকে থেকে মেঘলা"</item>
+		<item>"কুয়াশাচ্ছন্ন"</item>
+		<item>"অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"বৃষ্টি সহ আংশিকভাবে মেঘলা"</item>
+		<item>"বৃষ্টি সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"বজ্র-বৃষ্টি সহ আংশিকভাবে মেঘলা"</item>
+		<item>"বজ্র-বৃষ্টি সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"ঝোড়োবাতাস সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+		<item>"তুষার সহ অধিকাংশ ক্ষেত্রে মেঘলা"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"সোম"</item>
+		<item>"মঙ্গল"</item>
+		<item>"বুধ"</item>
+		<item>"বৃহস্পতি"</item>
+		<item>"শুক্র"</item>
+		<item>"শনি"</item>
+		<item>"রবি"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"রিফ্রেশ"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"সর্বশেষ অবস্থান প্রাপ্ত করতে ব্যর্থ।"</string>
+	<!---->
+	<string name="last_updated_label">"সর্বশেষ আপডেট"</string>
+	<!---->
+	<string name="change_to_C">"পরিবর্তন °C"</string>
+	<!---->
+	<string name="change_to_F">"পরিবর্তন °F"</string>
+	<!---->
+	<string name="label_today">"আজ"</string>
+	<!---->
+	<string name="label_humidity">"শৈত্য"</string>
+	<!---->
+	<string name="label_pressure">"চাপ"</string>
+	<!---->
+	<string name="label_wind">"বায়ু"</string>
+	<!---->
+	<string name="label_visibility">"দৃষ্টিপাত"</string>
+	<!---->
+	<string name="label_uv_index">"UV সূচক"</string>
+	<!---->
+	<string name="label_high">"উচ্চউচ্চ"</string>
+	<!---->
+	<string name="label_low">"নিম্নকম"</string>
+	<!---->
+	<string name="label_high_rel">"সর্বোচ্চ"</string>
+	<!---->
+	<string name="label_low_rel">"ন্যূনতম"</string>
+	<!---->
+	<string name="label_precipitation">"বৃষ্টিপাতের পরিমাণ"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"সোমবার"</item>
+		<item>"মঙ্গলবার"</item>
+		<item>"বুধবার"</item>
+		<item>"বৃহস্পতিবার"</item>
+		<item>"শুক্রবার"</item>
+		<item>"শনিবার"</item>
+		<item>"রবিবার"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"মেগাবাইট"</string>
+	<!---->
+	<string name="label_mm">"এমএম"</string>
+	<!---->
+	<string name="label_wind_unit_km">"কিমি / ঘঃ"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"মাইল"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"কিমি"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"মাইল."</string>
+	<!---->
+	<string name="change_to_mi">"মাইল পরিবর্তন."</string>
+	<!---->
+	<string name="change_to_km">"কিলোমিটার পরিবর্তন"</string>
+	<!---->
+	<string name="obtain_data_failed">"আবহাওয়ার তথ্য প্রাপ্ত করা যায়নি. ইন্টারনেট সংযোগ চেক করুন."</string>
+	<!---->
+	<string name="tokyo_name">"টোকিও"</string>
+	<!---->
+	<string name="just_now">"এক্ষুনি"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 সেকেন্ড আগে"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> সেকেন্ড আগে"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"১ মিনিট"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> মিনিট আগে"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"১ ঘণ্টা আগে"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ঘণ্টা আগে"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"গতকাল"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> দিন আগে"</item>
+	</plurals>
+	<!-- no translation found for weeks_ago -->
+	<skip />
+	<plurals name="months_ago">
+		<item quantity="one">"১ মাস আগে"</item>
+		<item quantity="other">""</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"সেটিং"</string>
+	<!---->
+	<string name="pref_header_general">"সাধারণ"</string>
+	<!---->
+	<string name="pref_header_metrics">"ছন্দোবিজ্ঞান"</string>
+	<!---->
+	<string name="title_pref_auto_update">"অটো-আপডেট আবহাওয়ার তথ্য"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"স্বয়ংক্রিয়ভাবে আবহাওয়ার তথ্য আপডেট করুন. ডেটা চার্জ প্রযোজ্য হতে পারে."</item>
+		<item>"ওয়াই ফাই শুধুমাত্র সঙ্গে অটো-আপডেট আবহাওয়ার তথ্য"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"তাপমাত্রা"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"ফারেনহাইট (°F)"</item>
+		<item>"সেলসিয়াস (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"দূরত্ব"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"মাইল (mi.)"</item>
+		<item>"কিমি (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"উন্নত আবহাওয়ার তথ্য"</string>
+	<!---->
+	<string name="title_pref_feels_like">"যুক্তিসম্মত তাপমাত্রা দেখাও"</string>
+	<!---->
+	<string name="just_updated">"এক্ষুনি"</string>
+	<!-- no translation found for gotoSettingTips -->
+	<skip />
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"সেটিং"</string>
+	<!---->
+	<string name="permission_poster_title">"গ্রান্ট এক্সেস"</string>
+	<!-- no translation found for location_permission_description -->
+	<skip />
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!-- no translation found for gotit -->
+	<skip />
+</resources>

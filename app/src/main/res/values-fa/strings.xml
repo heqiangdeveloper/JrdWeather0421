@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--
+    this file is built by arct v:froyo_2011-03-23, Thu Jun 18 11:13:37 GMT+08:00 2015
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"آب و هوا"</string>
+	<!---->
+	<string name="no_weather">"داده آب و هوا موجود نیست"</string>
+	<!---->
+	<string name="menu_addlocation">"افزودن يک مکان"</string>
+	<!---->
+	<string name="menu_delete">"حذف مکان"</string>
+	<!---->
+	<string name="menu_remove">"حذف مکان"</string>
+	<!---->
+	<string name="menu_unit">"تغيير واحد"</string>
+	<!---->
+	<string name="locate_auto">"موقعيت يابي خودکار"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"نمي توانيد به اينترنت وصل شويد."</string>
+	<!---->
+	<string name="locate_goto_connect">"رفتن به اتصال"</string>
+	<!---->
+	<string name="locate_failure">"موقعيت يابي خودکار انجام نشد. لطفاً به جاي آن مکاني را جستجو کنيد."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"موقعيت يابي خودکار انجام نشد. لطفاً سرويس مکان يابي Google را بررسي کنيد."</string>
+	<!---->
+	<string name="insert_location">"وارد کردن مکان"</string>
+	<!---->
+	<string name="search_location">"جستجوی مکان"</string>
+	<!---->
+	<string name="connect_timeout">"سيگنال ضعيف. در فرصتي ديگر امتحان کنيد."</string>
+	<!---->
+	<string name="connot_find_location">"اين مکان يافت نمي شود."</string>
+	<!---->
+	<string name="real_feel">"حس واقعي"</string>
+	<!---->
+	<string name="citys_full">"متأسفيم، فقط مي توانيد 11 شهر را اضافه کنيد. لطفاً يکي را حذف کنيد."</string>
+	<!---->
+	<string name="citys_six_full">"متأسفيم، فقط مي توانيد 11 شهر را اضافه کنيد. لطفاً يکي را حذف کنيد."</string>
+	<!---->
+	<string name="citys_max_full">"به حداکثر تعداد مکان ها رسیده است. ابتدا یک مکان حذف کنید."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"در حال جستجو..."</string>
+	<!---->
+	<string name="locating">"در حال موقعيت يابي..."</string>
+	<!---->
+	<string name="loading">"در حال بارگيري..."</string>
+	<!---->
+	<string name="weather_offline">"آب و هوا آفلاين"</string>
+	<!---->
+	<string name="update_time">"زمان بروزرساني"</string>
+	<!---->
+	<string name="common_ok">"تایید"</string>
+	<!---->
+	<string name="common_cancel">"لغو کردن"</string>
+	<!---->
+	<string name="date_am">"قبل از ظهر"</string>
+	<!---->
+	<string name="date_pm">"بعد از ظهر"</string>
+	<!---->
+	<string name="location">"موقعیت مکانی"</string>
+	<!---->
+	<string name="click_update">"براي به روز رساني اينجا کليک کنيد"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"بدون داده آب و هوا"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"اتصال اینترنت خود را بررسی کنید"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"بدون مجوز"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"برای نشان دادن داده آب و هوای محلی به دسترسی به مکان نیاز است."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"مکانی موجود نیست"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"از این ابزارک برای افزودن مکان استفاده کنید"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"تنظيمات"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"افزودن يک مکان"</string>
+	<!---->
+	<string name="weather_off_line_text">"متاسفيم نمي توانيد وصل شويد."</string>
+	<string-array name="weather_icon_desc">
+		<item>"آفتابي"</item>
+		<item>"بيشتر آفتابي"</item>
+		<item>"تا حدي آفتابي"</item>
+		<item>"ابرهاي متناوب"</item>
+		<item>"آفتابي مه دار"</item>
+		<item>"بيشتر ابري"</item>
+		<item>"ابري"</item>
+		<item>"گرفته"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"مه آلود"</item>
+		<item>"رگبار"</item>
+		<item>"بيشتر ابري يا رگبار"</item>
+		<item>"تا حدي آفتابي با رگبار"</item>
+		<item>"رعد و برق"</item>
+		<item>"بيشتر ابري با رگبار تندر"</item>
+		<item>"تا حدي آفتابي با رگبار تندر"</item>
+		<item>"باراني"</item>
+		<item>"باد ناگهاني"</item>
+		<item>"بيشتر ابري با باد ناگهاني"</item>
+		<item>"تا حدي آفتابي با باد ناگهاني"</item>
+		<item>"برفي"</item>
+		<item>"بيشتر ابري با برف"</item>
+		<item>"يخ"</item>
+		<item>"برف و باران"</item>
+		<item>"باران سرد"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"مخلوط باران و برف"</item>
+		<item>"داغ"</item>
+		<item>"سرد"</item>
+		<item>"بادي"</item>
+		<item>"صاف"</item>
+		<item>"بيشتر صاف"</item>
+		<item>"تا حدي ابري"</item>
+		<item>"ابرهاي متناوب"</item>
+		<item>"مه دار"</item>
+		<item>"بيشتر ابري"</item>
+		<item>"تا حدي ابري با رگبار"</item>
+		<item>"بيشتر ابري با رگبار"</item>
+		<item>"تا حدي ابري با رگبار تندر"</item>
+		<item>"بيشتر ابري با رگبار تندر"</item>
+		<item>"بيشتر ابري با باد نگهاني"</item>
+		<item>"بيشتر ابري با برف"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"دوشنبه"</item>
+		<item>"سه شنبه"</item>
+		<item>"چهارشنبه"</item>
+		<item>"پنج شنبه"</item>
+		<item>"جمعه"</item>
+		<item>"شنبه"</item>
+		<item>"يکشنبه"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"تازه کردن"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Unable to obtain the latest location."</string>
+	<!---->
+	<string name="last_updated_label">"آخرین به روزرسانی شده"</string>
+	<!---->
+	<string name="change_to_C">"تغيير به سانتيگراد"</string>
+	<!---->
+	<string name="change_to_F">"تغيير به فارنهايت"</string>
+	<!---->
+	<string name="label_today">"امروز"</string>
+	<!---->
+	<string name="label_humidity">"رطوبت"</string>
+	<!---->
+	<string name="label_pressure">"فشار"</string>
+	<!---->
+	<string name="label_wind">"باد"</string>
+	<!---->
+	<string name="label_visibility">"قابلیت دید"</string>
+	<!---->
+	<string name="label_uv_index">"فهرست UV"</string>
+	<!---->
+	<string name="label_high">"زیاد"</string>
+	<!---->
+	<string name="label_low">"کم"</string>
+	<!---->
+	<string name="label_high_rel">"حداکثر"</string>
+	<!---->
+	<string name="label_low_rel">"دقیقه"</string>
+	<!---->
+	<string name="label_precipitation">"رطوبت"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"دوشنبه"</item>
+		<item>"سه شنبه"</item>
+		<item>"چهارشنبه"</item>
+		<item>"پنج شنبه"</item>
+		<item>"جمعه"</item>
+		<item>"شنبه"</item>
+		<item>"يكشنبه"</item>
+	</string-array>
+	<string name="label_temp_unit_celsius">"C°"</string>
+	<string name="label_temp_unit_fahrenheit">"F°"</string>
+	<!---->
+	<string name="label_pressure_unit">"مگابیت"</string>
+	<!---->
+	<string name="label_mm">"میلیمتر"</string>
+	<!---->
+	<string name="label_wind_unit_km">"کیلومتر/ساعت"</string>
+	<!---->
+	<string name="label_wind_unit_m">"متر/ثانیه"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"مایل در ساعت"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"مایل/ساعت"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"کیلومتر"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"مایل"</string>
+	<!---->
+	<string name="change_to_mi">"تغییر به مایل"</string>
+	<!---->
+	<string name="change_to_km">"تغییر به کیلومتر"</string>
+	<!---->
+	<string name="obtain_data_failed">"نمی توانید داده های آب و هوا را دریافت کنید. لطفاً اتصال اینترنت را بررسی کنید."</string>
+	<!---->
+	<string name="tokyo_name">"توکیو"</string>
+	<!---->
+	<string name="just_now">"درست اکنون"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 ثانیه قبل"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ثانیه قبل"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 دقیقه قبل"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> دقیقه قبل"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 ساعت قبل"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ساعت قبل"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"ديروز"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> روز قبل"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 هفته قبل"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> هفته قبل"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 ماه قبل"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ماه قبل"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"تنظیمات"</string>
+	<!---->
+	<string name="pref_header_general">"کلی"</string>
+	<!---->
+	<string name="pref_header_metrics">"واحدها"</string>
+	<!---->
+	<string name="title_pref_auto_update">"به روزرسانی خودکار داده آب و هوا"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"هر زمان. ممکن است مشمول هزینه های داده شوید."</item>
+		<item>"به روزرسانی خودکار فقط از طریق Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"دما"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"فارنهایت (°F)"</item>
+		<item>"سلسیوس (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"مسافت"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"مایل (mi.)"</item>
+		<item>"کیلومتر (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"داده آب و هوای پیشرفته"</string>
+	<!---->
+	<string name="title_pref_feels_like">"نمایش دمای محسوس"</string>
+	<!---->
+	<string name="just_updated">"درست اکنون"</string>
+	<!---->
+	<string name="gotoSettingTips">"برای دریافت داده های آب و هوای محلی، مجوز مکان یابی و تلفن را برای دسترسی ارائه دهید."</string>
+	<!---->
+	<string name="settings">"تنظیمات"</string>
+	<!---->
+	<string name="permission_poster_title">"اجازه دسترسی"</string>
+	<!---->
+	<string name="location_permission_description">"Weather برای ارائه داده های آب و هوای محلی نیاز به مجوز مکان یابی و تلفن دارد. برای استفاده از این ویژگی، مجوز مکان یابی و تلفن را برای دسترسی ارائه دهید."</string>
+	<!---->
+	<string name="gotit">"دريافت کنيد"</string>
+</resources>

@@ -1,0 +1,130 @@
+<VAR_DEV>
+<TABLE_HISTORY>
+<HISTORY>This files contains Android Unit customize variables</HISTORY>
+<HISTORY>2013-07-22: creation</HISTORY>
+<HISTORY>2013-08-08: use the baidu map to get city name</HISTORY>
+<HISTORY>2014-03-10: modify def_weather_unit_name for RR608992 In Weather app the temperature is set in Fahrenheit instead of in Celsius by jielong.xing</HISTORY>
+<HISTORY>2015-12-23: delete the perso is not used:def_weather_forceSetTokyoAsDefaultCity_on;</HISTORY>
+<HISTORY>2015-12-23: delete the perso is not used:def_weather_dateformat_long</HISTORY>
+<HISTORY>2015-12-23: the perso should not config:def_weather_wind_visibility_unit_name</HISTORY>
+<HISTORY>2015-12-23: the perso should not config:def_weather_unit_name</HISTORY>
+<HISTORY>2015-12-23: the perso should not config:hide_unit_setting</HISTORY>
+<HISTORY>2015-12-23: the perso should not config:wind_speed_unit_m</HISTORY>
+</TABLE_HISTORY>
+<MOD>
+<NAME>ANDROID</NAME>
+<SDM_AREA>
+<DSA_TITLE>INIT DATA OF ANDROID Settings</DSA_TITLE>
+<MACRO_NAME>CUSTOM_JRDC_PARAM</MACRO_NAME>
+<C_NAME>custom_jrdc_dsc</C_NAME>
+<C_TYPE>CUSTOM_JRDC_DSC</C_TYPE>
+<IDA>CUSTOM_JRDC_INIT_RDM</IDA>
+<IS_IN_DSA>Yes</IS_IN_DSA>
+<TABLE_VAR>
+
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_weather_unit_name</SDMID>
+<C_NAME>def_weather_unit_name</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,500</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>the name of unit, like "isUnitF"</DESC>
+<VALUE>"isUnitC"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_weather_use_baidumap</SDMID>
+<C_NAME>def_weather_use_baidumap</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>only location city source control: 0x01: use baidumap in china and replace the city name by district. 0x00: show the city name</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_weather_use_province_as_locationname</SDMID>
+<C_NAME>def_weather_use_province_as_locationname</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>only location city source control: 0x01: use in taiwan.It will use the province name as location name 0x00: in other position,use the city name,0x00 for default</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>def_weather_wind_visibility_unit_name</SDMID>
+<C_NAME>def_weather_wind_visibility_unit_name</C_NAME>
+<C_TYPE>AsciiString</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>AsciiString,500</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>the name of wind/visibility unit, like "mi" or "km", default "km"</DESC>
+<VALUE>"km"</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>hide_unit_setting</SDMID>
+<C_NAME>hide_unit_setting</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>0x00: show temperature and wind speed unit options in menu;0x01 hide temperature and wind speed unit options in menu</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>wind_speed_unit_m</SDMID>
+<C_NAME>wind_speed_unit_m</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>0x00: the wind speed unit is km/h;0x01 the wind speed unit is m/s</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+<VAR>
+<SIMPLE_VAR>
+<SDMID>use_twc_weather</SDMID>
+<C_NAME>use_twc_weather</C_NAME>
+<C_TYPE>eBOOLEAN</C_TYPE>
+<ARRAY>NOT_ARRAY</ARRAY>
+<METATYPE>Boolean</METATYPE>
+<IS_CUSTO>1</IS_CUSTO>
+<FEATURE>JrdWeather</FEATURE>
+<DESC>0x00: use acc data, this value is default after v5.2.8.1.0301.0, please don't modify;0x01 use TWC data; Notice:this value doesn't need to be tested</DESC>
+<VALUE>0x00</VALUE>
+</SIMPLE_VAR>
+</VAR>
+
+</TABLE_VAR>
+</SDM_AREA>
+</MOD>
+</VAR_DEV>

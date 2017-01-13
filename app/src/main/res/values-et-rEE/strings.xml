@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Ilm"</string>
+	<!---->
+	<string name="no_weather">"Ilmateade ei ole saadaval"</string>
+	<!---->
+	<string name="menu_addlocation">"Lisa koht"</string>
+	<!---->
+	<string name="menu_delete">"Kustuta koht"</string>
+	<!---->
+	<string name="menu_remove">"Eemalda asukoht"</string>
+	<!---->
+	<string name="menu_unit">"Muuda üksust"</string>
+	<!---->
+	<string name="locate_auto">"Leia automaatselt"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Interneti-ühendust ei saa luua."</string>
+	<!---->
+	<string name="locate_goto_connect">"Mine ühenduse loomisele"</string>
+	<!---->
+	<string name="locate_failure">"Automaatne leidmine ebaõnnestus. Selle asemel otsige asukohta."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Asukoha automaatne määramine nurjus, kontrollige asukohateenust."</string>
+	<!---->
+	<string name="insert_location">"Sisestage asukoht"</string>
+	<!---->
+	<string name="search_location">"Otsingu asukoht"</string>
+	<!---->
+	<string name="connect_timeout">"Nõrk signaal Proovige hiljem."</string>
+	<!---->
+	<string name="connot_find_location">"Seda kohta ei leita."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Vabandust, võite lisada vaid 11 linna. Eemaldage üks linn."</string>
+	<!---->
+	<string name="citys_six_full">"Saad lisada vaid 11 linna. Eemalda üks."</string>
+	<!---->
+	<string name="citys_max_full">"Maksimaalsed asukohad saavutatud. Eemalda kõigepealt asukoht."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Otsimine ..."</string>
+	<!---->
+	<string name="locating">"Asukoha leidmine ..."</string>
+	<!---->
+	<string name="loading">"Laadimine ..."</string>
+	<!---->
+	<string name="weather_offline">"Ilm võrguühenduseta"</string>
+	<!---->
+	<string name="update_time">"Värskendamise aeg"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Tühista"</string>
+	<!---->
+	<string name="date_am">"EL"</string>
+	<!---->
+	<string name="date_pm">"PL"</string>
+	<!---->
+	<string name="location">"Asukoht"</string>
+	<!---->
+	<string name="click_update">"Värskendamiseks klõpsake siin"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Ilmateade puudub"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Kontrolli võrguühendust"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Luba pole"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Kohaliku ilmateate kuvamiseks on vaja ligipääsu asukohale."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Asukoht puudub"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Kasuta asukoha lisamiseks seda vidinat"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"SÄTTED"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Lisa koht"</string>
+	<!---->
+	<string name="weather_off_line_text">"Vabandust, ühendust ei saa luua."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Päikesepaisteline"</item>
+		<item>"Enamasti päikesepaisteline"</item>
+		<item>"Osaliselt päikesepaisteline"</item>
+		<item>"Vähene pilvitus"</item>
+		<item>"Udune päikesepaiste"</item>
+		<item>"Enamasti pilvine"</item>
+		<item>"Pilves"</item>
+		<item>"Pilvine"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Udu"</item>
+		<item>"Vihmahood"</item>
+		<item>"Enamasti pilvine, vihmahoogudega"</item>
+		<item>"Osaliselt päikesepaisteline, vihmahoogudega"</item>
+		<item>"Äikesetormid"</item>
+		<item>"Enamasti pilvine, äikesetormidega"</item>
+		<item>"Osaliselt päikesepaisteline, äikesetormidega"</item>
+		<item>"Vihm"</item>
+		<item>"Tuisupuhangud"</item>
+		<item>"Enamasti pilvine, tuisupuhangutega"</item>
+		<item>"Osaliselt päikesepaisteline, tuisupuhangutega"</item>
+		<item>"Lumi"</item>
+		<item>"Enamasti pilvine, lumesadu"</item>
+		<item>"Jää"</item>
+		<item>"Lörts"</item>
+		<item>"Jäätuv vihm"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Vihm ja lumi"</item>
+		<item>"Palav"</item>
+		<item>"Külm"</item>
+		<item>"Tuuline"</item>
+		<item>"Kustuta"</item>
+		<item>"Enamasti selge"</item>
+		<item>"Vahelduv pilvisus"</item>
+		<item>"Vähene pilvitus"</item>
+		<item>"Udune"</item>
+		<item>"Enamasti pilvine"</item>
+		<item>"Vahelduv pilvisus vihmahoogudega"</item>
+		<item>"Enamasti pilvine, vihmahoogudega"</item>
+		<item>"Vahelduv pilvisus äikesevihmaga"</item>
+		<item>"Enamasti pilvine, äikesetormidega"</item>
+		<item>"Enamasti pilvine, tuisupuhangutega"</item>
+		<item>"Enamasti pilvine, lumesadu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"E"</item>
+		<item>"T"</item>
+		<item>"K"</item>
+		<item>"N"</item>
+		<item>"R"</item>
+		<item>"L"</item>
+		<item>"P"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Värskenda"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Uusimat asukohta ei saanud hankida."</string>
+	<!---->
+	<string name="last_updated_label">"Viimane värskendus:"</string>
+	<!---->
+	<string name="change_to_C">"Määra °C"</string>
+	<!---->
+	<string name="change_to_F">"Määra °F"</string>
+	<!---->
+	<string name="label_today">"Täna"</string>
+	<!---->
+	<string name="label_humidity">"Niiskus"</string>
+	<!---->
+	<string name="label_pressure">"Rõhk"</string>
+	<!---->
+	<string name="label_wind">"Tuul"</string>
+	<!---->
+	<string name="label_visibility">"Nähtavus"</string>
+	<!---->
+	<string name="label_uv_index">"UV indeks"</string>
+	<!---->
+	<string name="label_high">"Kõrge"</string>
+	<!---->
+	<string name="label_low">"Madal"</string>
+	<!---->
+	<string name="label_high_rel">"Max"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Sademed"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Esmaspäev"</item>
+		<item>"Teisipäev"</item>
+		<item>"Kolmapäev"</item>
+		<item>"Neljapäev"</item>
+		<item>"Reede"</item>
+		<item>"Laupäev"</item>
+		<item>"Pühapäev"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"miil"</string>
+	<!---->
+	<string name="change_to_mi">"Muuda miilideks"</string>
+	<!---->
+	<string name="change_to_km">"Muuda kilomeetriteks"</string>
+	<!---->
+	<string name="obtain_data_failed">"Ilmateavet ei õnnestunud hankida. Kontrollige Interneti-ühendust."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Praegu"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 sekund tagasi"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> sekundit tagasi"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 minut tagasi"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> minutit tagasi"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 tund tagasi"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> tundi tagasi"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Eile"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> päeva tagasi"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 nädal tagasi"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> nädalat tagasi"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 kuu tagasi"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> kuud tagasi"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Seaded"</string>
+	<!---->
+	<string name="pref_header_general">"Üldine"</string>
+	<!---->
+	<string name="pref_header_metrics">"Ühikud"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Ilmastikuandmete automaatne värskendamine"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Igal ajal. Kehtida võivad andmesidetasud."</item>
+		<item>"Atomaatne uuendamine ainult Wi-Fi võrgus"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatuur"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distants"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Miil (mi.)"</item>
+		<item>"Kilomeeter (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Täiustatud ilmastikuandmed"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Tundliku temperatuuri näitamine"</string>
+	<!---->
+	<string name="just_updated">"Praegu"</string>
+	<!---->
+	<string name="gotoSettingTips">"Kohaliku ilmateate saamiseks anna asukohale ja telefonile ligipääsuluba."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Seaded"</string>
+	<!---->
+	<string name="permission_poster_title">"Anna luba"</string>
+	<!---->
+	<string name="location_permission_description">"Ilma kuvamiseks on vaja asukoha ja telefoni luba, et hankida kohalik ilmateade. Anna selle funktsiooni kasutamiseks asukohale ja telefonile ligipääsuluba."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"SALVESTATUD"</string>
+</resources>

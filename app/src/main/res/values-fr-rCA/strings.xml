@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Météo"</string>
+	<!---->
+	<string name="no_weather">"Aucune donnée météo disponible"</string>
+	<!---->
+	<string name="menu_addlocation">"Ajouter un lieu"</string>
+	<!---->
+	<string name="menu_delete">"Suppr. l\'emplacement"</string>
+	<!---->
+	<string name="menu_remove">"Supprimer l\'emplacement"</string>
+	<!---->
+	<string name="menu_unit">"Modifier l\'unité"</string>
+	<!---->
+	<string name="locate_auto">"Localiser automatiquement"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Connexion à Internet impossible"</string>
+	<!---->
+	<string name="locate_goto_connect">"Aller à Connexion"</string>
+	<!---->
+	<string name="locate_failure">"La localisation automatique a échoué. Veuillez rechercher le lieu manuellement."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"La localisation automatique a échoué. Veuillez vérifier le service de localisation de Google."</string>
+	<!---->
+	<string name="insert_location">"Indiquer un lieu"</string>
+	<!---->
+	<string name="search_location">"Rechercher l\'emplacement"</string>
+	<!---->
+	<string name="connect_timeout">"Signal faible. Réessayez plus tard."</string>
+	<!---->
+	<string name="connot_find_location">"Ce lieu est introuvable."</string>
+	<!---->
+	<string name="real_feel">"Sensat. T°"</string>
+	<!---->
+	<string name="citys_full">"Vous ne pouvez ajouter que 11 villes. Veuillez en retirer une."</string>
+	<!---->
+	<string name="citys_six_full">"Vous pouvez seulement ajouter 11 villes. Retirez-en une."</string>
+	<!---->
+	<string name="citys_max_full">"Nombre maximal d\'emplacements atteint. Supprimer d\'abord un emplacement."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Recherche en cours…"</string>
+	<!---->
+	<string name="locating">"Localisation en cours..."</string>
+	<!---->
+	<string name="loading">"Chargement en cours..."</string>
+	<!---->
+	<string name="weather_offline">"Météo déconnectée"</string>
+	<!---->
+	<string name="update_time">"Heure de la mise à jour"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Annuler"</string>
+	<!---->
+	<string name="date_am">"a.m."</string>
+	<!---->
+	<string name="date_pm">"p.m."</string>
+	<!---->
+	<string name="location">"Emplacement"</string>
+	<!---->
+	<string name="click_update">"Cliquer ici pour mettre à jour"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Aucune donnée de météo"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Vérifiez votre connexion Internet"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Aucune autorisation"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"L\'accès à la localisation est requis pour afficher la météo locale"</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Aucun lieu"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Utilisez ce gadget pour ajouter un emplacement"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"PARAMÈTRES"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Ajouter un lieu"</string>
+	<!---->
+	<string name="weather_off_line_text">"Désolé, connexion impossible."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Ensoleillé"</item>
+		<item>"Généralement ensoleillé"</item>
+		<item>"Partiellement ensoleillé"</item>
+		<item>"Nuages intermittents"</item>
+		<item>"Soleil brumeux"</item>
+		<item>"Généralement nuageux"</item>
+		<item>"Nuageux"</item>
+		<item>"Maussade"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Brouillard"</item>
+		<item>"Averses"</item>
+		<item>"Généralement nuageux avec averses"</item>
+		<item>"Partiellement ensoleillé avec averses"</item>
+		<item>"Orageux"</item>
+		<item>"Généralement nuageux avec averses orageuses"</item>
+		<item>"Partiellement ensoleillé avec averses orageuses"</item>
+		<item>"Pluie"</item>
+		<item>"Averses de neige"</item>
+		<item>"Généralement nuageux avec averses de neige"</item>
+		<item>"Partiellement ensoleillé avec averses de neige"</item>
+		<item>"Neige"</item>
+		<item>"Généralement nuageux avec neige"</item>
+		<item>"Verglas"</item>
+		<item>"Giboulée"</item>
+		<item>"Pluie verglaçante"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mélange de pluie et de neige"</item>
+		<item>"Chaud"</item>
+		<item>"Froid"</item>
+		<item>"Venteux"</item>
+		<item>"Dégagé"</item>
+		<item>"Généralement dégagé"</item>
+		<item>"Partiellement nuageux"</item>
+		<item>"Nuages intermittents"</item>
+		<item>"Brumeux"</item>
+		<item>"Généralement nuageux"</item>
+		<item>"Partiellement nuageux avec averses"</item>
+		<item>"Généralement nuageux avec averses"</item>
+		<item>"Partiellement nuageux avec averses orageuses"</item>
+		<item>"Généralement nuageux avec averses orageuses"</item>
+		<item>"Généralement nuageux avec averses de neige"</item>
+		<item>"Généralement nuageux avec neige"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Lun"</item>
+		<item>"Mar"</item>
+		<item>"Mer"</item>
+		<item>"Jeu"</item>
+		<item>"Ven"</item>
+		<item>"Sam"</item>
+		<item>"Dim"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Actualiser"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Impossible d\'obtenir le dernier emplacement."</string>
+	<!---->
+	<string name="last_updated_label">"Dernière mise à jour:"</string>
+	<!---->
+	<string name="change_to_C">"Changer pour les °C"</string>
+	<!---->
+	<string name="change_to_F">"Changer pour les °F"</string>
+	<!---->
+	<string name="label_today">"Aujourd\'hui"</string>
+	<!---->
+	<string name="label_humidity">"Humidité"</string>
+	<!---->
+	<string name="label_pressure">"Pression"</string>
+	<!---->
+	<string name="label_wind">"Vent"</string>
+	<!---->
+	<string name="label_visibility">"Visibilité"</string>
+	<!---->
+	<string name="label_uv_index">"Indice des UV"</string>
+	<!---->
+	<string name="label_high">"Élevée"</string>
+	<!---->
+	<string name="label_low">"Faible"</string>
+	<!---->
+	<string name="label_high_rel">"Max"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Précipitation"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Lundi"</item>
+		<item>"Mardi"</item>
+		<item>"Mercredi"</item>
+		<item>"Jeudi"</item>
+		<item>"Vendredi"</item>
+		<item>"Samedi"</item>
+		<item>"Dimanche"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"Mo"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mi/h"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi"</string>
+	<!---->
+	<string name="change_to_mi">"Passer aux milles."</string>
+	<!---->
+	<string name="change_to_km">"Passer aux kilomètres."</string>
+	<!---->
+	<string name="obtain_data_failed">"Impossible d\'obtenir des données météorologiques. S\'il vous plaît vérifier la connexion Internet."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Maintenant"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"Il y a 1 seconde"</item>
+		<item quantity="other">"Il y a <xliff:g id="COUNT">%d</xliff:g> secondes"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Il y a 1 minute"</item>
+		<item quantity="other">"Il y a <xliff:g id="COUNT">%d</xliff:g> minutes"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"il y a 1 heure"</item>
+		<item quantity="other">"Il y a <xliff:g id="COUNT">%d</xliff:g> heures"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Hier"</item>
+		<item quantity="other">"Il y a <xliff:g id="COUNT">%d</xliff:g> jours"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Il y a 1 semaine"</item>
+		<item quantity="other">"Il y a <xliff:g id="count">%d</xliff:g> semaines"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Il y a 1 mois"</item>
+		<item quantity="other">"Il y a <xliff:g id="count">%d</xliff:g> mois"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Paramètres"</string>
+	<!---->
+	<string name="pref_header_general">"Général"</string>
+	<!---->
+	<string name="pref_header_metrics">"Unités"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Mettre automatiquement à jour les données sur la météo"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Toujours. Des frais de données peuvent s\'appliquer."</item>
+		<item>"Mise à jour automatique par Wi-Fi seulement"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Température"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celsius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distance"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mille (mi)"</item>
+		<item>"Kilomètre (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Données météo avancées"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Afficher la température sensible"</string>
+	<!---->
+	<string name="just_updated">"Maintenant"</string>
+	<!---->
+	<string name="gotoSettingTips">"Pour recevoir des données de météo locales, autoriser l\'accès à Localisation et à Téléphone."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Paramètres"</string>
+	<!---->
+	<string name="permission_poster_title">"Accorder l\'accès"</string>
+	<!---->
+	<string name="location_permission_description">"Le météo requiert l\'autorisation d\'accès à Localisation et à Téléphone pour fournir des données de météo locales. Autoriser l\'accès à Localisation et à Téléphone pour utiliser cette fonction."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"OK"</string>
+</resources>

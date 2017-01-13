@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!-- no translation found for pref_header_data_sync -->
+	<skip />
+	<!-- no translation found for pref_title_sync_frequency -->
+	<skip />
+	<string-array name="pref_sync_frequency_titles">
+		<!--inherit from default language-->
+		<item>"15 minutes"</item>
+		<!--inherit from default language-->
+		<item>"30 minutes"</item>
+		<!--inherit from default language-->
+		<item>"1 hour"</item>
+		<!--inherit from default language-->
+		<item>"3 hours"</item>
+		<!--inherit from default language-->
+		<item>"6 hours"</item>
+		<!--inherit from default language-->
+		<item>"Never"</item>
+	</string-array>
+	<!-- no translation found for pref_sync_frequency_values -->
+	<skip />
+	<!-- no translation found for pref_title_system_sync_settings -->
+	<skip />
+	<!-- no translation found for pref_auto_update_values -->
+	<skip />
+	<!-- no translation found for pref_temp_unit_values -->
+	<skip />
+	<!-- no translation found for pref_distance_unit_values -->
+	<skip />
+</resources>

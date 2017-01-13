@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/miniapp_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/miniapp_acc_bg_shape">
+
+    <LinearLayout
+        android:id="@+id/miniapp_addlocation_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/miniapp_acc_bg_shape"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/miniapp_widget_image_no_data"
+                android:layout_height="@dimen/miniapp_widget_image_no_data"
+                android:layout_marginStart="@dimen/miniapp_widget_image_margin_start"
+                android:layout_marginEnd="@dimen/miniapp_widget_image_margin_start"
+                android:src="@drawable/ic_nodata"/>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/miniapp_tv_no_data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom|start"
+                    android:fontFamily="sans-serif-medium"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_color_purple" />
+
+                <TextView
+                    android:id="@+id/miniapp_tv_no_data_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="@dimen/info_margin_bottom"
+                    android:gravity="top|start"
+                    android:fontFamily="sans-serif-regular"
+                    android:textSize="14sp"
+                    android:textColor="@color/text_color_grey" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0D000000"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/miniapp_tv_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginEnd="@dimen/miniapp_widget_setting_margin_end"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:fontFamily="sans-serif-medium"
+                android:textSize="14sp"
+                android:textColor="@color/text_color_purple" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/miniapp_info_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/miniapp_acc_bg_shape"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/miniapp_ll_city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="@dimen/miniapp_widget_margin_start"
+            android:layout_marginTop="@dimen/miniapp_widget_margin_top"
+            android:layout_marginEnd="@dimen/miniapp_widget_margin_start"
+            android:layout_weight="2.5"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_vertical">
+
+                <TextView
+                    android:id="@+id/miniapp_weather_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:textColor="#DE202958"
+                    android:textSize="@dimen/miniapp_weather_temp_size" />
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginStart="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/miniapp_weather_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="@dimen/miniapp_widget_textview_margin_top"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="start|bottom"
+                    android:singleLine="true"
+                    android:textColor="#DE202958"
+                    android:textSize="@dimen/miniapp_weather_text_size" />
+
+                <TextView
+                    android:id="@+id/miniapp_weather_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="@dimen/miniapp_widget_textview_margin_top"
+                    android:gravity="start|top"
+                    android:duplicateParentState="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:fontFamily="sans-serif"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColor="#61202958"
+                    android:textSize="@dimen/miniapp_weather_city_size">
+
+                    <requestFocus
+                        android:duplicateParentState="true"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true" />
+                </TextView>
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/miniapp_widget_margin_top"
+                android:layout_marginBottom="@dimen/miniapp_widget_margin_top"
+                android:gravity="end"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/miniapp_iv_goto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="@dimen/miniapp_widget_textview_margin_bottom"
+                    android:layout_gravity="end|bottom"
+                    android:gravity="end|bottom"
+                    android:scaleType="centerInside"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:src="@drawable/ic_accu_logo_colour" /> -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="end|center_vertical"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/miniapp_tv_refresh_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/miniapp_widget_margin"
+                        android:duplicateParentState="true"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:fontFamily="sans-serif-regular"
+                        android:gravity="center_vertical|end"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:scrollHorizontally="true"
+                        android:singleLine="true"
+                        android:text="2012:10:20"
+                        android:textColor="#61202958"
+                        android:textSize="@dimen/miniapp_weather_city_size" />
+
+                    <FrameLayout
+                        android:id="@+id/miniapp_layout_refresh"
+                        android:layout_width="@dimen/miniapp_imageview_refresh_size"
+                        android:layout_height="@dimen/miniapp_imageview_refresh_size"
+                        android:layout_gravity="center_vertical|end" >
+
+                        <ImageView
+                            android:id="@+id/miniapp_iv_refresh"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:scaleType="centerInside"
+                            android:background="?android:attr/selectableItemBackground"
+                            android:src="@drawable/ic_refresh_dark" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            <ImageView
+                android:id="@+id/miniapp_iv_open"
+                android:layout_width="@dimen/miniapp_imageview_refresh_size"
+                android:layout_height="@dimen/miniapp_imageview_refresh_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/miniapp_widget_margin"
+                android:scaleType="centerInside"
+                android:background="?android:attr/selectableItemBackground"
+                android:src="@drawable/ic_open"
+                android:visibility="gone"/>
+
+            </LinearLayout>
+        <!--</LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0D000000" />
+
+        <LinearLayout
+            android:id="@+id/miniapp_week_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#0D000000" />
+
+        <LinearLayout
+            android:id="@+id/miniapp_forecast_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:layout_marginBottom="@dimen/miniapp_widget_margin"
+            android:orientation="horizontal"></LinearLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>

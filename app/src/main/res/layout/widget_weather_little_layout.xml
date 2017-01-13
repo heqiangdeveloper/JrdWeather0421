@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2016 Tcl Corporation Limited -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/weather_time_bg_shape"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/little_widget_ll_weather_info"
+            android:layout_width="@dimen/little_widget_text_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/little_widget_tv_desc"
+                style="@style/shadow_style_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.05"
+                android:lines="2"
+                android:minHeight="@dimen/little_widget_text_height"
+                android:paddingBottom="@dimen/timewidget_padding"
+                android:paddingTop="@dimen/timewidget_padding"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/little_widget_text_size"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/little_widget_fl_icon"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/little_widget_imageview_height"
+                android:layout_above="@id/little_widget_tv_desc"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/little_widget_iv_icon"
+                    android:layout_width="@dimen/little_widget_icon_size"
+                    android:layout_height="@dimen/little_widget_icon_size"
+                    android:layout_gravity="center"
+                    android:gravity="center" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/little_widget_iv_unknown"
+                    android:layout_width="@dimen/little_widget_imageview_height"
+                    android:layout_height="@dimen/little_widget_imageview_height"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_thin_white_unknown" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/little_widget_ll_date"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextClock
+                android:id="@+id/little_widget_tc_date"
+                style="@style/shadow_style_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/little_widget_text_height"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-medium"
+                android:format12Hour="EEE, d MMM"
+                android:format24Hour="EEE, d MMM"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.05"
+                android:paddingBottom="@dimen/timewidget_padding"
+                android:paddingTop="@dimen/timewidget_padding"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/little_widget_text_size" />
+
+            <TextClock
+                android:id="@+id/little_widget_tc_time"
+                style="@style/shadow_style_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/little_widget_tc_date"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/transparent"
+                android:fontFamily="sans-serif-thin"
+                android:format12Hour="hh&#60929;mm"
+                android:format24Hour="kk&#60929;mm"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:minHeight="@dimen/little_widget_imageview_height"
+                android:paddingBottom="@dimen/timewidget_padding_bottom"
+                android:paddingTop="@dimen/timewidget_padding_top"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/little_widget_ll_weather_detail"
+            android:layout_width="@dimen/little_widget_text_width"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/little_widget_tv_city"
+                style="@style/shadow_style_date_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center_horizontal"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:letterSpacing="0.05"
+                android:lines="2"
+                android:minHeight="@dimen/little_widget_text_height"
+                android:paddingBottom="@dimen/timewidget_padding"
+                android:paddingTop="@dimen/timewidget_padding"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/little_widget_text_size"
+                android:visibility="gone" />
+
+            <FrameLayout
+                android:id="@+id/little_widget_fl_temp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/little_widget_tv_city"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/little_widget_tv_temp"
+                    style="@style/shadow_style_date_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/little_widget_imageview_height"
+                    android:layout_above="@id/little_widget_tv_city"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-thin"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="30sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/little_widget_iv_add"
+                    android:layout_width="@dimen/little_widget_imageview_height"
+                    android:layout_height="@dimen/little_widget_imageview_height"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_thin_white_add" />
+
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"El tiempo"</string>
+	<!---->
+	<string name="menu_addlocation">"Añadir una ubicación"</string>
+	<!---->
+	<string name="menu_delete">"Eliminar ubicación"</string>
+	<!---->
+	<string name="menu_unit">"Cambiar unidad"</string>
+	<!---->
+	<string name="locate_auto">"Localización automática"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"No se puede conectar a Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Vaya a Conectar"</string>
+	<!---->
+	<string name="locate_failure">"Error en la localización automática. Busque una ubicación."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Fallo de localización automática, por favor, compruebe el servicio de acceso a la ubicación de Google."</string>
+	<!---->
+	<string name="insert_location">"Introduzca ubicación"</string>
+	<!---->
+	<string name="connect_timeout">"Señal débil. Inténtelo más tarde."</string>
+	<!---->
+	<string name="connot_find_location">"Esta ubicación no se puede encontrar."</string>
+	<!---->
+	<string name="real_feel">"Sens. tér."</string>
+	<!---->
+	<string name="citys_full">"Solo puede añadir 11 ciudades. Elimine una."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Buscando..."</string>
+	<!---->
+	<string name="locating">"Localizando..."</string>
+	<!---->
+	<string name="loading">"Cargando..."</string>
+	<!---->
+	<string name="weather_offline">"El tiempo sin conexión"</string>
+	<!---->
+	<string name="update_time">"Hora de actualización"</string>
+	<!---->
+	<string name="common_ok">"Aceptar"</string>
+	<!---->
+	<string name="common_cancel">"Cancelar"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Ubicación"</string>
+	<!---->
+	<string name="click_update">"Clic aquí para actualizar"</string>
+	<!---->
+	<string name="weather_off_line_text">"Imposible conectar."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Soleado"</item>
+		<item>"Mayormente soleado"</item>
+		<item>"Parcialmente soleado"</item>
+		<item>"Lluvias intermitentes"</item>
+		<item>"Sol brumoso"</item>
+		<item>"Mayormente nublado"</item>
+		<item>"Nublado"</item>
+		<item>"Gris"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Niebla"</item>
+		<item>"Chubascos"</item>
+		<item>"Mayormente nublado con chubascos"</item>
+		<item>"Parcialmente soleado con chubascos"</item>
+		<item>"Tormentas"</item>
+		<item>"Mayormente nublado con tormentas"</item>
+		<item>"Parcialmente soleado con tormentas"</item>
+		<item>"Lluvia"</item>
+		<item>"Neviscas"</item>
+		<item>"Mayormente nublado con neviscas"</item>
+		<item>"Poco soleado con nieve"</item>
+		<item>"Nevadas"</item>
+		<item>"Nublado y con nevadas"</item>
+		<item>"Heladas"</item>
+		<item>"Aguanieve"</item>
+		<item>"Granizo"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Lluvia y nieve"</item>
+		<item>"Calor"</item>
+		<item>"Frío"</item>
+		<item>"Ventoso"</item>
+		<item>"Despejado"</item>
+		<item>"Mayormente despejado"</item>
+		<item>"Parcialmente nublado"</item>
+		<item>"Nubes intermitentes"</item>
+		<item>"Brumoso"</item>
+		<item>"Mayormente nublado"</item>
+		<item>"Parcialmente nublado con lluvias"</item>
+		<item>"Mayormente nublado con lluvias"</item>
+		<item>"Parcialmente nublado con tormentas"</item>
+		<item>"Mayormente nublado con tormentas"</item>
+		<item>"Mayormente nublado con neviscas"</item>
+		<item>"Nublado y con nevadas"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Lun"</item>
+		<item>"Mar"</item>
+		<item>"Mié"</item>
+		<item>"Jue"</item>
+		<item>"Vie"</item>
+		<item>"Sáb"</item>
+		<item>"Dom"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Actualizar"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"No se puede obtener la última ubicación."</string>
+	<!---->
+	<string name="last_updated_label">"Última actualización:"</string>
+	<!---->
+	<string name="change_to_C">"Cambiar a ºC"</string>
+	<!---->
+	<string name="change_to_F">"Cambiar a ºF"</string>
+	<!---->
+	<string name="label_today">"Hoy"</string>
+	<!---->
+	<string name="label_humidity">"Humedad"</string>
+	<!---->
+	<string name="label_wind">"Viento"</string>
+	<!---->
+	<string name="label_visibility">"Visibilidad"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Lunes"</item>
+		<item>"Martes"</item>
+		<item>"Miércoles"</item>
+		<item>"Jueves"</item>
+		<item>"Viernes"</item>
+		<item>"Sábado"</item>
+		<item>"Domingo"</item>
+	</string-array>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"millas"</string>
+	<!---->
+	<string name="change_to_mi">"Cambiar a millas"</string>
+	<!---->
+	<string name="change_to_km">"Cambiar a km"</string>
+	<!---->
+	<string name="obtain_data_failed">"No se ha podido obtener la información meteorológica. Por favor, compruebe su conexión a internet."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"Hace 1 segundo"</item>
+		<item quantity="other">"Hace <xliff:g id="COUNT">%d</xliff:g> segundos"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Hace 1 minuto"</item>
+		<item quantity="other">"Hace <xliff:g id="COUNT">%d</xliff:g> minutos"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"Hace 1 hora"</item>
+		<item quantity="other">"Hace <xliff:g id="COUNT">%d</xliff:g> horas"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"ayer"</item>
+		<item quantity="other">"Hace <xliff:g id="COUNT">%d</xliff:g> días"</item>
+	</plurals>
+</resources>

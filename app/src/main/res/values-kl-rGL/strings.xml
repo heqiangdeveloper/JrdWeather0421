@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Silassaq"</string>
+	<!-- no translation found for no_weather -->
+	<skip />
+	<!---->
+	<string name="menu_addlocation">"Sumiiffimmik ilanngussigit"</string>
+	<!-- no translation found for menu_delete -->
+	<skip />
+	<!-- no translation found for menu_remove -->
+	<skip />
+	<!---->
+	<string name="menu_unit">"Kateriffik allanngoruk"</string>
+	<!---->
+	<string name="locate_auto">"Nammineq sumiissusersiineq"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!-- no translation found for locate_connect_error -->
+	<skip />
+	<!---->
+	<string name="locate_goto_connect">"Attavimmut iserit"</string>
+	<!-- no translation found for locate_failure -->
+	<skip />
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!-- no translation found for locate_location_service -->
+	<skip />
+	<!---->
+	<string name="insert_location">"Sumiiffik allaguk"</string>
+	<!-- no translation found for search_location -->
+	<skip />
+	<!-- no translation found for connect_timeout -->
+	<skip />
+	<!---->
+	<string name="connot_find_location">"Una sumiiffik nanisinnaangilaa"</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Utoqqatserpugut, illoqarfiit 11-iinnaat ikkussinnaavatit. Ataaseq piilaaruk"</string>
+	<!-- no translation found for citys_six_full -->
+	<skip />
+	<!-- no translation found for citys_max_full -->
+	<skip />
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Ujarlerpoq…"</string>
+	<!---->
+	<string name="locating">"Sumiissusersiorpaa…"</string>
+	<!---->
+	<string name="loading">"Immiuppaa..."</string>
+	<!---->
+	<string name="weather_offline">"Silassaq Internetserani""</string>
+	<!---->
+	<string name="update_time">"Piffissaq nutarteruk"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Sussaaruk"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Sumiiffik"</string>
+	<!---->
+	<string name="click_update">"Nutarteriniaruit una tooruk"</string>
+	<!-- no translation found for miniapp_widget_no_data -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_data_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission_desc -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_no_location">"Sumiissuseqanngilaq"</string>
+	<!-- no translation found for miniapp_widget_no_location_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_setting -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_add_location">"Sumiiffimmik ilanngussigit"</string>
+	<!---->
+	<string name="weather_off_line_text">"Utoqqatserpugut, attavinissinnaanngilaq."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Seqinnarippoq"</item>
+		<item>"Seqinnernerussaaq"</item>
+		<item>"Seqinnilertarsinnaavoq"</item>
+		<item>"Nuissertarsinnaavoq"</item>
+		<item>"Erseqqarlulluni seqinnarissaaq"</item>
+		<item>"Nuianerussaaq"</item>
+		<item>"Nuiasoq"</item>
+		<item>"Akunnassaaq"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Putsissaaq"</item>
+		<item>"Siallingaatsiassaaq"</item>
+		<item>"Nuianerussaaq siallingaatsiartarluni"</item>
+		<item>"Seqinnilertarsinnaavoq siallingaatsiartarluni"</item>
+		<item>"Kallissaaq"</item>
+		<item>"Qulisimassaaq kallilertarsinnaallunni"</item>
+		<item>"Seqinnilertarsinnaavoq kallilertassalluni"</item>
+		<item>"Siallissaaq"</item>
+		<item>"Nittaallertassaaq"</item>
+		<item>"Nuianerulluni nittaallertassaaq"</item>
+		<item>"Seqinnilertarsinnaallluni nittaallertassaaq"</item>
+		<item>"Aput"</item>
+		<item>"Nuianerulluni nittaassaaq"</item>
+		<item>"Sermernassaaq"</item>
+		<item>"Masannartuliussaaq"</item>
+		<item>"Serminnguuttussamik siallissaaq"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Siallerlunilu masannartuliussaaq"</item>
+		<item>"Kiassaaq"</item>
+		<item>"Nillertoq"</item>
+		<item>"Anorsarissaaq"</item>
+		<item>"Clear"</item>
+		<item>"Allaaqqinnerussaaq"</item>
+		<item>"Nuitsertassaaq"</item>
+		<item>"Nuissertarsinnaavoq"</item>
+		<item>"Erseqqarlussaaq"</item>
+		<item>"Nuianerussaaq"</item>
+		<item>"Nuitsertarsinnaalluni siallingaatsiassaaq"</item>
+		<item>"Nuianerussaaq siallingaatsiartarluni"</item>
+		<item>"Nuitsertarsinnaalluni kallerlunilu siallingaatsiassaaq"</item>
+		<item>"Qulisimassaaq kallilertarsinnaallunni"</item>
+		<item>"Nuianerulluni nittaallertassaaq"</item>
+		<item>"Nuianerulluni nittaassaaq"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Ataa"</item>
+		<item>"Marl"</item>
+		<item>"Ping"</item>
+		<item>"Sisa"</item>
+		<item>"Tall"</item>
+		<item>"Arf"</item>
+		<item>"Sap"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Nutarsaruk"</string>
+	<!-- no translation found for msg_unable_obtain_location -->
+	<skip />
+	<!-- no translation found for last_updated_label -->
+	<skip />
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+	<!---->
+	<string name="label_today">"Ullumi"</string>
+	<!-- no translation found for label_humidity -->
+	<skip />
+	<!-- no translation found for label_pressure -->
+	<skip />
+	<!-- no translation found for label_wind -->
+	<skip />
+	<!-- no translation found for label_visibility -->
+	<skip />
+	<!-- no translation found for label_uv_index -->
+	<skip />
+	<!-- no translation found for label_high -->
+	<skip />
+	<!-- no translation found for label_low -->
+	<skip />
+	<!-- no translation found for label_high_rel -->
+	<skip />
+	<!-- no translation found for label_low_rel -->
+	<skip />
+	<!-- no translation found for label_precipitation -->
+	<skip />
+	<string-array name="weather_weekly_fullname">
+		<item>"Ataasinngorneq"</item>
+		<item>"Arfininngorneq"</item>
+		<item>"Sapaat"</item>
+		<!--inherit from default language-->
+		<item>"Thursday"</item>
+		<!--inherit from default language-->
+		<item>"Friday"</item>
+		<!--inherit from default language-->
+		<item>"Saturday"</item>
+		<!--inherit from default language-->
+		<item>"Sunday"</item>
+	</string-array>
+	<!-- no translation found for label_pressure_unit -->
+	<skip />
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!-- no translation found for label_wind_unit_km -->
+	<skip />
+	<!-- no translation found for label_wind_unit_m -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi_rel -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_km -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_mi -->
+	<skip />
+	<!-- no translation found for change_to_mi -->
+	<skip />
+	<!-- no translation found for change_to_km -->
+	<skip />
+	<!-- no translation found for obtain_data_failed -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for just_now -->
+	<skip />
+	<!-- no translation found for seconds_ago -->
+	<skip />
+	<!-- no translation found for minutes_ago -->
+	<skip />
+	<!-- no translation found for hours_ago -->
+	<skip />
+	<!-- no translation found for days_ago -->
+	<skip />
+	<!-- no translation found for weeks_ago -->
+	<skip />
+	<!-- no translation found for months_ago -->
+	<skip />
+	<!-- no translation found for title_activity_settings -->
+	<skip />
+	<!-- no translation found for pref_header_general -->
+	<skip />
+	<!-- no translation found for pref_header_metrics -->
+	<skip />
+	<!-- no translation found for title_pref_auto_update -->
+	<skip />
+	<string-array name="pref_auto_update_titles">
+		<!--inherit from default language-->
+		<item>"Any time. Data charges may apply."</item>
+		<!--inherit from default language-->
+		<item>"Auto-update over Wi-Fi only"</item>
+	</string-array>
+	<!-- no translation found for title_pref_temp -->
+	<skip />
+	<string-array name="pref_temp_unit_titles">
+		<!--inherit from default language-->
+		<item>"Fahrenheit (°F)"</item>
+		<!--inherit from default language-->
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_distance -->
+	<skip />
+	<string-array name="pref_distance_unit_titles">
+		<!--inherit from default language-->
+		<item>"Mile (mi.)"</item>
+		<!--inherit from default language-->
+		<item>"Kilometre (km)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_advanced_data -->
+	<skip />
+	<!-- no translation found for title_pref_feels_like -->
+	<skip />
+	<!-- no translation found for just_updated -->
+	<skip />
+	<!-- no translation found for gotoSettingTips -->
+	<skip />
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Aaqqiinerit"</string>
+	<!-- no translation found for permission_poster_title -->
+	<skip />
+	<!-- no translation found for location_permission_description -->
+	<skip />
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!-- no translation found for gotit -->
+	<skip />
+</resources>

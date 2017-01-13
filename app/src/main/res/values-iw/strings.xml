@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"מזג אוויר"</string>
+	<!-- no translation found for no_weather -->
+	<skip />
+	<!---->
+	<string name="menu_addlocation">"הוסף מיקום"</string>
+	<!---->
+	<string name="menu_delete">"מחק מיקום"</string>
+	<!-- no translation found for menu_remove -->
+	<skip />
+	<!---->
+	<string name="menu_unit">"שנה יחידה"</string>
+	<!---->
+	<string name="locate_auto">"איתור אוטומטי"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"לא ניתן להתחבר לאינטרנט"</string>
+	<!---->
+	<string name="locate_goto_connect">"עבור אל התחבר"</string>
+	<!---->
+	<string name="locate_failure">"האיתור האוטומטי נכשל. חפש מיקום חלופי."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"האיתור האוטומטי נכשל. בדוק את שירות המיקום של Google."</string>
+	<!---->
+	<string name="insert_location">"הוסף מיקום"</string>
+	<!-- no translation found for search_location -->
+	<skip />
+	<!---->
+	<string name="connect_timeout">"אות חלש. נסה שנית במועד מאוחר."</string>
+	<!---->
+	<string name="connot_find_location">"מיקום זה לא אותר."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"לצערנו, ניתן להוסיף 11 ערים בלבד. הסר אחת."</string>
+	<!-- no translation found for citys_six_full -->
+	<skip />
+	<!-- no translation found for citys_max_full -->
+	<skip />
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"מחפש…"</string>
+	<!---->
+	<string name="locating">"מאתר..."</string>
+	<!---->
+	<string name="loading">"טוען..."</string>
+	<!---->
+	<string name="weather_offline">"מזג אוויר לא מקוון"</string>
+	<!---->
+	<string name="update_time">"שעת עדכון"</string>
+	<!---->
+	<string name="common_ok">"אישור"</string>
+	<!---->
+	<string name="common_cancel">"בטל"</string>
+	<!---->
+	<string name="date_am">"לפנה\"צ"</string>
+	<!---->
+	<string name="date_pm">"אחה\"צ"</string>
+	<!---->
+	<string name="location">"מיקום"</string>
+	<!---->
+	<string name="click_update">"לחץ כאן לעידכון"</string>
+	<!-- no translation found for miniapp_widget_no_data -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_data_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission_desc -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_no_location">"ללא מיקום"</string>
+	<!-- no translation found for miniapp_widget_no_location_desc -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_setting">"הגדרות"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"הוסף מיקום"</string>
+	<!---->
+	<string name="weather_off_line_text">"מצטער, לא יכול להתחבר."</string>
+	<string-array name="weather_icon_desc">
+		<item>"בהיר"</item>
+		<item>"בהיר רוב היום"</item>
+		<item>"בהיר לפרקים"</item>
+		<item>"מעונן חלקית"</item>
+		<item>"שמש לפרקים"</item>
+		<item>"רוב היום מעונן"</item>
+		<item>"מעונן"</item>
+		<item>"קודר"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ערפל"</item>
+		<item>"ממטרים"</item>
+		<item>"רוב היום מעונן עם ממטרים"</item>
+		<item>"בהיר לפרקים עם ממטרים"</item>
+		<item>"סופות רעמים"</item>
+		<item>"רוב היום מעונן עם ממטרים ורעמים"</item>
+		<item>"בהיר לפרקים עם ממטרים ורעמים"</item>
+		<item>"גשם"</item>
+		<item>"משבי רוח"</item>
+		<item>"רוב היום מעונן עם משבי רוח"</item>
+		<item>"בהיר לפרקים עם משבי רוח"</item>
+		<item>"שלג"</item>
+		<item>"רוב היום מעונן עם שלג"</item>
+		<item>"קרח"</item>
+		<item>"גשם מעורב בשלג"</item>
+		<item>"גשם קפוא"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"גשם ושלג מעורבים"</item>
+		<item>"חם"</item>
+		<item>"קר"</item>
+		<item>"רוחות"</item>
+		<item>"בהיר"</item>
+		<item>"רוב היום בהיר"</item>
+		<item>"מעונן חלקית"</item>
+		<item>"מעונן חלקית"</item>
+		<item>"אביך"</item>
+		<item>"רוב היום מעונן"</item>
+		<item>"מעונן חלקית עם ממטרים"</item>
+		<item>"רוב היום מעונן עם ממטרים"</item>
+		<item>"מעונן חלקית עם גשם ורעמים"</item>
+		<item>"רוב היום מעונן עם ממטרים ורעמים"</item>
+		<item>"רוב היום מעונן עם משבי רוח"</item>
+		<item>"רוב היום מעונן עם שלג"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"שני"</item>
+		<item>"שלישי"</item>
+		<item>"רביעי"</item>
+		<item>"חמישי"</item>
+		<item>"שישי"</item>
+		<item>"שבת"</item>
+		<item>"ראשון"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"רענן"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"לא ניתן לקבל את המיקום האחרון."</string>
+	<!---->
+	<string name="last_updated_label">"‏עודכן לאחרונה:"</string>
+	<!---->
+	<string name="change_to_C">"שנה ל-‎°C‎‏"</string>
+	<!---->
+	<string name="change_to_F">"שנה ל-‎°F‎‏"</string>
+	<!---->
+	<string name="label_today">"היום"</string>
+	<!-- no translation found for label_humidity -->
+	<skip />
+	<!-- no translation found for label_pressure -->
+	<skip />
+	<!-- no translation found for label_wind -->
+	<skip />
+	<!-- no translation found for label_visibility -->
+	<skip />
+	<!-- no translation found for label_uv_index -->
+	<skip />
+	<!---->
+	<string name="label_high">"גבוהה"</string>
+	<!---->
+	<string name="label_low">"נמוכה"</string>
+	<!-- no translation found for label_high_rel -->
+	<skip />
+	<!-- no translation found for label_low_rel -->
+	<skip />
+	<!-- no translation found for label_precipitation -->
+	<skip />
+	<string-array name="weather_weekly_fullname">
+		<item>"שני"</item>
+		<item>"שלישי"</item>
+		<item>"רביעי"</item>
+		<item>"חמישי"</item>
+		<item>"שישי"</item>
+		<item>"שבת"</item>
+		<item>"ראשון"</item>
+	</string-array>
+	<!-- no translation found for label_pressure_unit -->
+	<skip />
+	<!---->
+	<string name="label_mm">"מ\"מ"</string>
+	<!-- no translation found for label_wind_unit_km -->
+	<skip />
+	<!-- no translation found for label_wind_unit_m -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi_rel -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_km -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_mi -->
+	<skip />
+	<!-- no translation found for change_to_mi -->
+	<skip />
+	<!-- no translation found for change_to_km -->
+	<skip />
+	<!-- no translation found for obtain_data_failed -->
+	<skip />
+	<!---->
+	<string name="tokyo_name">"טוקיו"</string>
+	<!-- no translation found for just_now -->
+	<skip />
+	<plurals name="seconds_ago">
+		<item quantity="one">"לפני שנייה"</item>
+		<item quantity="other">"לפני <xliff:g id="COUNT">%d</xliff:g> שניות"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"לפני דקה"</item>
+		<item quantity="other">"לפני <xliff:g id="COUNT">%d</xliff:g> דקות"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"לפני שעה"</item>
+		<item quantity="other">"לפני <xliff:g id="COUNT">%d</xliff:g> שעות"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"אתמול"</item>
+		<item quantity="other">"לפני <xliff:g id="COUNT">%d</xliff:g> ימים"</item>
+	</plurals>
+	<!-- no translation found for weeks_ago -->
+	<skip />
+	<plurals name="months_ago">
+		<item quantity="one">"לפני חודש"</item>
+		<item quantity="other">""</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"הגדרות"</string>
+	<!---->
+	<string name="pref_header_general">"כללי"</string>
+	<!-- no translation found for pref_header_metrics -->
+	<skip />
+	<!-- no translation found for title_pref_auto_update -->
+	<skip />
+	<string-array name="pref_auto_update_titles">
+		<!--inherit from default language-->
+		<item>"Any time. Data charges may apply."</item>
+		<!--inherit from default language-->
+		<item>"Auto-update over Wi-Fi only"</item>
+	</string-array>
+	<!-- no translation found for title_pref_temp -->
+	<skip />
+	<string-array name="pref_temp_unit_titles">
+		<!--inherit from default language-->
+		<item>"Fahrenheit (°F)"</item>
+		<!--inherit from default language-->
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_distance -->
+	<skip />
+	<string-array name="pref_distance_unit_titles">
+		<!--inherit from default language-->
+		<item>"Mile (mi.)"</item>
+		<!--inherit from default language-->
+		<item>"Kilometre (km)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_advanced_data -->
+	<skip />
+	<!-- no translation found for title_pref_feels_like -->
+	<skip />
+	<!-- no translation found for just_updated -->
+	<skip />
+	<!-- no translation found for gotoSettingTips -->
+	<skip />
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"הגדרות"</string>
+	<!-- no translation found for permission_poster_title -->
+	<skip />
+	<!-- no translation found for location_permission_description -->
+	<skip />
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"קיבלתי."</string>
+</resources>

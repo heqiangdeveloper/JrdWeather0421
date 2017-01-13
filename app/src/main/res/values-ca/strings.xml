@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"El temps"</string>
+	<!---->
+	<string name="no_weather">"No hi ha informació del temps disponible."</string>
+	<!---->
+	<string name="menu_addlocation">"Afegir una ubicació"</string>
+	<!---->
+	<string name="menu_delete">"Eliminar la ubicació"</string>
+	<!---->
+	<string name="menu_remove">"Suprimir la ubicació"</string>
+	<!---->
+	<string name="menu_unit">"Canviar la unitat"</string>
+	<!---->
+	<string name="locate_auto">"Localització automàtica"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"No es pot connectar a Internet"</string>
+	<!---->
+	<string name="locate_goto_connect">"Aneu a Connectar"</string>
+	<!---->
+	<string name="locate_failure">"La localització automàtica ha fallat. Cerqueu una ubicació manualment."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Error en la localització automàtica. Consulteu el servei d\'ubicació de Google."</string>
+	<!---->
+	<string name="insert_location">"Inseriu una ubicació"</string>
+	<!---->
+	<string name="search_location">"Cercar la ubicació"</string>
+	<!---->
+	<string name="connect_timeout">"Senyal feble. Torneu a provar-ho més tard."</string>
+	<!---->
+	<string name="connot_find_location">"No es pot trobar aquesta ubicació."</string>
+	<!---->
+	<string name="real_feel">"Sens. tèr."</string>
+	<!---->
+	<string name="citys_full">"Només podeu afegir 11 ciutats. Elimineu-ne una."</string>
+	<!---->
+	<string name="citys_six_full">"Només podeu afegir 11 ciutats. Elimineu-ne una."</string>
+	<!---->
+	<string name="citys_max_full">"S\'ha assolit el nombre màxim d\'ubicacions. Primer cal que suprimiu una ubicació."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"S\'està buscant..."</string>
+	<!---->
+	<string name="locating">"S\'està localitzant..."</string>
+	<!---->
+	<string name="loading">"S\'està carregant..."</string>
+	<!---->
+	<string name="weather_offline">"El temps sense connexió"</string>
+	<!---->
+	<string name="update_time">"Hora d\'actualització"</string>
+	<!---->
+	<string name="common_ok">"ACCEPTAR"</string>
+	<!---->
+	<string name="common_cancel">"Cancel·lar"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Ubicació"</string>
+	<!---->
+	<string name="click_update">"Feu clic aquí per actualitzar"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"No hi ha cap informació del temps."</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Comproveu la connexió a Internet."</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"No teniu permís."</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Per mostrar informació del temps, cal que la Ubicació hi pugui accedir."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Cap ubicació"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Per afegir una ubicació, utilitzeu aquest giny."</string>
+	<!---->
+	<string name="miniapp_widget_setting">"PARÀMETRES"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Afegir una ubicació"</string>
+	<!---->
+	<string name="weather_off_line_text">"Ho sentim, no es pot connectar."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sol"</item>
+		<item>"Sol predominant"</item>
+		<item>"Sol parcial"</item>
+		<item>"Núvols intermitents"</item>
+		<item>"Sol nebulós"</item>
+		<item>"Núvol predominant"</item>
+		<item>"Núvol"</item>
+		<item>"Gris"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Boira"</item>
+		<item>"Xàfecs"</item>
+		<item>"Núvol predominant amb xàfecs"</item>
+		<item>"Sol parcial amb xàfecs"</item>
+		<item>"Tempestes"</item>
+		<item>"Núvol predominant amb tempestes"</item>
+		<item>"Sol parcial amb tempestes"</item>
+		<item>"Pluja"</item>
+		<item>"Petites nevades"</item>
+		<item>"Núvol predominant amb petites nevades"</item>
+		<item>"Sol parcial amb petites nevades"</item>
+		<item>"Neu"</item>
+		<item>"Núvol predominant amb neu"</item>
+		<item>"Glaçada"</item>
+		<item>"Aiguaneu"</item>
+		<item>"Calamarsada"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Pluja i neu"</item>
+		<item>"Calor"</item>
+		<item>"Fred"</item>
+		<item>"Vent"</item>
+		<item>"Clar"</item>
+		<item>"Predominantment clar"</item>
+		<item>"Núvol parcial"</item>
+		<item>"Núvols intermitents"</item>
+		<item>"Nebulós"</item>
+		<item>"Núvol predominant"</item>
+		<item>"Núvol parcial amb xàfecs"</item>
+		<item>"Núvol predominant amb xàfecs"</item>
+		<item>"Núvol parcial amb tempestes"</item>
+		<item>"Núvol predominant amb tempestes"</item>
+		<item>"Núvol predominant amb petites nevades"</item>
+		<item>"Núvol predominant amb neu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Dl."</item>
+		<item>"Dt."</item>
+		<item>"Dc."</item>
+		<item>"Dj."</item>
+		<item>"Dv."</item>
+		<item>"Ds."</item>
+		<item>"Dg."</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Actualitzar"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"No s\'ha pogut obtenir la darrera ubicació."</string>
+	<!---->
+	<string name="last_updated_label">"Última actualització:"</string>
+	<!---->
+	<string name="change_to_C">"Canviar a °C"</string>
+	<!---->
+	<string name="change_to_F">"Canviar a °F"</string>
+	<!---->
+	<string name="label_today">"Avui"</string>
+	<!---->
+	<string name="label_humidity">"Humitat"</string>
+	<!---->
+	<string name="label_pressure">"Pressió"</string>
+	<!---->
+	<string name="label_wind">"Vent"</string>
+	<!---->
+	<string name="label_visibility">"Visibilitat"</string>
+	<!---->
+	<string name="label_uv_index">"Índex UV"</string>
+	<!---->
+	<string name="label_high">"Alt"</string>
+	<!---->
+	<string name="label_low">"Baix"</string>
+	<!---->
+	<string name="label_high_rel">"Màx."</string>
+	<!---->
+	<string name="label_low_rel">"Mín."</string>
+	<!---->
+	<string name="label_precipitation">"Precipitació"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Dilluns"</item>
+		<item>"Dimarts"</item>
+		<item>"Dimecres"</item>
+		<item>"Dijous"</item>
+		<item>"Divendres"</item>
+		<item>"Dissabte"</item>
+		<item>"Diumenge"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"MB"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"milles"</string>
+	<!---->
+	<string name="change_to_mi">"Canviar a milles"</string>
+	<!---->
+	<string name="change_to_km">"Canviar a km"</string>
+	<!---->
+	<string name="obtain_data_failed">"No es poden obtenir dades meteorològiques. Comproveu la connexió a Internet"</string>
+	<!---->
+	<string name="tokyo_name">"Tòquio"</string>
+	<!---->
+	<string name="just_now">"Ara mateix"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"fa 1 segon"</item>
+		<item quantity="other">"fa <xliff:g id="count">%d</xliff:g> segons"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"fa 1 minut"</item>
+		<item quantity="other">"fa <xliff:g id="count">%d</xliff:g> minuts"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"fa 1 hora"</item>
+		<item quantity="other">"fa <xliff:g id="count">%d</xliff:g> hores"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Ahir"</item>
+		<item quantity="other">"fa <xliff:g id="count">%d</xliff:g> dies"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Fa 1 setmana"</item>
+		<item quantity="other">"Fa <xliff:g id="count">%d</xliff:g> setmanes"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Fa un mes"</item>
+		<item quantity="other">"Fa <xliff:g id="count">%d</xliff:g> mesos"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Paràmetres"</string>
+	<!---->
+	<string name="pref_header_general">"Generals"</string>
+	<!---->
+	<string name="pref_header_metrics">"Unitats"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Actualitza la informació del temps automàticament"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"En qualsevol moment. Es poden aplicar càrrecs per dades."</item>
+		<item>"Actualitza automàticament només amb Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatura"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celsius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distància"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Milla (mi.)"</item>
+		<item>"Quilòmetre (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Informació del temps avançada"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Mostra la temperatura sensible"</string>
+	<!---->
+	<string name="just_updated">"Ara mateix"</string>
+	<!---->
+	<string name="gotoSettingTips">"Per rebre informació del temps local, permeteu l\'accés a la ubicació i el telèfon."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Paràmetres"</string>
+	<!---->
+	<string name="permission_poster_title">"Concedir accés"</string>
+	<!---->
+	<string name="location_permission_description">"El Temps necessita el permís d\'ubicació del telèfon per proporcionar informació del temps local. Permetre que la ubicació i el telèfon accedeixin a l\'ús d\'aquesta funció."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"ENTESOS"</string>
+</resources>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vær"</string>
+	<!---->
+	<string name="no_weather">"Ingen værdata tilgjengelig"</string>
+	<!---->
+	<string name="menu_addlocation">"Legg til en posisjon"</string>
+	<!---->
+	<string name="menu_delete">"Slett posisjon"</string>
+	<!---->
+	<string name="menu_remove">"Fjern sted"</string>
+	<!---->
+	<string name="menu_unit">"Endre enhet"</string>
+	<!---->
+	<string name="locate_auto">"Finn automatisk"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Kan ikke koble til Internett"</string>
+	<!---->
+	<string name="locate_goto_connect">"Gå til tilkobling"</string>
+	<!---->
+	<string name="locate_failure">"Kan ikke finne automatisk. Søk etter en posisjon i stedet."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Kan ikke finne automatisk. Sjekk Googles posisjonstjeneste."</string>
+	<!---->
+	<string name="insert_location">"Sett inn en posisjon."</string>
+	<!---->
+	<string name="search_location">"Søk sted"</string>
+	<!---->
+	<string name="connect_timeout">"Dårlig signal. Prøv på nytt senere."</string>
+	<!---->
+	<string name="connot_find_location">"Finner ikke denne posisjonen."</string>
+	<!---->
+	<string name="real_feel">"Følt"</string>
+	<!---->
+	<string name="citys_full">"Du kan bare legge til 11 byer. Fjern én."</string>
+	<!---->
+	<string name="citys_six_full">"Du kan bare legge til 11 byer. Fjern én."</string>
+	<!---->
+	<string name="citys_max_full">"Maks antall steder oppnådd. Fjern et sted først."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Søker ..."</string>
+	<!---->
+	<string name="locating">"Finner ..."</string>
+	<!---->
+	<string name="loading">"Laster inn ..."</string>
+	<!---->
+	<string name="weather_offline">"Vær frakoblet"</string>
+	<!---->
+	<string name="update_time">"Oppdatert"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Avbryt"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Sted"</string>
+	<!---->
+	<string name="click_update">"Klikk her for å oppdatere"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Ingen værdata"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Kontroller Internett-tilkoblingen din"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Ingen tillatelse"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Tilgang til posisjon nødvendig for å vise lokale værdata."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Ingen steder"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Bruk denne widget for å legge til en plassering"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"INNSTILLINGER."</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Legg til en posisjon"</string>
+	<!---->
+	<string name="weather_off_line_text">"Beklager, kan ikke koble til."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sol"</item>
+		<item>"Stort sett sol"</item>
+		<item>"Delvis sol"</item>
+		<item>"Periodiske skyer"</item>
+		<item>"Sol og dis"</item>
+		<item>"Stort sett overskyet"</item>
+		<item>"Overskyet"</item>
+		<item>"Dystert"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Tåke"</item>
+		<item>"Regnbyger"</item>
+		<item>"Stort sett overskyet med regnbyger"</item>
+		<item>"Delvis sol med regnbyger"</item>
+		<item>"Tordenvær"</item>
+		<item>"Stort sett overskyet med tordenvær"</item>
+		<item>"Delvis sol med tordenvær"</item>
+		<item>"Regn"</item>
+		<item>"Snøbyger"</item>
+		<item>"Stort sett overskyet med snøbyger"</item>
+		<item>"Delvis sol med snøbyger"</item>
+		<item>"Snø"</item>
+		<item>"Stort sett overskyet med snø"</item>
+		<item>"Is"</item>
+		<item>"Sludd"</item>
+		<item>"Underkjølt regn"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Blanding av regn og snø"</item>
+		<item>"Varmt"</item>
+		<item>"Kaldt"</item>
+		<item>"Vind"</item>
+		<item>"Klart"</item>
+		<item>"Stort sett klart"</item>
+		<item>"Delvis skyet"</item>
+		<item>"Periodiske skyer"</item>
+		<item>"Disig"</item>
+		<item>"Stort sett overskyet"</item>
+		<item>"Delvis skyet med regnbyger"</item>
+		<item>"Stort sett overskyet med regnbyger"</item>
+		<item>"Delvis skyet med tordenvær"</item>
+		<item>"Stort sett overskyet med tordenvær"</item>
+		<item>"Stort sett overskyet med snøbyger"</item>
+		<item>"Stort sett overskyet med snø"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"man"</item>
+		<item>"tir"</item>
+		<item>"ons"</item>
+		<item>"tor"</item>
+		<item>"fre"</item>
+		<item>"lør"</item>
+		<item>"søn"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Oppdater"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Kan ikke hente siste posisjon."</string>
+	<!---->
+	<string name="last_updated_label">"Sist oppdatert:"</string>
+	<!---->
+	<string name="change_to_C">"Bytt til °C"</string>
+	<!---->
+	<string name="change_to_F">"Bytt til °F"</string>
+	<!---->
+	<string name="label_today">"I dag"</string>
+	<!---->
+	<string name="label_humidity">"Fuktighet"</string>
+	<!---->
+	<string name="label_pressure">"Trykk"</string>
+	<!---->
+	<string name="label_wind">"Vind"</string>
+	<!---->
+	<string name="label_visibility">"Synlighet"</string>
+	<!---->
+	<string name="label_uv_index">"UV-indeks"</string>
+	<!---->
+	<string name="label_high">"Høy"</string>
+	<!---->
+	<string name="label_low">"Lav"</string>
+	<!---->
+	<string name="label_high_rel">"Maks"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Nedbør"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Mandag"</item>
+		<item>"Tirsdag"</item>
+		<item>"Onsdag"</item>
+		<item>"Torsdag"</item>
+		<item>"Fredag"</item>
+		<item>"Lørdag"</item>
+		<item>"Søndag"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/t"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"m/t"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"miles"</string>
+	<!---->
+	<string name="change_to_mi">"Endre til miles"</string>
+	<!---->
+	<string name="change_to_km">"Endre til km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Kan ikke hente værdata. Kontroller Internett-tilkoblingen."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Nå nettopp"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"for et sekund siden"</item>
+		<item quantity="other">"for <xliff:g id="COUNT">%d</xliff:g> sekunder siden"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"for et minutt siden"</item>
+		<item quantity="other">"for <xliff:g id="COUNT">%d</xliff:g> minutter siden"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"for en time siden"</item>
+		<item quantity="other">"for <xliff:g id="COUNT">%d</xliff:g> timer siden"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"I går"</item>
+		<item quantity="other">"for <xliff:g id="COUNT">%d</xliff:g> dager siden"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 uke siden"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> uker siden"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"For én måned siden"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> måneder siden"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Innstillinger"</string>
+	<!---->
+	<string name="pref_header_general">"Generelt"</string>
+	<!---->
+	<string name="pref_header_metrics">"Enheter"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Oppdater automatisk værdata"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Når som helst. Datakostnader kan påløpe."</item>
+		<item>"Autooppdatering kun via Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatur"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Avstand"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mile (mi.)"</item>
+		<item>"Kilometer (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Avanserte værdata"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Vis følsom temperatur"</string>
+	<!---->
+	<string name="just_updated">"Nå nettopp"</string>
+	<!---->
+	<string name="gotoSettingTips">"Gi tilgang til posisjon og telefon for å motta lokale værdata."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Innstillinger"</string>
+	<!---->
+	<string name="permission_poster_title">"Tillat tilgang"</string>
+	<!---->
+	<string name="location_permission_description">"Vær behøver tillatelser for posisjon og telefon for å levere lokale værdata. Gi tilgang til posisjon og telefon for å bruke denne funksjonen."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"OK"</string>
+</resources>

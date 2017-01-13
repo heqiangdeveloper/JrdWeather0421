@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/iv_hourly_weather_icon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tv_hourly_time"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textColor="#66FFFFFF"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/tv_hourly_temperature"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp" />
+
+</merge>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/weather_info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+    <LinearLayout
+        android:id="@+id/weather_info_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:background="@color/card_background_color_light">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginStart="@dimen/card_margin"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_temp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:fontFamily="sans-serif-medium"
+                    android:singleLine="true"
+                    android:textColor="@color/text_color_black"
+                    android:textSize="@dimen/weather_temp_size" />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/header_footer_top_bottom_padding"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_desc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="start|bottom"
+                        android:fontFamily="sans-serif-medium"
+                        android:singleLine="true"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="@dimen/weather_text_size" />
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        style="@style/shadow_style_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:singleLine="true"
+                        android:textColor="@color/text_color_black"
+                        android:textSize="@dimen/weather_time_size"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/tv_city"
+                        android:layout_width="@dimen/text_city_width"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:ellipsize="marquee"
+                        android:focusable="true"
+                        android:fontFamily="sans-serif"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:singleLine="true"
+                        android:textColor="@color/text_color_grey"
+                        android:textSize="@dimen/weather_city_size" />
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <com.tct.weather.view.ExpandButton
+                        android:id="@+id/expand_button"
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginEnd="@dimen/card_margin"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:clickable="true" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color" />
+
+        <LinearLayout
+            android:id="@+id/weather_details"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:background="@color/card_background_color_light" >
+
+            <!-- <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/content_margin" /> -->
+
+            <include layout="@layout/weather_info_base_detail_layout" />
+
+
+            <include layout="@layout/weather_info_more_detail_layout" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

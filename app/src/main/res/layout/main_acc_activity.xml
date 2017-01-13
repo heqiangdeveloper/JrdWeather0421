@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/main_activity_layout"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_bg1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_bg2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_bg_blur1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_bg_blur2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_snapshot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <com.tct.weather.widget.CustomSwipeRefreshLayout
+        android:id="@+id/swipe_refresh_widget"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+    </com.tct.weather.widget.CustomSwipeRefreshLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_menu"
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:layout_gravity="end|top"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+
+            android:padding="8dp"
+            android:src="@drawable/ic_menu"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/popup_menu_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|top"
+            android:layout_marginBottom="15dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginTop="6dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <include layout="@layout/popup_menu" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_gravity="bottom"
+        android:background="#1A1A1A"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/refresh_date_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/ic_refresh" />
+
+            <TextView
+                android:id="@+id/refresh_date_text"
+                style="@style/shadow_style_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="8dp"
+                android:layout_toEndOf="@id/refresh_date_icon"
+                android:fontFamily="sans-serif"
+                android:singleLine="true"
+                android:textColor="#66FFFFFF"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/pointGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="12dp"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_accu_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_accuweather_light" />
+        <!--android:src="@drawable/ic_twc_small" -->
+    </RelativeLayout>
+
+</FrameLayout>

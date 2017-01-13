@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Laikapstākļi"</string>
+	<!---->
+	<string name="no_weather">"Laikapstākļu dati nav pieejami"</string>
+	<!---->
+	<string name="menu_addlocation">"Pievienot atrašanās vietu"</string>
+	<!---->
+	<string name="menu_delete">"Dzēst atrašanās vietu"</string>
+	<!---->
+	<string name="menu_remove">"Dzēst atrašanās vietu"</string>
+	<!---->
+	<string name="menu_unit">"Mainīt mērvienību"</string>
+	<!---->
+	<string name="locate_auto">"Automātiski noteikt atrašanās vietu"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nevar izveidot savienojumu ar internetu."</string>
+	<!---->
+	<string name="locate_goto_connect">"Pārejiet, lai izveidotu savienojumu"</string>
+	<!---->
+	<string name="locate_failure">"Automātiskās atrašanās vietas noteikšanas kļūme. Lūdzu, tā vietā meklējiet atrašanās vietu."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automātiskās atrašanās vietas noteikšanas kļūme. Lūdzu, pārbaudiet tīkla atrašanās vietas pakalpojumu."</string>
+	<!---->
+	<string name="insert_location">"Ievietot atrašanās vietu"</string>
+	<!---->
+	<string name="search_location">"Meklēt atrašanās vietu"</string>
+	<!---->
+	<string name="connect_timeout">"Vājš signāls. Lūdzu, mēģiniet vēlāk."</string>
+	<!---->
+	<string name="connot_find_location">"Šo atrašanās vietu nevar atrast."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Diemžēl var pievienot tikai 11 pilsētas. Lūdzu, noņemiet vienu pilsētu."</string>
+	<!---->
+	<string name="citys_six_full">"Var pievienot tikai 11 pilsētas. Vienu nepieciešams izdzēst."</string>
+	<!---->
+	<string name="citys_max_full">"Sasniegts maksimālais atrašanās vietu skaits. Vispirms dzēsiet atrašanās vietu."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Notiek meklēšana..."</string>
+	<!---->
+	<string name="locating">"Notiek atrašanās vietas noteikšana..."</string>
+	<!---->
+	<string name="loading">"Notiek ielāde..."</string>
+	<!---->
+	<string name="weather_offline">"Laika ziņas bezsaistē"</string>
+	<!---->
+	<string name="update_time">"Atjaunināt laiku"</string>
+	<!---->
+	<string name="common_ok">"Labi"</string>
+	<!---->
+	<string name="common_cancel">"Atcelt"</string>
+	<!---->
+	<string name="date_am">"no rīta"</string>
+	<!---->
+	<string name="date_pm">"Pēcpusdienā"</string>
+	<!---->
+	<string name="location">"Atrašan. vieta"</string>
+	<!---->
+	<string name="click_update">"Noklikšķiniet šeit, lai atjauninātu"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Nav laikapstākļu datu"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Pārbaudiet interneta savienojumu"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Nav atļaujas"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Lai redzētu vietējos laikapstākļus, ir nepieciešams atļaut piekļuvi atrašanās vietas noteikšanai."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Nav atrašanās vietas"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Izmantojiet šo logrīku"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"Nustatymai"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Pievienot atrašanās vietu"</string>
+	<!---->
+	<string name="weather_off_line_text">"Diemžēl nav iespējams izveidot savienojumu."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Saulains"</item>
+		<item>"Pārsvarā saulains"</item>
+		<item>"Daļēji saulains"</item>
+		<item>"Daļēji mākoņains"</item>
+		<item>"Dūmakaini saulains"</item>
+		<item>"Pārsvarā mākoņains"</item>
+		<item>"Mākoņains"</item>
+		<item>"Drūms"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Migla"</item>
+		<item>"Lietusgāzes"</item>
+		<item>"Pārsvarā mākoņains ar lietusgāzēm"</item>
+		<item>"Daļēji saulains ar lietusgāzēm"</item>
+		<item>"Pērkona negaiss"</item>
+		<item>"Pārsvarā mākoņains ar lietusgāzēm"</item>
+		<item>"Daļēji saulains ar pērkona negaiss"</item>
+		<item>"Lietus"</item>
+		<item>"Sniegputenis"</item>
+		<item>"Pārsvarā mākoņains ar sniegputeni"</item>
+		<item>"Daļēji saulains ar sniegputeni"</item>
+		<item>"Sniegs"</item>
+		<item>"Pārsvarā mākoņains ar sniegu"</item>
+		<item>"Ledus"</item>
+		<item>"Lietus ar sniegu"</item>
+		<item>"Auksts lietus"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Slapjš sniegs"</item>
+		<item>"Karsts"</item>
+		<item>"Auksts"</item>
+		<item>"Vējains"</item>
+		<item>"Notīrīšana"</item>
+		<item>"Pārsvarā skaidrs"</item>
+		<item>"Daļēji mākoņains"</item>
+		<item>"Daļēji mākoņains"</item>
+		<item>"Miglains"</item>
+		<item>"Pārsvarā mākoņains"</item>
+		<item>"Daļēji mākoņains ar lietusgāzēm"</item>
+		<item>"Pārsvarā mākoņains ar lietusgāzēm"</item>
+		<item>"Daļēji mākoņains ar pērkona negaisu"</item>
+		<item>"Pārsvarā mākoņains ar lietusgāzēm"</item>
+		<item>"Pārsvarā mākoņains ar sniegputeni"</item>
+		<item>"Pārsvarā mākoņains ar sniegu"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pr"</item>
+		<item>"Ot"</item>
+		<item>"Tr"</item>
+		<item>"Ce"</item>
+		<item>"Pk"</item>
+		<item>"Se"</item>
+		<item>"Sv"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Atsvaidzināt"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Neizdevās iegūt jaunākos datus par atrašanās vietu."</string>
+	<!---->
+	<string name="last_updated_label">"Pēdējoreiz atjaunināts:"</string>
+	<!---->
+	<string name="change_to_C">"Mainīt uz °C"</string>
+	<!---->
+	<string name="change_to_F">"Mainīt uz °F"</string>
+	<!---->
+	<string name="label_today">"Šodien"</string>
+	<!---->
+	<string name="label_humidity">"Mitrums"</string>
+	<!---->
+	<string name="label_pressure">"Spiediens"</string>
+	<!---->
+	<string name="label_wind">"Vējš"</string>
+	<!---->
+	<string name="label_visibility">"Redzam."</string>
+	<!---->
+	<string name="label_uv_index">"UV indekss"</string>
+	<!---->
+	<string name="label_high">"Augsta"</string>
+	<!---->
+	<string name="label_low">"Zema"</string>
+	<!---->
+	<string name="label_high_rel">"Maks."</string>
+	<!---->
+	<string name="label_low_rel">"Min."</string>
+	<!---->
+	<string name="label_precipitation">"Nokrišņi"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Pirmdiena"</item>
+		<item>"Otrdiena"</item>
+		<item>"Trešdiena"</item>
+		<item>"Ceturtd."</item>
+		<item>"Piektdiena"</item>
+		<item>"Sestdiena"</item>
+		<item>"Svētdiena"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"jūdzes/h"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"jūdzes"</string>
+	<!---->
+	<string name="change_to_mi">"Mainīt uz jūdzēm"</string>
+	<!---->
+	<string name="change_to_km">"Mainīt uz kilometriem"</string>
+	<!---->
+	<string name="obtain_data_failed">"Neizdevās iegūt laikapstākļu datus. Lūdzu, pārbaudiet interneta savienojumu."</string>
+	<!---->
+	<string name="tokyo_name">"Tokija"</string>
+	<!---->
+	<string name="just_now">"Tikko"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"Pirms 1 sekundes"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> sekundēm"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Pirms 1 minūtes"</item>
+		<item quantity="other">"Pirms <xliff:g id="COUNT">%d</xliff:g> minūtes(-ēm)"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"Pirms 1 stundas"</item>
+		<item quantity="other">"Pirms <xliff:g id="COUNT">%d</xliff:g> stundas(-ām)"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Vakar"</item>
+		<item quantity="other">"Pirms <xliff:g id="COUNT">%d</xliff:g> dienas(-ām)"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Pirms 1 nedēļas"</item>
+		<item quantity="other">"Pirms<xliff:g id="count">%d</xliff:g> nedēļām"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Pirms 1 mēneša"</item>
+		<item quantity="other">"Pirms<xliff:g id="count">%d</xliff:g> mēnešiem"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Iestatījumi"</string>
+	<!---->
+	<string name="pref_header_general">"Vispārīgi"</string>
+	<!---->
+	<string name="pref_header_metrics">"Vienības"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Automātiski atjaunināt laikapstākļu datus"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Jebkurā laikā. Var tikt piemērota maksa par datu pārraidi."</item>
+		<item>"Automātiskā atjaunināšana tikai ar Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatūra"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"pēc Fārenheita (°F)"</item>
+		<item>"pēc Celsija (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Attālums"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Jūdze (mi.)"</item>
+		<item>"Kilometrs (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Detalizēti laikapstākļi"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Rādīt uztverto temperatūru"</string>
+	<!---->
+	<string name="just_updated">"Tikko"</string>
+	<!---->
+	<string name="gotoSettingTips">"Lai saņemtu ziņas par vietējiem laikapstākļiem, nodrošiniet piekļuvi Atrašanās vietai un Tālrunim."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Iestatījumi"</string>
+	<!---->
+	<string name="permission_poster_title">"Nodrošināt pieeju"</string>
+	<!---->
+	<string name="location_permission_description">"Laikapstākļu pakalpojumam ir nepieciešama piekļuve Atrašanās vietai un Tālrunim, lai nodrošinātu ziņas par vietējiem laikapstākļiem. Lai izmantotu šo funkciju, nodrošiniet piekļuvi Atrašanās vietai un Tālrunim."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"Sapratu"</string>
+</resources>

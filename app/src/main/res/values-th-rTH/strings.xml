@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"สภาพอากาศ"</string>
+	<!---->
+	<string name="no_weather">"ไม่มีข้อมูลสภาพอากาศ"</string>
+	<!---->
+	<string name="menu_addlocation">"เพิ่มตำแหน่ง"</string>
+	<!---->
+	<string name="menu_delete">"ลบตำแหน่ง"</string>
+	<!---->
+	<string name="menu_remove">"ลบตำแหน่ง"</string>
+	<!---->
+	<string name="menu_unit">"เปลี่ยนหน่วย"</string>
+	<!---->
+	<string name="locate_auto">"ระบุตำแหน่งอัตโนมัติ"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"ไม่สามารถเชื่อมต่อกับอินเทอร์เน็ตได้"</string>
+	<!---->
+	<string name="locate_goto_connect">"ไปที่การเชื่อมต่อ"</string>
+	<!---->
+	<string name="locate_failure">"การระบุตำแหน่งอัตโนมัติล้มเหลว โปรดค้นหาตำแหน่งแทน"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"การระบุตำแหน่งอัตโนมัติล้มเหลว, โปรดตรวจสอบบริการระบุตำแหน่งของ Google"</string>
+	<!---->
+	<string name="insert_location">"ใส่ตำแหน่ง"</string>
+	<!---->
+	<string name="search_location">"ค้นหาตำแหน่ง"</string>
+	<!---->
+	<string name="connect_timeout">"สัญญาณอ่อน, โปรดลองใหม่ในภายหลัง"</string>
+	<!---->
+	<string name="connot_find_location">"ไม่พบตำแหน่งนี้"</string>
+	<!---->
+	<string name="real_feel">"ความรู้สึกจริง"</string>
+	<!---->
+	<string name="citys_full">"ขออภัย, คุณสามารถเพิ่มได้ 11 เมืองเท่านั้น โปรดลบออกหนึ่งเมือง"</string>
+	<!---->
+	<string name="citys_six_full">"ขออภัย คุณสามารถเพิ่มได้ 11 เมืองเท่านั้น โปรดลบออกหนึ่งเมือง"</string>
+	<!---->
+	<string name="citys_max_full">"ถึงจำนวนการระบุตำแหน่งสูงสุดแล้ว ลบการระบุตำแหน่งก่อนหน้า"</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"กำลังค้นหา..."</string>
+	<!---->
+	<string name="locating">"กำลังระบุตำแหน่ง..."</string>
+	<!---->
+	<string name="loading">"กำลังโหลด..."</string>
+	<!---->
+	<string name="weather_offline">"สภาพอากาศแบบออฟไลน์"</string>
+	<!---->
+	<string name="update_time">"อัพเดทเวลา"</string>
+	<!---->
+	<string name="common_ok">"ตกลง"</string>
+	<!---->
+	<string name="common_cancel">"ยกเลิก"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"ตำแหน่ง"</string>
+	<!---->
+	<string name="click_update">"คลิกที่นี่เพื่ออัพเดท"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"ไม่มีข้อมูลสภาพอากาศ"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"ตรวจสอบการเชื่อมต่ออินเทอร์์เน็ตของคุณ"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"ไม่ได้รับอนุญาต"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"ต้องได้รับสิทธิ์ให้เข้าถึงการระบุตำแหน่งเพื่อแสดงข้อมูลของสภาพอากาศในท้องถิ่น"</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"ไม่มีสถานที่"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"ใช้วิดเจ็ตนี้เพื่อเพิ่มตำแหน่ง"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"การตั้งค่า"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"เพิ่มตำแหน่ง"</string>
+	<!---->
+	<string name="weather_off_line_text">"ขอโทษ, ไม่สามารถเชื่อมต่อได้"</string>
+	<string-array name="weather_icon_desc">
+		<item>"มีแดดแรง"</item>
+		<item>"มีแดดเป็นส่วนมาก"</item>
+		<item>"มีแดดบางส่วน"</item>
+		<item>"มีเมฆเป็นระยะ"</item>
+		<item>"มีแดดสลัว"</item>
+		<item>"มีเมฆเป็นส่วนมาก"</item>
+		<item>"มีเมฆเป็นส่วนมาก"</item>
+		<item>"มืดทึบ"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"มีหมอก"</item>
+		<item>"มีฝนตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ"</item>
+		<item>"มีแดดบางส่วนและมีฝนตกปรอยๆ"</item>
+		<item>"มีพายุฝนฟ้าคะนอง"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนฟ้าคะนอง"</item>
+		<item>"มีแดดเป็นบางส่วนและมีฝนฟ้าคะนอง"</item>
+		<item>"มีฝนตก"</item>
+		<item>"มีหิมะตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะตกปรอยๆ"</item>
+		<item>"มีแดดบางส่วนและละอองฝน"</item>
+		<item>"หิมะ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะ"</item>
+		<item>"มีน้ำแข็ง"</item>
+		<item>"มีฝนลูกเห็บ"</item>
+		<item>"มีฝนน้ำแข็ง"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"มีฝนตกปนหิมะ"</item>
+		<item>"ร้อน"</item>
+		<item>"เย็น"</item>
+		<item>"มีลมแรง"</item>
+		<item>"ปลอดโปร่ง"</item>
+		<item>"ปลอดโปร่งเป็นส่วนมาก"</item>
+		<item>"มีเมฆบางส่วน"</item>
+		<item>"มีเมฆเป็นระยะ"</item>
+		<item>"มีหมอก"</item>
+		<item>"มีเมฆเป็นส่วนมาก"</item>
+		<item>"มีเมฆบางส่วนและมีฝนตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนตกปรอยๆ"</item>
+		<item>"มีเมฆบางส่วนและมีฝนฟ้าคะนอง"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีฝนฟ้าคะนอง"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะตกปรอยๆ"</item>
+		<item>"มีเมฆเป็นส่วนมากและมีหิมะ"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"จันทร์"</item>
+		<item>"อังคาร"</item>
+		<item>"พุธ"</item>
+		<item>"พฤหัสบดี"</item>
+		<item>"ศุกร์"</item>
+		<item>"เสาร์"</item>
+		<item>"อาทิตย์"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"รีเฟรช"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"ไม่สามารถรับตำแหน่งที่ตั้งล่าสุดได้"</string>
+	<!---->
+	<string name="last_updated_label">"อัพเดตล่าสุด"</string>
+	<!---->
+	<string name="change_to_C">"เปลี่ยนเป็น° C"</string>
+	<!---->
+	<string name="change_to_F">"เปลี่ยนเป็น° F"</string>
+	<!---->
+	<string name="label_today">"วันนี้"</string>
+	<!---->
+	<string name="label_humidity">"ความชื้น"</string>
+	<!---->
+	<string name="label_pressure">"ความดัน"</string>
+	<!---->
+	<string name="label_wind">"ลม"</string>
+	<!---->
+	<string name="label_visibility">"ทัศนวิสัย"</string>
+	<!---->
+	<string name="label_uv_index">"ดัชนีรังสียูวี"</string>
+	<!---->
+	<string name="label_high">"สูง"</string>
+	<!---->
+	<string name="label_low">"ต่ำ"</string>
+	<!---->
+	<string name="label_high_rel">"สูงสุด"</string>
+	<!---->
+	<string name="label_low_rel">"นาที"</string>
+	<!---->
+	<string name="label_precipitation">"ปริมาณน้ำฝน"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"วันจันทร์"</item>
+		<item>"วันอังคาร"</item>
+		<item>"วันพุธ"</item>
+		<item>"วันพฤหัสบดี"</item>
+		<item>"วันศุกร์"</item>
+		<item>"วันเสาร์"</item>
+		<item>"วันอาทิตย์"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"เมกะไบต์"</string>
+	<!---->
+	<string name="label_mm">"มม."</string>
+	<!---->
+	<string name="label_wind_unit_km">"กม./ชม."</string>
+	<!---->
+	<string name="label_wind_unit_m">"ม./วินาที"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"ไมล์/ชม."</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"ไมล์/ชั่วโมง"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"กม."</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"ไมล์"</string>
+	<!---->
+	<string name="change_to_mi">"เปลี่ยนเป็นไมล์"</string>
+	<!---->
+	<string name="change_to_km">"เปลี่ยนเป็น กม."</string>
+	<!---->
+	<string name="obtain_data_failed">"ไม่สามารถที่จะได้รับข้อมูลสภาพอากาศ กรุณาตรวจสอบการเชื่อมต่ออินเทอร์เน็ต"</string>
+	<!---->
+	<string name="tokyo_name">"โตเกียว"</string>
+	<!---->
+	<string name="just_now">"เมื่อครู่"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 วินาทีที่ผ่านมา"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> วินาทีที่ผ่านมา"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 นาทีที่ผ่านมา"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> นาทีที่ผ่านมา"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 ชั่วโมงที่ผ่านมา"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ชั่วโมงที่ผ่านมา"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"เมื่อวาน"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> วันที่ผ่านมา"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 สัปดาห์มาแล้ว"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> สัปดาห์มาแล้ว"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 เดือนที่ผ่านมา"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> เดือนมาแล้ว"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="pref_header_general">"ทั่วไป"</string>
+	<!---->
+	<string name="pref_header_metrics">"หน่วย"</string>
+	<!---->
+	<string name="title_pref_auto_update">"อัพเดตข้อมูลสภาพอากาศอัตโนมัติ"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"ตลอดเวลา อาจมีการคิดค่าใช้จ่ายข้อมูล"</item>
+		<item>"อัปเดตอัตโนมัติผ่าน Wi-Fi เท่านั้น"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"อุณหภูมิ"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"ฟาเรนไฮต์ (°F)"</item>
+		<item>"เซลเซียส (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"ระยะทาง"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"ไมล์ (ม.)"</item>
+		<item>"กิโลเมตร (กม.)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"ข้อมูลสาพอากาศชั้นสูง"</string>
+	<!---->
+	<string name="title_pref_feels_like">"แสดงอุณหภูมิที่เหมาะสม"</string>
+	<!---->
+	<string name="just_updated">"เมื่อครู่"</string>
+	<!---->
+	<string name="gotoSettingTips">"หากต้องการรับข้อมูลของสภาพอากาศในท้องถิ่น ต้องอนุญาตให้เข้าถึงการระบุตำแหน่งและโทรศัพท์"</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"การตั้งค่า"</string>
+	<!---->
+	<string name="permission_poster_title">"อนุญาตการเข้าถึง"</string>
+	<!---->
+	<string name="location_permission_description">"แอปสภาพอากาศต้องได้รับอนุญาตให้เข้าถึงการระบุตำแหน่งและโทรศัพท์เพื่อให้ข้อมูลของสภาพอากาศในท้องถิ่น อนุญาตให้เข้าถึงการระบุตำแหน่งและโทรศัพท์เพื่อใช้คุณสมบัตินี้"</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"เข้าใจแล้ว"</string>
+</resources>

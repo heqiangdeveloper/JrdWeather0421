@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_header_general">
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/pref_auto_update_titles"
+            android:entryValues="@array/pref_auto_update_values"
+            android:key="settings_auto_update"
+            android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            android:summary=""
+            android:title="@string/title_pref_auto_update" />
+        <!--//[BUGFIX]-Add-BEGIN by TSCD.qian-li,11/16/2015,909061,
+        [Weather_v5.2.2.1.0307.0]Remove "Advanced weather data" and
+         "show sensible temperature" settings as Ergo_5.2.4 -->
+        <!--SwitchPreference
+            android:defaultValue="true"
+            android:key="settings_advance_data"
+            android:title="@string/title_pref_advanced_data" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="settings_feel_like"
+            android:title="@string/title_pref_feels_like" /-->
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_header_metrics">
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_temp_unit_titles"
+            android:entryValues="@array/pref_temp_unit_values"
+            android:key="settings_temp"
+            android:summary=""
+            android:title="@string/title_pref_temp"
+
+            />
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/pref_distance_unit_titles"
+            android:entryValues="@array/pref_distance_unit_values"
+            android:key="settings_distance"
+            android:summary=""
+            android:title="@string/title_pref_distance" />
+        <!--
+             android:negativeButtonText="@null"
+            android:positiveButtonText="@null"
+            -->
+    </PreferenceCategory>
+</PreferenceScreen>

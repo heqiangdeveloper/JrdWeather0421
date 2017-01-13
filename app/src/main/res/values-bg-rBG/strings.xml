@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Време"</string>
+	<!---->
+	<string name="no_weather">"Няма метеорологични данни"</string>
+	<!---->
+	<string name="menu_addlocation">"Добави местоположение"</string>
+	<!---->
+	<string name="menu_delete">"Изтрий местоположение"</string>
+	<!---->
+	<string name="menu_remove">"Премахване на местоположение"</string>
+	<!---->
+	<string name="menu_unit">"Смяна на м.един."</string>
+	<!---->
+	<string name="locate_auto">"Автоматично определяне на местоположението"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Свързването с интернет е невъзможно."</string>
+	<!---->
+	<string name="locate_goto_connect">"Отиване към свързване"</string>
+	<!---->
+	<string name="locate_failure">"Неуспешно автоматично определяне на местоположението. Моля, вместо това потърсете ръчно дадено местоположение."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Автоматичното локализиране е неуспешно. Моля, проверете услугата за местоположение на Google."</string>
+	<!---->
+	<string name="insert_location">"Въведи местополож."</string>
+	<!---->
+	<string name="search_location">"Търсене на местоположение"</string>
+	<!---->
+	<string name="connect_timeout">"Слаб сигнал. Моля, опитайте отново по-късно."</string>
+	<!---->
+	<string name="connot_find_location">"Това местоположение не може да бъде намерено."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Съжаляваме, можете да добавите само 11 града. Моля, премахнете някой."</string>
+	<!---->
+	<string name="citys_six_full">"Съжаляваме, можете да добавите само 11 града. Моля, премахнете някой."</string>
+	<!---->
+	<string name="citys_max_full">"Достигнат е максималния брой местоположения. Първо премахнете местоположение."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Търсене..."</string>
+	<!---->
+	<string name="locating">"Установяване на местоположение..."</string>
+	<!---->
+	<string name="loading">"Зареждане..."</string>
+	<!---->
+	<string name="weather_offline">"Времето офлайн"</string>
+	<!---->
+	<string name="update_time">"Последно опресняване"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Отказ"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Местоположение"</string>
+	<!---->
+	<string name="click_update">"Кликнете тук за актуализ"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Няма метеорологични данни"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Проверете вашата интернет връзка."</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Няма разрешение"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Необходим е достъп до местоположението, за да се покажат местните метеорологични данни."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Няма местоположение"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Използвайте тази уиджет за да добавите местоположение"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"НАСТРОЙКИ"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Добави местоположение"</string>
+	<!---->
+	<string name="weather_off_line_text">"Съжаляваме, свързв. е неуспешно"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Слънчево"</item>
+		<item>"Предимно слънчево"</item>
+		<item>"Разкъсана облачност"</item>
+		<item>"Променлива облачност"</item>
+		<item>"Слънчево със суха мъгла"</item>
+		<item>"Предимно облачно"</item>
+		<item>"Облачно"</item>
+		<item>"Мрачно"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Мъгла"</item>
+		<item>"Валежи"</item>
+		<item>"Предимно облачно с валежи"</item>
+		<item>"Разкъсана облачност с валежи"</item>
+		<item>"Гръмотевични бури"</item>
+		<item>"Предимно облачно с гръмотев. бури"</item>
+		<item>"Разкъсана облачност с гръмотев. бури"</item>
+		<item>"Дъжд"</item>
+		<item>"Краткотрайни снеговалежи"</item>
+		<item>"Предимно обл. с краткотрайни снеговалежи"</item>
+		<item>"Разкъсана обл. с краткотрайни снеговалежи"</item>
+		<item>"Сняг"</item>
+		<item>"Предимно облачно със снеговалеж"</item>
+		<item>"Лед"</item>
+		<item>"Поледица"</item>
+		<item>"Студен дъжд"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дъжд и сняг"</item>
+		<item>"Горещо"</item>
+		<item>"Студено"</item>
+		<item>"Ветровито"</item>
+		<item>"Ясно"</item>
+		<item>"Предимно безоблачно"</item>
+		<item>"С разкъсана облачност"</item>
+		<item>"Променлива облачност"</item>
+		<item>"Суха мъгла"</item>
+		<item>"Предимно облачно"</item>
+		<item>"Разкъсана облачност с валежи"</item>
+		<item>"Предимно облачно с валежи"</item>
+		<item>"Разкъсана облачност с гръмотев. бури"</item>
+		<item>"Предимно облачно с гръмотев. бури"</item>
+		<item>"Предимно обл. с краткотрайни снеговалежи"</item>
+		<item>"Предимно облачно със снеговалеж"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Пон"</item>
+		<item>"Вторник"</item>
+		<item>"Сряда"</item>
+		<item>"Четвъртък"</item>
+		<item>"Петък"</item>
+		<item>"Събота"</item>
+		<item>"Неделя"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Обновяване"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Не може да се получи инфо за най-новото местопол."</string>
+	<!---->
+	<string name="last_updated_label">"Последна актуализация:"</string>
+	<!---->
+	<string name="change_to_C">"Промяна на °C"</string>
+	<!---->
+	<string name="change_to_F">"Промяна на °F"</string>
+	<!---->
+	<string name="label_today">"Днес"</string>
+	<!---->
+	<string name="label_humidity">"Влажност"</string>
+	<!---->
+	<string name="label_pressure">"Налягане"</string>
+	<!---->
+	<string name="label_wind">"Вятър"</string>
+	<!---->
+	<string name="label_visibility">"Видимост"</string>
+	<!---->
+	<string name="label_uv_index">"Индекс на УВ лъчи"</string>
+	<!---->
+	<string name="label_high">"Висок"</string>
+	<!---->
+	<string name="label_low">"Нисък"</string>
+	<!---->
+	<string name="label_high_rel">"Максимален"</string>
+	<!---->
+	<string name="label_low_rel">"Минимален"</string>
+	<!---->
+	<string name="label_precipitation">"Валежи"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Пон."</item>
+		<item>"Вторник"</item>
+		<item>"Сряда"</item>
+		<item>"Четв."</item>
+		<item>"Петък"</item>
+		<item>"Събота"</item>
+		<item>"Неделя"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"мм"</string>
+	<!---->
+	<string name="label_wind_unit_km">"км/ч"</string>
+	<!---->
+	<string name="label_wind_unit_m">"м/с"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"мили/ч"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"км"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"мили"</string>
+	<!---->
+	<string name="change_to_mi">"Промени в мили"</string>
+	<!---->
+	<string name="change_to_km">"Промени в км"</string>
+	<!---->
+	<string name="obtain_data_failed">"Не може да се получат данни за времето. Моля, проверете интернет връзката."</string>
+	<!---->
+	<string name="tokyo_name">"Токио"</string>
+	<!---->
+	<string name="just_now">"Току-що"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"Преди 1 секунда"</item>
+		<item quantity="other">"Преди <xliff:g id="count">%d</xliff:g> секунди"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Преди 1 минута"</item>
+		<item quantity="other">"Преди <xliff:g id="count">%d</xliff:g> минути"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"Преди 1 час"</item>
+		<item quantity="other">"Преди <xliff:g id="count">%d</xliff:g> часа"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Вчера"</item>
+		<item quantity="other">"преди <xliff:g id="count">%d</xliff:g>дни"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Преди 1 седмица"</item>
+		<item quantity="other">"Преди<xliff:g id="count">%d</xliff:g> седмици"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Преди 1 месец"</item>
+		<item quantity="other">"Преди<xliff:g id="count">%d</xliff:g> месеца"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Настройки"</string>
+	<!---->
+	<string name="pref_header_general">"Общи"</string>
+	<!---->
+	<string name="pref_header_metrics">"Единици"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Автоматично актуализиране на данни за времето"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"По всяко време. Възможно е таксуване за данни."</item>
+		<item>"Автоматична актуализация само по Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Температура"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Фаренхайт (°F)"</item>
+		<item>"Целзий (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Разстояние"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Миля (mi.)"</item>
+		<item>"Километър (км)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Разширени данни за времето"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Показване на усещането за температура"</string>
+	<!---->
+	<string name="just_updated">"Само сега"</string>
+	<!---->
+	<string name="gotoSettingTips">"За да получите местните метеорологични данни, дайте достъп до Местоположение и Телефон ."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Настройки"</string>
+	<!---->
+	<string name="permission_poster_title">"Предоставяне на достъп"</string>
+	<!---->
+	<string name="location_permission_description">"Програмата за времето се нуждае от разрешения за местоположението и телефона, за да осигури местните метеорологични данни. Дайте достъп на Местоположение и Телефон да използват тази функция"</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"РАЗБРАНО."</string>
+</resources>

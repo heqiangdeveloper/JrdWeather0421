@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Vremea"</string>
+	<!---->
+	<string name="no_weather">"Nu există date meteo disponibile"</string>
+	<!---->
+	<string name="menu_addlocation">"Adăugaţi un loc"</string>
+	<!---->
+	<string name="menu_delete">"Ştergeţi loc"</string>
+	<!---->
+	<string name="menu_remove">"Eliminați locul"</string>
+	<!---->
+	<string name="menu_unit">"Modificaţi unitate"</string>
+	<!---->
+	<string name="locate_auto">"Localizare automată"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Conectare la Internet imposibilă."</string>
+	<!---->
+	<string name="locate_goto_connect">"Accesaţi conectarea"</string>
+	<!---->
+	<string name="locate_failure">"Localizare automată nereuşită. Căutaţi un alt loc."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Localizare automată nereuşită. Verificaţi serviciul de localizare Google."</string>
+	<!---->
+	<string name="insert_location">"Introduceţi un loc"</string>
+	<!---->
+	<string name="search_location">"Căutați un loc"</string>
+	<!---->
+	<string name="connect_timeout">"Semnal slab. Încercaţi mai târziu."</string>
+	<!---->
+	<string name="connot_find_location">"Acest loc nu poate fi găsit."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Ne pare rău, dar pot fi adăugate doar 11 oraşe. Eliminaţi unul."</string>
+	<!---->
+	<string name="citys_six_full">"Ne pare rău, dar pot fi adăugate doar 11 oraşe. Eliminaţi unul."</string>
+	<!---->
+	<string name="citys_max_full">"S-a atins numărul maxim de locuri. Eliminați întâi un loc."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Se caută..."</string>
+	<!---->
+	<string name="locating">"Se localizează..."</string>
+	<!---->
+	<string name="loading">"Se încarcă..."</string>
+	<!---->
+	<string name="weather_offline">"Vremea offline"</string>
+	<!---->
+	<string name="update_time">"Actualizaţi ora"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Anulare"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Locaţie"</string>
+	<!---->
+	<string name="click_update">"Apăsaţi pentru actualizare"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Nu există informații meteo"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Verificați conexiunea la internet"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Nu există permisiune"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Pentru a afișa informațiile meteo locale, este necesar accesul la poziția geografică."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Fără locaţie"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Utilizați acest widget pentru a adăuga o poziție"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"SETĂRI"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Adăugaţi un loc"</string>
+	<!---->
+	<string name="weather_off_line_text">"Conexiune imposibilă."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Senin"</item>
+		<item>"Mai mult senin"</item>
+		<item>"Parţial senin"</item>
+		<item>"Nori intermitenţi"</item>
+		<item>"Soare difuz"</item>
+		<item>"Mai mult noros"</item>
+		<item>"Noros"</item>
+		<item>"Vreme mohorâtă"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Ceaţă"</item>
+		<item>"Averse"</item>
+		<item>"Mai mult noros, cu averse"</item>
+		<item>"Parţial senin, cu averse"</item>
+		<item>"Furtuni cu fulgere"</item>
+		<item>"Mai mult noros, cu averse şi fulgere"</item>
+		<item>"Parţial însorit, cu averse şi fulgere"</item>
+		<item>"Ploaie"</item>
+		<item>"Ninsoare uşoară"</item>
+		<item>"Mai mult noros şi ninsoare uşoară"</item>
+		<item>"Parţial senin, rafale vant"</item>
+		<item>"Zăpadă"</item>
+		<item>"Mai mult noros şi zăpadă"</item>
+		<item>"Gheaţă"</item>
+		<item>"Lapoviţă"</item>
+		<item>"Ploaie îngheţată"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Ploaie şi ninsoare"</item>
+		<item>"Foarte cald"</item>
+		<item>"Frig"</item>
+		<item>"Vânt"</item>
+		<item>"Senin"</item>
+		<item>"Mai mult senin"</item>
+		<item>"Parţial noros"</item>
+		<item>"Nori intermitenţi"</item>
+		<item>"Ceaţă"</item>
+		<item>"Mai mult noros"</item>
+		<item>"Parţial noros, cu averse"</item>
+		<item>"Mai mult noros, cu averse"</item>
+		<item>"Parţial noros, cu averse şi fulgere"</item>
+		<item>"Mai mult noros, cu averse şi fulgere"</item>
+		<item>"Mai mult noros şi ninsoare uşoară"</item>
+		<item>"Mai mult noros, cu zăpadă"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Lun"</item>
+		<item>"Mar"</item>
+		<item>"Mie"</item>
+		<item>"Joi"</item>
+		<item>"Vi"</item>
+		<item>"Sâm"</item>
+		<item>"Dum"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Împrospătare"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Ultima locaţie nu a putut fi obţinută."</string>
+	<!---->
+	<string name="last_updated_label">"Ultimele dicționare actualizate:"</string>
+	<!---->
+	<string name="change_to_C">"Modificați în °C"</string>
+	<!---->
+	<string name="change_to_F">"Modificați în °F"</string>
+	<!---->
+	<string name="label_today">"Astăzi"</string>
+	<!---->
+	<string name="label_humidity">"Umiditate"</string>
+	<!---->
+	<string name="label_pressure">"Presiune"</string>
+	<!---->
+	<string name="label_wind">"Vânt"</string>
+	<!---->
+	<string name="label_visibility">"Vizibilitate"</string>
+	<!---->
+	<string name="label_uv_index">"Indice UV"</string>
+	<!---->
+	<string name="label_high">"Înaltă"</string>
+	<!---->
+	<string name="label_low">"Scăzută"</string>
+	<!---->
+	<string name="label_high_rel">"Max."</string>
+	<!---->
+	<string name="label_low_rel">"Min."</string>
+	<!---->
+	<string name="label_precipitation">"Precipitații"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Luni"</item>
+		<item>"Marţi"</item>
+		<item>"Miercuri"</item>
+		<item>"Joi"</item>
+		<item>"Vineri"</item>
+		<item>"Sâmbătă"</item>
+		<item>"Duminică"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mile pe oră"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mile/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mile"</string>
+	<!---->
+	<string name="change_to_mi">"Schimbați pe mile"</string>
+	<!---->
+	<string name="change_to_km">"Schimbați pe kilometri"</string>
+	<!---->
+	<string name="obtain_data_failed">"Obținerea de date meteorologice este imposibilă. Vă rugăm să verificați conexiunea la Internet."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"În acest moment"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"acum 1 secundă"</item>
+		<item quantity="other">"acum <xliff:g id="count">%d</xliff:g> secunde"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"acum 1 minut"</item>
+		<item quantity="other">"acum <xliff:g id="count">%d</xliff:g> minute"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"acum 1 oră"</item>
+		<item quantity="other">"acum <xliff:g id="count">%d</xliff:g> ore"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Ieri"</item>
+		<item quantity="other">"acum <xliff:g id="count">%d</xliff:g> zile"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"În urmă cu 1 săptămână"</item>
+		<item quantity="other">"În urmă cu <xliff:g id="count">%d</xliff:g> (de) săptămâni"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"acum 1 lună"</item>
+		<item quantity="other">"în urmă cu <xliff:g id="count">%d</xliff:g> luni"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Setări"</string>
+	<!---->
+	<string name="pref_header_general">"General"</string>
+	<!---->
+	<string name="pref_header_metrics">"Metric"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Actualizare automată date despre vreme"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Actualizați automat datele despre vreme. Se pot percepe costuri pentru traficul de date."</item>
+		<item>"Actualizare automată numai prin Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatură"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celsius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distanță"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mile (mi)"</item>
+		<item>"Kilometri (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Informații meteo detaliate"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Afișați temperatura resimțită"</string>
+	<!---->
+	<string name="just_updated">"În acest moment"</string>
+	<!---->
+	<string name="gotoSettingTips">"Pentru a primi date meteo locale, oferiți accesul la aplicațiile Poziționare și Telefon."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Setări"</string>
+	<!---->
+	<string name="permission_poster_title">"Oferiți acces"</string>
+	<!---->
+	<string name="location_permission_description">"Aplicația Meteo are nevoie de permisiunile aplicațiilor Poziționare și Telefon pentru a furniza datele meteo locale. Oferiți accesul la aplicațiile Poziționare și Telefon pentru a utiliza această funcție."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"AM ÎNȚELES"</string>
+</resources>

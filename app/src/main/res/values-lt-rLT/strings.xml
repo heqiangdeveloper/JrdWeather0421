@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Orai"</string>
+	<!---->
+	<string name="no_weather">"Oro prognozės duomenys negalimi"</string>
+	<!---->
+	<string name="menu_addlocation">"Pridėti vietą"</string>
+	<!---->
+	<string name="menu_delete">"Ištrinti vietą"</string>
+	<!---->
+	<string name="menu_remove">"Pašalinti vietos nustatymą"</string>
+	<!---->
+	<string name="menu_unit">"Keisti vienetą"</string>
+	<!---->
+	<string name="locate_auto">"Nustatyti vietą automatiškai"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nepavyksta prisijungti prie interneto."</string>
+	<!---->
+	<string name="locate_goto_connect">"Eikite, kad prisijungtumėte"</string>
+	<!---->
+	<string name="locate_failure">"Nepavyko automatiškai nustatyti vietos. Ieškokite vietos."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatiškai rasti nepavyko. Naudokite tinklo vietų paslaugą."</string>
+	<!---->
+	<string name="insert_location">"Įterpti vietą"</string>
+	<!---->
+	<string name="search_location">"Ieškoti vietos nustatymo"</string>
+	<!---->
+	<string name="connect_timeout">"Silpnas signalas. Bandykite vėliau."</string>
+	<!---->
+	<string name="connot_find_location">"Nepavyko rasti šios vietos."</string>
+	<!---->
+	<string name="real_feel">"„RealFeel“"</string>
+	<!---->
+	<string name="citys_full">"Apgailestaujame, galite pridėti tik 11 miestų. Vieną pašalinkite."</string>
+	<!---->
+	<string name="citys_six_full">"Galite pridėti tik 11 miestų. Vieną pašalinkite."</string>
+	<!---->
+	<string name="citys_max_full">"Pasiektas didžiausias vietos nustatymų skaičius. Pirmiausia pašalinkite vietos nustatymą."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Ieškoma…"</string>
+	<!---->
+	<string name="locating">"Nustatoma vieta…"</string>
+	<!---->
+	<string name="loading">"Įkeliama..."</string>
+	<!---->
+	<string name="weather_offline">"Orai atsijungus"</string>
+	<!---->
+	<string name="update_time">"Naujinti laiką"</string>
+	<!---->
+	<string name="common_ok">"Gerai"</string>
+	<!---->
+	<string name="common_cancel">"Atšaukti"</string>
+	<!---->
+	<string name="date_am">"Priešpiet"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Vieta"</string>
+	<!---->
+	<string name="click_update">"Spustelėkite čia, kad atnaujintumėte"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Oro prognozės duomenų nėra"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Patikrinkite tinklo ryšį"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Neduotas sutikimas"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Norint pateikti vietos orų prognozę, reikalinga vietos nustatymo prieiga."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Be vietos informac."</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Norėdami pridėti vietą, naudokite šį valdiklį"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"NUSTATYMAI"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Pridėti vietą"</string>
+	<!---->
+	<string name="weather_off_line_text">"Deja, neprisijungiama."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Saulėta"</item>
+		<item>"Daugiausia saulėta"</item>
+		<item>"Su pragiedruliais"</item>
+		<item>"Protarpiais debesuota"</item>
+		<item>"Pragiedruliai"</item>
+		<item>"Daugiausia debesuota"</item>
+		<item>"Debesuota"</item>
+		<item>"Apsiniaukę"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Rūkas"</item>
+		<item>"Liūtis"</item>
+		<item>"Daugiausia debesuota, liūtis"</item>
+		<item>"Pragiedruliai, liūtis"</item>
+		<item>"Perkūnija"</item>
+		<item>"Daugiausia debesuota, liūtis su perkūnija"</item>
+		<item>"Pragiedruliai, liūtis su perkūnija"</item>
+		<item>"Lietus"</item>
+		<item>"Vėjo gūsiai"</item>
+		<item>"Daugiausia debesuota, vėjo gūsiai"</item>
+		<item>"Pragiedruliai, vėjo gūsiai"</item>
+		<item>"Sniegas"</item>
+		<item>"Daugiausia debesuota, sniegas"</item>
+		<item>"Ledas"</item>
+		<item>"Šlapdriba"</item>
+		<item>"Plikledis"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Šlapdriba"</item>
+		<item>"Karšta"</item>
+		<item>"Vėsi"</item>
+		<item>"Vėjuota"</item>
+		<item>"Išvalyti"</item>
+		<item>"Daugiausia giedra"</item>
+		<item>"Vietomis debesys"</item>
+		<item>"Protarpiais debesuota"</item>
+		<item>"Ūkanota"</item>
+		<item>"Daugiausia debesuota"</item>
+		<item>"Vietomis debesuota, liūtis"</item>
+		<item>"Daugiausia debesuota, liūtis"</item>
+		<item>"Vietomis debesuota, liūtis su perkūnija"</item>
+		<item>"Daugiausia debesuota, liūtis su perkūnija"</item>
+		<item>"Daugiausia debesuota, vėjo gūsiai"</item>
+		<item>"Daugiausia debesuota, sniegas"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pr"</item>
+		<item>"A"</item>
+		<item>"T"</item>
+		<item>"K"</item>
+		<item>"Pn"</item>
+		<item>"Š"</item>
+		<item>"S"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Atnaujinti"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nepavyksta nustatyt pastarosios vietos."</string>
+	<!---->
+	<string name="last_updated_label">"Paskutinį kartą atnaujinta:"</string>
+	<!---->
+	<string name="change_to_C">"Keisti į °C"</string>
+	<!---->
+	<string name="change_to_F">"Keisti į °F"</string>
+	<!---->
+	<string name="label_today">"Šiandien"</string>
+	<!---->
+	<string name="label_humidity">"Drėgmė"</string>
+	<!---->
+	<string name="label_pressure">"Slėgis"</string>
+	<!---->
+	<string name="label_wind">"Vėjas"</string>
+	<!---->
+	<string name="label_visibility">"Matom."</string>
+	<!---->
+	<string name="label_uv_index">"UV indeksas"</string>
+	<!---->
+	<string name="label_high">"Aukštas"</string>
+	<!---->
+	<string name="label_low">"Žemas"</string>
+	<!---->
+	<string name="label_high_rel">"Maks."</string>
+	<!---->
+	<string name="label_low_rel">"Min."</string>
+	<!---->
+	<string name="label_precipitation">"Krituliai"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Pirmadienis"</item>
+		<item>"Antradienis"</item>
+		<item>"Trečiadienis"</item>
+		<item>"Ketvirtadienis"</item>
+		<item>"Penktadienis"</item>
+		<item>"Šeštadienis"</item>
+		<item>"Sekmadienis"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"Keisti į mylias"</string>
+	<!---->
+	<string name="change_to_km">"Keisti į kilometrus"</string>
+	<!---->
+	<string name="obtain_data_failed">"Nepavyko gauti duomenų apie orus. Patikrinkite interneto ryšį."</string>
+	<!---->
+	<string name="tokyo_name">"Tokijas"</string>
+	<!---->
+	<string name="just_now">"Ką tik"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"Prieš 1 sek."</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> Prieš tiek sek.:"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Prieš 1 minutę"</item>
+		<item quantity="other">"Prieš <xliff:g id="COUNT">%d</xliff:g> min."</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"Prieš 1 valandą"</item>
+		<item quantity="other">"Prieš <xliff:g id="COUNT">%d</xliff:g> val."</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Vakar"</item>
+		<item quantity="other">"Prieš <xliff:g id="COUNT">%d</xliff:g> d."</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"Prieš 1 sav."</item>
+		<item quantity="other">"Prieš<xliff:g id="count">%d</xliff:g> sav."</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Prieš 1 mėn."</item>
+		<item quantity="other">"Prieš<xliff:g id="count">%d</xliff:g> mėn."</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Nustatymai"</string>
+	<!---->
+	<string name="pref_header_general">"Bendra"</string>
+	<!---->
+	<string name="pref_header_metrics">"Vienetai"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Automatiškai atnaujinti oro prognozės duomenis"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Bet kuriuo metu. Gali būti taikomi duomenų perdavimo mokesčiai."</item>
+		<item>"Automatinis naujinimas tik prisijungus prie bevielio ryšio"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatūra"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Farenheitas (°F)"</item>
+		<item>"Celsijus (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Atstumas"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mylia (mi)"</item>
+		<item>"Kilometras (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Pažangūs oro prognozės duomenys"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Rodyti jutiminę temperatūrą"</string>
+	<!---->
+	<string name="just_updated">"Ką tik"</string>
+	<!---->
+	<string name="gotoSettingTips">"Norint gauti vietos orų prognozę, suteikite vietos nustatymo ir telefono prieigą."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Nustatymai"</string>
+	<!---->
+	<string name="permission_poster_title">"Sukurkite prieigą"</string>
+	<!---->
+	<string name="location_permission_description">"Norint gauti vietos orų prognozę, orų prognozės (Weather) programai aktyvuokite vietos nustatymo ir telefono sutikimus. Norint naudoti šią funkciją, suteikite vietos ir telefono prieigą."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"UŽFIKSUOTA"</string>
+</resources>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Väder"</string>
+	<!---->
+	<string name="no_weather">"Ingen väderinformation tillgänglig"</string>
+	<!---->
+	<string name="menu_addlocation">"Lägg till en plats"</string>
+	<!---->
+	<string name="menu_delete">"Ta bort en plats"</string>
+	<!---->
+	<string name="menu_remove">"Ta bort plats"</string>
+	<!---->
+	<string name="menu_unit">"Ändra enhet"</string>
+	<!---->
+	<string name="locate_auto">"Hitta automatiskt"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Kan inte ansluta till Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Gå till anslut"</string>
+	<!---->
+	<string name="locate_failure">"Hitta automatiskt misslyckades. Sök efter en plats i stället."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Hitta automatiskt misslyckades. Kontrollera Googles platstjänst."</string>
+	<!---->
+	<string name="insert_location">"Infoga en plats"</string>
+	<!---->
+	<string name="search_location">"Sök plats"</string>
+	<!---->
+	<string name="connect_timeout">"Svag signal. Försök igen senare."</string>
+	<!---->
+	<string name="connot_find_location">"Den här platsen kan inte hittas."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Du kan tyvärr bara lägga till 11 städer. Ta bort en."</string>
+	<!---->
+	<string name="citys_six_full">"Du kan tyvärr bara lägga till 11 städer. Ta bort en."</string>
+	<!---->
+	<string name="citys_max_full">"Max antal platser har uppnåtts. Ta bort en plats först."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Söker..."</string>
+	<!---->
+	<string name="locating">"Hittar..."</string>
+	<!---->
+	<string name="loading">"Laddar..."</string>
+	<!---->
+	<string name="weather_offline">"Väder offline"</string>
+	<!---->
+	<string name="update_time">"Uppdatera tid"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Avbryt"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Plats"</string>
+	<!---->
+	<string name="click_update">"Klicka här för att uppdatera"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Ingen väderinformation"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Kontrollera din Internetanslutning"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Ingen behörighet"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Platstillstånd krävs för att visa lokal väderinformation."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Ingen plats"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Använd denna widget för att lägga till en plats"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"INSTÄLLNINGAR"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Lägg till en plats"</string>
+	<!---->
+	<string name="weather_off_line_text">"Kan tyvärr inte ansluta"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Soligt"</item>
+		<item>"Mestadels soligt"</item>
+		<item>"Delvis soligt"</item>
+		<item>"Stackmoln"</item>
+		<item>"Soldis"</item>
+		<item>"Mestadels molnigt"</item>
+		<item>"Molnigt"</item>
+		<item>"Mörkt"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Dimma"</item>
+		<item>"Skurar"</item>
+		<item>"Mestadels molnigt med skurar"</item>
+		<item>"Delvis soligt med skurar"</item>
+		<item>"Åska"</item>
+		<item>"Mestadels molnigt med åskskurar"</item>
+		<item>"Delvis soligt med åskskurar"</item>
+		<item>"Regn"</item>
+		<item>"Regnbyar"</item>
+		<item>"Mestadels molnigt med regnbyar"</item>
+		<item>"Delvis soligt med regnbyar"</item>
+		<item>"Snö"</item>
+		<item>"Mestadels molnigt med snö"</item>
+		<item>"Is"</item>
+		<item>"Snöblandat regn"</item>
+		<item>"Regn som fryser på"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Regn och snö blandat"</item>
+		<item>"Varmt"</item>
+		<item>"Kallt"</item>
+		<item>"Blåsigt"</item>
+		<item>"Klart"</item>
+		<item>"Mestadels klart"</item>
+		<item>"Delvis molnigt"</item>
+		<item>"Växlande molnighet"</item>
+		<item>"Disigt"</item>
+		<item>"Mestadels molnigt"</item>
+		<item>"Delvis molnigt med skurar"</item>
+		<item>"Mestadels molnigt med skurar"</item>
+		<item>"Delvis molnigt med åskskurar"</item>
+		<item>"Mestadelsmolnigt med åskskurar"</item>
+		<item>"Mestadels molnigt med snöbyar"</item>
+		<item>"Mestadels molnigt med byar"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Mån"</item>
+		<item>"Tis"</item>
+		<item>"Ons"</item>
+		<item>"Tors"</item>
+		<item>"Fre"</item>
+		<item>"Lör"</item>
+		<item>"Sön"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Uppdatera"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Det går inte att hitta den senaste platsen."</string>
+	<!---->
+	<string name="last_updated_label">"Senast uppdaterad:"</string>
+	<!---->
+	<string name="change_to_C">"Ändra till °C"</string>
+	<!---->
+	<string name="change_to_F">"Ändra till °F"</string>
+	<!---->
+	<string name="label_today">"Idag"</string>
+	<!---->
+	<string name="label_humidity">"Fuktighet"</string>
+	<!---->
+	<string name="label_pressure">"Tryck"</string>
+	<!---->
+	<string name="label_wind">"Vind"</string>
+	<!---->
+	<string name="label_visibility">"Synlighet"</string>
+	<!---->
+	<string name="label_uv_index">"UV index"</string>
+	<!---->
+	<string name="label_high">"Hög"</string>
+	<!---->
+	<string name="label_low">"Låg"</string>
+	<!---->
+	<string name="label_high_rel">"Max"</string>
+	<!---->
+	<string name="label_low_rel">"minut"</string>
+	<!---->
+	<string name="label_precipitation">"Utfällning"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Måndag"</item>
+		<item>"Tisdag"</item>
+		<item>"Onsdag"</item>
+		<item>"Torsdag"</item>
+		<item>"Fredag"</item>
+		<item>"Lördag"</item>
+		<item>"Söndag"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"Ändra till mi."</string>
+	<!---->
+	<string name="change_to_km">"Ändra till km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Det går inte att hämta väderdata. Kontrollera Internet-anslutningen."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Precis nu"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"för 1 sekund sedan"</item>
+		<item quantity="other">"för <xliff:g id="COUNT">%d</xliff:g> sekunder sedan"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"för 1 minut sedan"</item>
+		<item quantity="other">"för <xliff:g id="COUNT">%d</xliff:g> minuter sedan"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"för 1 timme sedan"</item>
+		<item quantity="other">"för <xliff:g id="COUNT">%d</xliff:g> timmar sedan"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Igår"</item>
+		<item quantity="other">"för <xliff:g id="COUNT">%d</xliff:g> dagar sedan"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"För 1 vecka sedan"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> veckor sedan"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"för 1 månad sedan"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> månader sedan"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Inställningar"</string>
+	<!---->
+	<string name="pref_header_general">"Allmänt"</string>
+	<!---->
+	<string name="pref_header_metrics">"Enheter"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Automatiskt uppdaterad väderdata"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"När som helst. Dataavgifter kan tillkomma."</item>
+		<item>"Uppdatera automatiskt enbart via Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatur"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distans"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mile (mi.)"</item>
+		<item>"Kilometer (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Avancerad väderdata"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Visa temperaturkänslighet"</string>
+	<!---->
+	<string name="just_updated">"Precis nu"</string>
+	<!---->
+	<string name="gotoSettingTips">"För att motta lokal väderinformation måste du ge behörighet till Plats och Telefon."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Inställningar"</string>
+	<!---->
+	<string name="permission_poster_title">"Ge tillgång"</string>
+	<!---->
+	<string name="location_permission_description">"Väder behöver tillstånd från Plats och Telefon för att kunna ge lokal väderinformation. Ge Plats och Telefon behörighet för den här funktionen."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"FÖRSTÅTT"</string>
+</resources>

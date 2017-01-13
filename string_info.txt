@@ -1,0 +1,3 @@
+StringLabel:JRD-ANDROID5.0-RELEASE-JRD-JRDAPK_WIMDATA_NG-WLANGUAGE-P1.0-325
+StringLabelTime:Fri Apr 15 17:21:09 2016
+this file is built by arct v:froyo_2011-03-23, Fri Apr 15 18:00:32 GMT+08:00 2016

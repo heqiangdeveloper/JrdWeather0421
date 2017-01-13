@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Weer"</string>
+	<!---->
+	<string name="no_weather">"Geen weersinformatie beschikbaar"</string>
+	<!---->
+	<string name="menu_addlocation">"Locatie toevoegen"</string>
+	<!---->
+	<string name="menu_delete">"Locatie verwijderen"</string>
+	<!---->
+	<string name="menu_remove">"Locatie verwijderen"</string>
+	<!---->
+	<string name="menu_unit">"Eenheid wijzigen"</string>
+	<!---->
+	<string name="locate_auto">"Automatisch vinden"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Kan geen verbinding maken met internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Ga naar verbinden"</string>
+	<!---->
+	<string name="locate_failure">"Automatisch locatie vinden is mislukt. Zoek in plaats daarvan een locatie."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatisch locatie vinden is mislukt. Controleer de locatieservice van Google."</string>
+	<!---->
+	<string name="insert_location">"Een locatie toevoegen"</string>
+	<!---->
+	<string name="search_location">"Locatie zoeken"</string>
+	<!---->
+	<string name="connect_timeout">"Zwak signaal. Probeer het later opnieuw."</string>
+	<!---->
+	<string name="connot_find_location">"Deze locatie kan niet worden gevonden."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"U kunt slechts 11 steden toevoegen. Verwijder een stad."</string>
+	<!---->
+	<string name="citys_six_full">"U kunt slechts 11 steden toevoegen. Verwijder een stad."</string>
+	<!---->
+	<string name="citys_max_full">"Maximaal aantal locaties bereikt. Eerst een locatie verwijderen."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Zoeken..."</string>
+	<!---->
+	<string name="locating">"Vinden..."</string>
+	<!---->
+	<string name="loading">"Laden..."</string>
+	<!---->
+	<string name="weather_offline">"Weer offline"</string>
+	<!---->
+	<string name="update_time">"Updatetijd"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Annuleren"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Locatie"</string>
+	<!---->
+	<string name="click_update">"Klik hier om bij te werken"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Geen weersinformatie"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Controleer de internetverbinding"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Geen machtiging"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Toegang tot locatie nodig om lokale weersinformatie weer te geven."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Geen locatie"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Gebruik deze widget om een locatie toe te voegen"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"INSTELLINGEN"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Locatie toevoegen"</string>
+	<!---->
+	<string name="weather_off_line_text">"Kan geen verbinding maken."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Zonnig"</item>
+		<item>"Meest zonnig"</item>
+		<item>"Gedeeltelijk zonnig"</item>
+		<item>"Zo nu en dan bewolkt"</item>
+		<item>"Wazig zonnetje"</item>
+		<item>"Meest bewolkt"</item>
+		<item>"Bewolkt"</item>
+		<item>"Druilerig"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Mist"</item>
+		<item>"Regenbuien"</item>
+		<item>"Vooral bewolkt met regenbuien"</item>
+		<item>"Gedeeltelijk zonnig met regenbuien"</item>
+		<item>"Onweersbuien"</item>
+		<item>"Vooral bewolkt met onweersbuien"</item>
+		<item>"Gedeeltelijk zonnig met onweersbuien"</item>
+		<item>"Regen"</item>
+		<item>"Windstoten"</item>
+		<item>"Meest bewolkt met windstoten"</item>
+		<item>"Gedeeltelijk zonnig met windstoten"</item>
+		<item>"Sneeuw"</item>
+		<item>"Meest bewolkt met sneeuw"</item>
+		<item>"IJs"</item>
+		<item>"IJzel"</item>
+		<item>"Aanvriezende regen"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Regen en sneeuw"</item>
+		<item>"Heet"</item>
+		<item>"Koud"</item>
+		<item>"Winderig"</item>
+		<item>"Helder"</item>
+		<item>"Meest helder"</item>
+		<item>"Gedeeltelijk bewolkt"</item>
+		<item>"Zo nu en dan bewolkt"</item>
+		<item>"Nevelig"</item>
+		<item>"Meest bewolkt"</item>
+		<item>"Gedeeltelijk bewolkt met buien"</item>
+		<item>"Gedeelte bewolkt met buien"</item>
+		<item>"Gedeeltelijk bewolkt met onweersbuien"</item>
+		<item>"Meest bewolkt met onweersbuien"</item>
+		<item>"Meest bewolkt met windstoten"</item>
+		<item>"Meest bewolkt met sneeuw"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Maa"</item>
+		<item>"Din"</item>
+		<item>"Woe"</item>
+		<item>"Don"</item>
+		<item>"Vrij"</item>
+		<item>"Zat"</item>
+		<item>"Zon"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Vernieuwen"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Kan de laatste locatie niet vaststellen."</string>
+	<!---->
+	<string name="last_updated_label">"Laatst bijgewerkt:"</string>
+	<!---->
+	<string name="change_to_C">"Wijzigen in °C"</string>
+	<!---->
+	<string name="change_to_F">"Wijzigen in °F"</string>
+	<!---->
+	<string name="label_today">"Vandaag"</string>
+	<!---->
+	<string name="label_humidity">"Vochtigh."</string>
+	<!---->
+	<string name="label_pressure">"Druk"</string>
+	<!---->
+	<string name="label_wind">"Wind"</string>
+	<!---->
+	<string name="label_visibility">"Zicht"</string>
+	<!---->
+	<string name="label_uv_index">"UV-index"</string>
+	<!---->
+	<string name="label_high">"Hoog"</string>
+	<!---->
+	<string name="label_low">"Laag"</string>
+	<!---->
+	<string name="label_high_rel">"Max"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Neerslag"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Maandag"</item>
+		<item>"Dinsdag"</item>
+		<item>"Woensdag"</item>
+		<item>"Donderdag"</item>
+		<item>"Vrijdag"</item>
+		<item>"Zaterdag"</item>
+		<item>"Zondag"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/u"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"m/u"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mijl/uur"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mijl"</string>
+	<!---->
+	<string name="change_to_mi">"Wijzigen in mijl"</string>
+	<!---->
+	<string name="change_to_km">"Wijzigen in km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Kan geen gegevens over het weer verkrijgen. Controleer de internetverbinding."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+	<!---->
+	<string name="just_now">"Nu net"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 seconde geleden"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> seconden geleden"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 minuut geleden"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> minuten geleden"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 uur geleden"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> uur geleden"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Gisteren"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> dagen geleden"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 week geleden"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> weken geleden"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 maand geleden"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> maanden geleden"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Instellingen"</string>
+	<!---->
+	<string name="pref_header_general">"Algemeen"</string>
+	<!---->
+	<string name="pref_header_metrics">"Eenheden"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Automatisch weergegevens bijwerken"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Altijd. Er kunnen kosten voor gegevens van toepassing zijn."</item>
+		<item>"Automatisch bijwerken alleen via Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperatuur"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celsius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Afstand"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mijl (mi.)"</item>
+		<item>"Kilometer (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Geavanceerde weergegevens"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Gevoelstemperatuur weergeven"</string>
+	<!---->
+	<string name="just_updated">"Nu net"</string>
+	<!---->
+	<string name="gotoSettingTips">"Verleen toegang tot Locatie en Telefoon om lokale weersinformatie te ontvangen."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Instellingen"</string>
+	<!---->
+	<string name="permission_poster_title">"Toegang verlenen"</string>
+	<!---->
+	<string name="location_permission_description">"Weer heeft Locatie- en Telefoon-toestemming nodig om lokale weersinformatie weer te geven. Verleen toegang tot Locatie en Telefoon om deze functie te gebruiken."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"KLAAR"</string>
+</resources>

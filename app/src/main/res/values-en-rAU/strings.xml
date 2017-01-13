@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Weather"</string>
+	<!---->
+	<string name="no_weather">"No weather data available"</string>
+	<!---->
+	<string name="menu_addlocation">"Add a location"</string>
+	<!---->
+	<string name="menu_delete">"Delete location"</string>
+	<!---->
+	<string name="menu_remove">"Remove location"</string>
+	<!---->
+	<string name="menu_unit">"Change unit"</string>
+	<!---->
+	<string name="locate_auto">"Auto locate"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Cannot connect to the Internet."</string>
+	<!---->
+	<string name="locate_goto_connect">"Go to connect"</string>
+	<!---->
+	<string name="locate_failure">"Auto locate failed. Please search for a location instead."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Auto locate failure, please check the network location service."</string>
+	<!---->
+	<string name="insert_location">"Insert a location"</string>
+	<!---->
+	<string name="search_location">"Search location"</string>
+	<!---->
+	<string name="connect_timeout">"Weak signal. Please try again later."</string>
+	<!---->
+	<string name="connot_find_location">"This location cannot be found."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Sorry, you can only add 11 cities. Please remove one."</string>
+	<!---->
+	<string name="citys_six_full">"You can only add 11 cities. Remove one."</string>
+	<!---->
+	<string name="citys_max_full">"Max locations reached. Remove a location first."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Searching…"</string>
+	<!---->
+	<string name="locating">"Locating…"</string>
+	<!---->
+	<string name="loading">"Loading..."</string>
+	<!---->
+	<string name="weather_offline">"Weather is offline"</string>
+	<!---->
+	<string name="update_time">"Update time"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Cancel"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Location"</string>
+	<!---->
+	<string name="click_update">"Click here to update"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"No weather data"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Check your Internet connection"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"No permission"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Location access needed to show local weather data."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"No location"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Use this widget to add a location"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"Settings"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Add a location"</string>
+	<!---->
+	<string name="weather_off_line_text">"Sorry, unable to connect."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Sunny"</item>
+		<item>"Mostly Sunny"</item>
+		<item>"Partly sunny"</item>
+		<item>"Intermittent clouds"</item>
+		<item>"Hazy sunshine"</item>
+		<item>"Mostly cloudy"</item>
+		<item>"Cloudy"</item>
+		<item>"Dreary"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Fog"</item>
+		<item>"Showers"</item>
+		<item>"Mostly Cloudy with Showers"</item>
+		<item>"Partly Sunny with Showers"</item>
+		<item>"Thunderstorms"</item>
+		<item>"Mostly cloudy with thunder showers"</item>
+		<item>"Partly sunny with thunder showers"</item>
+		<item>"Rain"</item>
+		<item>"Flurries"</item>
+		<item>"Mostly cloudy with flurries"</item>
+		<item>"Partly sunny with flurries"</item>
+		<item>"Snow"</item>
+		<item>"Mostly cloudy with snow"</item>
+		<item>"Ice"</item>
+		<item>"Sleet"</item>
+		<item>"Freezing rain"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Rain and snow mixed"</item>
+		<item>"Hot"</item>
+		<item>"Cold"</item>
+		<item>"Windy"</item>
+		<item>"Clear"</item>
+		<item>"Mostly clear"</item>
+		<item>"Partly cloudy"</item>
+		<item>"Intermittent clouds"</item>
+		<item>"Hazy"</item>
+		<item>"Mostly cloudy"</item>
+		<item>"Partly cloudy with showers"</item>
+		<item>"Mostly cloudy with showers"</item>
+		<item>"Partly cloudy with thunder showers"</item>
+		<item>"Mostly cloudy with thunder showers"</item>
+		<item>"Mostly cloudy with flurries"</item>
+		<item>"Mostly cloudy with snow"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Mon"</item>
+		<item>"Tue"</item>
+		<item>"Wed"</item>
+		<item>"Thu"</item>
+		<item>"Fri"</item>
+		<item>"Sat"</item>
+		<item>"Sun"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Refresh"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Unable to obtain the latest location."</string>
+	<!---->
+	<string name="last_updated_label">"Last updated:"</string>
+	<!---->
+	<string name="change_to_C">"Change to °C"</string>
+	<!---->
+	<string name="change_to_F">"Change to °F"</string>
+	<!---->
+	<string name="label_today">"Today"</string>
+	<!---->
+	<string name="label_humidity">"Humidity"</string>
+	<!---->
+	<string name="label_pressure">"Pressure"</string>
+	<!---->
+	<string name="label_wind">"Wind"</string>
+	<!---->
+	<string name="label_visibility">"Visibility"</string>
+	<!---->
+	<string name="label_uv_index">"UV index"</string>
+	<!---->
+	<string name="label_high">"Max"</string>
+	<!---->
+	<string name="label_low">"Min"</string>
+	<!---->
+	<string name="label_high_rel">"Max"</string>
+	<!---->
+	<string name="label_low_rel">"Min"</string>
+	<!---->
+	<string name="label_precipitation">"Precipitation"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Monday"</item>
+		<item>"Tuesday"</item>
+		<item>"Wednesday"</item>
+		<item>"Thursday"</item>
+		<item>"Friday"</item>
+		<item>"Saturday"</item>
+		<item>"Sunday"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"mph"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mi/h"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"mi."</string>
+	<!---->
+	<string name="change_to_mi">"Change to mi."</string>
+	<!---->
+	<string name="change_to_km">"Change to km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Unable to obtain weather data. Please check the Internet connection."</string>
+	<!---->
+	<string name="tokyo_name">"Tokyo"</string>
+	<!---->
+	<string name="just_now">"Just now"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 second ago"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> seconds ago"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 minute ago"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> minutes ago"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 hour ago"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> hours ago"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Yesterday"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> days ago"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 week ago"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> weeks ago"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 month ago"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> months ago"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Settings"</string>
+	<!---->
+	<string name="pref_header_general">"General"</string>
+	<!---->
+	<string name="pref_header_metrics">"Units"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Auto-update weather data"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Any time. Data charges may apply."</item>
+		<item>"Auto-update over Wi-Fi only"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Temperature"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Distance"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Mile (mi.)"</item>
+		<item>"Kilometer (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Advanced weather data"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Show sensible temperature"</string>
+	<!---->
+	<string name="just_updated">"Just now"</string>
+	<!---->
+	<string name="gotoSettingTips">"To receive local weather data, grant Location and Phone access."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Settings"</string>
+	<!---->
+	<string name="permission_poster_title">"Grant access"</string>
+	<!---->
+	<string name="location_permission_description">"Weather needs Location and Phone permission to provide local weather data. Grant Location and Phone access to use this feature."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"Got it"</string>
+</resources>

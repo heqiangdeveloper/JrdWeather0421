@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weather_more_info_layout"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <LinearLayout
+                   android:layout_width="0dp"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:gravity="center_horizontal"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:id="@+id/tv_temp_low_label"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:fontFamily="sans-serif"
+                       android:text="@string/label_low_rel"
+                       android:textColor="#FFFFFF"
+                       android:textSize="@dimen/weather_info_key_size" />
+
+                   <ImageView
+                       android:id="@+id/tv_temp_low_icon"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/currnet_low_b" />
+
+                   <TextView
+                       android:id="@+id/tv_temp_low_val"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:fontFamily="sans-serif-light"
+                       android:textColor="#FFFFFF"
+                       android:textSize="@dimen/weather_info_value_size" />
+
+                   <TextView
+                       android:id="@+id/tv_temp_low_unit"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_gravity="center_horizontal"
+                       android:fontFamily="sans-serif"
+                       android:text="@string/label_temp_unit_celsius"
+                       android:textColor="#99FFFFFF"
+                       android:textSize="@dimen/weather_info_unit_size" />
+               </LinearLayout >
+        <!--LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_visibility_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_visibility"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_key_size" />
+
+            <ImageView
+                android:id="@+id/tv_visibility_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/currnet_visibility_b" />
+
+            <TextView
+                android:id="@+id/tv_visibility_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_value_size" />
+
+            <TextView
+                android:id="@+id/tv_visibility_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_visibility_unit_km"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_unit_size" />
+        </LinearLayout -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_wind_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_wind"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_key_size" />
+
+            <ImageView
+                android:id="@+id/tv_wind_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/currnet_wind_b" />
+
+            <TextView
+                android:id="@+id/tv_wind_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_value_size" />
+
+            <TextView
+                android:id="@+id/tv_wind_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_wind_unit_km"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_unit_size" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_realfeel_key"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/real_feel"
+
+                    android:textSize="@dimen/weather_info_key_size" />
+
+                <TextView
+                    android:id="@+id/tv_realfeel_tail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="0dp"
+                    android:fontFamily="sans-serif"
+                    android:text="®"
+
+                    android:textSize="10dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_realfeel_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:textSize="@dimen/weather_info_value_size" />
+
+            <TextView
+                android:id="@+id/tv_realfeel_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_temp_unit_celsius"
+                android:textSize="@dimen/weather_info_unit_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_pressure_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_pressure"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_key_size" />
+
+            <ImageView
+                android:id="@+id/tv_pressure_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/currnet_pressure_b" />
+
+            <TextView
+                android:id="@+id/tv_pressure_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_value_size" />
+
+            <TextView
+                android:id="@+id/tv_pressure_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_pressure_unit"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_unit_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_uv_index_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_uv_index"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_key_size" />
+
+            <ImageView
+                android:id="@+id/tv_uv_index_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/currnet_uv_b" />
+
+            <TextView
+                android:id="@+id/tv_uv_index_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif-light"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_value_size" />
+
+            <TextView
+                android:id="@+id/tv_uv_index_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="sans-serif"
+                android:text="@string/label_humidity_unit"
+                android:textColor="@color/text_color_black"
+                android:textSize="@dimen/weather_info_unit_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/content_margin" />
+
+</LinearLayout>

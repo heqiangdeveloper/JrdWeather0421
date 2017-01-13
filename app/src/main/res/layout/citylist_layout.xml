@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:paddingEnd="24dp"
+    >
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="12dp" />
+
+     <!-- [BUGFIX]-Add-BEGIN by TSCD.peng.du,11/18/2015,904775, -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal">
+        android:paddingStart="16dp">
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_location"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:layout_marginRight="32dp"
+            />
+        <TextView
+            android:id="@+id/cityListitem"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:paddingStart="1dp"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+    <!-- //[BUGFIX]-Add-END by TSCD.peng.du -->
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="12dp" />
+</LinearLayout>

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Počasie"</string>
+	<!---->
+	<string name="no_weather">"Nie sú dostupné žiadne údaje o počasí"</string>
+	<!---->
+	<string name="menu_addlocation">"Pridať polohu"</string>
+	<!---->
+	<string name="menu_delete">"Vymazať polohu"</string>
+	<!---->
+	<string name="menu_remove">"Odstrániť polohu"</string>
+	<!---->
+	<string name="menu_unit">"Zmeniť jednotku"</string>
+	<!---->
+	<string name="locate_auto">"Lokalizovať automaticky"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Nie je možné pripojiť sa k internetu."</string>
+	<!---->
+	<string name="locate_goto_connect">"Prejsť na pripojenie"</string>
+	<!---->
+	<string name="locate_failure">"Automatická lokalizácia zlyhala. Namiesto toho vyhľadajte polohu."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Automatické určenie polohy zlyhalo. Skontrolujte službu určenia polohy Google, prosím."</string>
+	<!---->
+	<string name="insert_location">"Zadať polohu"</string>
+	<!---->
+	<string name="search_location">"Vyhľadať polohu"</string>
+	<!---->
+	<string name="connect_timeout">"Slabý signál. Skúste neskôr, prosím."</string>
+	<!---->
+	<string name="connot_find_location">"Túto polohu nie je možné nájsť."</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"Ľutujeme, ale pridať je možné len 11 miest. Jedno odstráňte, prosím."</string>
+	<!---->
+	<string name="citys_six_full">"Ľutujeme, ale pridať je možné len 11 miest. Niektoré z nich odstráňte."</string>
+	<!---->
+	<string name="citys_max_full">"Bol dosiahnutý maximálny počet polôh. Najprv odstráňte polohu."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Vyhľadáva sa..."</string>
+	<!---->
+	<string name="locating">"Lokalizácia..."</string>
+	<!---->
+	<string name="loading">"Načítava sa..."</string>
+	<!---->
+	<string name="weather_offline">"Počasie offline"</string>
+	<!---->
+	<string name="update_time">"Aktualizovať čas"</string>
+	<!---->
+	<string name="common_ok">"OK"</string>
+	<!---->
+	<string name="common_cancel">"Zrušiť"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Miesto"</string>
+	<!---->
+	<string name="click_update">"Kliknutím sem aktualizujte"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Žiadne údaje o počasí"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Skontrolujte vaše pripojenie k internetu"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Bez povolenia"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Na zobrazenie miestnych údajov o počasí je potrebný prístup k aplikácii Určovanie polohy."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Žiadne miesto"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Pridať polohu pomocou tohto widgetu"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"NASTAVENIA"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Pridať polohu"</string>
+	<!---->
+	<string name="weather_off_line_text">"Ľutujeme, nedá sa pripojiť."</string>
+	<string-array name="weather_icon_desc">
+		<item>"Slnečno"</item>
+		<item>"Prevažne slnečno"</item>
+		<item>"Polooblačno"</item>
+		<item>"Prerušovaná oblačnosť"</item>
+		<item>"Slnečno po rozptýlení hmly"</item>
+		<item>"Prevažne zamračené"</item>
+		<item>"Zamračené"</item>
+		<item>"Pochmúrne"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Hmla"</item>
+		<item>"Prehánky"</item>
+		<item>"Prevažne zamračené s prehánkami"</item>
+		<item>"Polooblačno s prehánkami"</item>
+		<item>"Búrky"</item>
+		<item>"Prevažne zamaračené s búrkovými prehánkami"</item>
+		<item>"Polooblačno s búrkovými prehánkami"</item>
+		<item>"Dážď"</item>
+		<item>"Prívaly dažďa"</item>
+		<item>"Prevažne zamračené s prívalmi daďďa"</item>
+		<item>"Polooblačno s prívalmi dažďa"</item>
+		<item>"Sneh"</item>
+		<item>"Prevažne zamračené so snehom"</item>
+		<item>"Ľad"</item>
+		<item>"Sneh s dažďom"</item>
+		<item>"Mrznúci dážď"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Zmiešaný dážď so snehom"</item>
+		<item>"Horúco"</item>
+		<item>"Chladno"</item>
+		<item>"Veterno"</item>
+		<item>"Jasná obloha"</item>
+		<item>"Prevažne jasná obloha"</item>
+		<item>"Čiastočne zamračené"</item>
+		<item>"Prerušovaná oblačnosť"</item>
+		<item>"Hmlisto"</item>
+		<item>"Prevažne zamračené"</item>
+		<item>"Čiastočne zamračené s prehánkami"</item>
+		<item>"Prevažne zamračené s prehánkami"</item>
+		<item>"Čiastočne zamračené s búrkovými prehánkami"</item>
+		<item>"Prevažne zamračené s búrkovými prehánkami"</item>
+		<item>"Prevažne zamračené s prívalmi dažďa"</item>
+		<item>"Prevažne zamračené so snehom"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"Pon"</item>
+		<item>"Ut"</item>
+		<item>"Str"</item>
+		<item>"Štv"</item>
+		<item>"Pia"</item>
+		<item>"Sob"</item>
+		<item>"Ned"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Obnoviť"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Nedá sa získať najnovšie umiestnenie."</string>
+	<!---->
+	<string name="last_updated_label">"Naposledy aktualizované:"</string>
+	<!---->
+	<string name="change_to_C">"Zobraziť °C"</string>
+	<!---->
+	<string name="change_to_F">"Zobraziť °F"</string>
+	<!---->
+	<string name="label_today">"Dnes"</string>
+	<!---->
+	<string name="label_humidity">"Vlhkosť"</string>
+	<!---->
+	<string name="label_pressure">"Tlak"</string>
+	<!---->
+	<string name="label_wind">"Vietor"</string>
+	<!---->
+	<string name="label_visibility">"Viditeľ."</string>
+	<!---->
+	<string name="label_uv_index">"Index UV"</string>
+	<!---->
+	<string name="label_high">"Vysoký"</string>
+	<!---->
+	<string name="label_low">"Nízky"</string>
+	<!---->
+	<string name="label_high_rel">"Max."</string>
+	<!---->
+	<string name="label_low_rel">"Min."</string>
+	<!---->
+	<string name="label_precipitation">"Zrážky"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Pondel."</item>
+		<item>"Utorok"</item>
+		<item>"Streda"</item>
+		<item>"Štvrtok"</item>
+		<item>"Piatok"</item>
+		<item>"Sobota"</item>
+		<item>"Nedeľa"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"mb"</string>
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!---->
+	<string name="label_wind_unit_km">"km/h"</string>
+	<!---->
+	<string name="label_wind_unit_m">"m/s"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"míľ/hod."</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"mph"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"km"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"míle"</string>
+	<!---->
+	<string name="change_to_mi">"Zmeniť na míle"</string>
+	<!---->
+	<string name="change_to_km">"Zmeniť na km"</string>
+	<!---->
+	<string name="obtain_data_failed">"Informácia o počasí sa nedá načítať. Prosím skontrolujte dátové pripojenie."</string>
+	<!---->
+	<string name="tokyo_name">"Tokio"</string>
+	<!---->
+	<string name="just_now">"Teraz"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"pred 1 sekundou"</item>
+		<item quantity="other">"Pred <xliff:g id="count">%d</xliff:g> sekundami"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"Pred 1 minútou"</item>
+		<item quantity="other">"Pred <xliff:g id="count">%d</xliff:g> minútami"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"pred 1 hodinou"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> hodinami"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Včera"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> dňami"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"pred 1 týždňom"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> týždňami"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"Pred 1 mesiacom"</item>
+		<item quantity="other">"pred <xliff:g id="count">%d</xliff:g> mesiacmi"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Nastavenia"</string>
+	<!---->
+	<string name="pref_header_general">"Všeobecné"</string>
+	<!---->
+	<string name="pref_header_metrics">"Jednotky"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Automaticky aktualizovať údaje o počasí"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"Kedykoľvek. Táto funkcia môže byť spoplatnená."</item>
+		<item>"Automaticky aktualizovať iba cez Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Teplota"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Fahrenheit (°F)"</item>
+		<item>"Celzius (°C)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Vzdialenosť"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Míľa (mi.)"</item>
+		<item>"Kilometre (km)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Rozšírené údaje o počasí"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Zobraziť pocitovú teplotu"</string>
+	<!---->
+	<string name="just_updated">"Teraz"</string>
+	<!---->
+	<string name="gotoSettingTips">"Ak chcete dostávať údaje o miestnom počasí, udeľte prístup k Určovaniu polohy a Telefónu."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Nastavenia"</string>
+	<!---->
+	<string name="permission_poster_title">"Udeliť prístup"</string>
+	<!---->
+	<string name="location_permission_description">"Aplikácia Počasie vyžaduje oprávnenie na prístup k Určovaniu polohy a Telefónu, aby vám mohla poskytnúť údaje o miestnom počasí. Ak chcete túto aplikáciu používať, udeľte jej prístup k Určovaniu polohy a Telefónu."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"HOTOVO"</string>
+</resources>

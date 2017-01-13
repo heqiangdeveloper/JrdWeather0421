@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"Погода"</string>
+	<!---->
+	<string name="no_weather">"Данные о погоде недоступны"</string>
+	<!---->
+	<string name="menu_addlocation">"Добавить местоположение"</string>
+	<!---->
+	<string name="menu_delete">"Удалить местоположение"</string>
+	<!---->
+	<string name="menu_remove">"Удалить местоположение"</string>
+	<!---->
+	<string name="menu_unit">"Изменить единицу измерения"</string>
+	<!---->
+	<string name="locate_auto">"Автоопределение местоположения"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"Невозможно подключиться к Интернет"</string>
+	<!---->
+	<string name="locate_goto_connect">"Нажмите для подключения"</string>
+	<!---->
+	<string name="locate_failure">"Ошибка автоопределения местоположения. Установите местонахождение вручную."</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"Не удалось автоматически определить местоположение. Пожалуйста, проверьте службу геопозиционирования Google."</string>
+	<!---->
+	<string name="insert_location">"Доб. местополож."</string>
+	<!---->
+	<string name="search_location">"Поиск местоположения"</string>
+	<!---->
+	<string name="connect_timeout">"Не удалось получить данные. Возможно, отсутствует подключение к сети Интернет. Пожалуйста, попробуйте позже."</string>
+	<!---->
+	<string name="connot_find_location">"Местоположение не найдено."</string>
+	<!---->
+	<string name="real_feel">"По ощущениям"</string>
+	<!---->
+	<string name="citys_full">"Вы можете добавить только 11 городов. Удалите один из них."</string>
+	<!---->
+	<string name="citys_six_full">"Вы можете добавить только 11 городов. Удалите один из них."</string>
+	<!---->
+	<string name="citys_max_full">"Достигнуто максимальное количество местоположений. Сначала удалите местоположение."</string>
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"Выполняется поиск..."</string>
+	<!---->
+	<string name="locating">"Определение местоположения..."</string>
+	<!---->
+	<string name="loading">"Выполняется загрузка..."</string>
+	<!---->
+	<string name="weather_offline">"Погода офлайн"</string>
+	<!---->
+	<string name="update_time">"Обновить время"</string>
+	<!---->
+	<string name="common_ok">"ОК"</string>
+	<!---->
+	<string name="common_cancel">"Отмена"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"Местоположение"</string>
+	<!---->
+	<string name="click_update">"Нажмите сюда, чтобы обновить"</string>
+	<!---->
+	<string name="miniapp_widget_no_data">"Нет данных о погоде"</string>
+	<!---->
+	<string name="miniapp_widget_no_data_desc">"Проверьте подключение к Интернету"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission">"Нет доступа"</string>
+	<!---->
+	<string name="miniapp_widget_no_permission_desc">"Доступ к Местоположению необходим для показа местных погодных данных."</string>
+	<!---->
+	<string name="miniapp_widget_no_location">"Место не указано"</string>
+	<!---->
+	<string name="miniapp_widget_no_location_desc">"Используйте этот виджет, чтобы добавить местоположение"</string>
+	<!---->
+	<string name="miniapp_widget_setting">"НАСТРОЙКИ"</string>
+	<!---->
+	<string name="miniapp_widget_add_location">"Добавить местоположение"</string>
+	<!---->
+	<string name="weather_off_line_text">"Не удалось подключиться"</string>
+	<string-array name="weather_icon_desc">
+		<item>"Солнечно"</item>
+		<item>"Возможен дождь"</item>
+		<item>"Возможен дождь"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Туманно"</item>
+		<item>"Облачно"</item>
+		<item>"Облачно"</item>
+		<item>"Мрачно"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Туман"</item>
+		<item>"Дождь"</item>
+		<item>"Переменная облачность, дождь"</item>
+		<item>"Небольшая облачность, дождь"</item>
+		<item>"Грозы"</item>
+		<item>"Облачно, грозы"</item>
+		<item>"Возможен дождь, грозы"</item>
+		<item>"Дождь"</item>
+		<item>"Порывистый ветер"</item>
+		<item>"Облачно, снег"</item>
+		<item>"Дождь со снегом"</item>
+		<item>"Снег"</item>
+		<item>"облачно, снег"</item>
+		<item>"Лед"</item>
+		<item>"мокрый снег"</item>
+		<item>"Ледяной дождь"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"Дождь со снегом"</item>
+		<item>"Жара"</item>
+		<item>"Холодно"</item>
+		<item>"Ветрено"</item>
+		<item>"Ясно"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Переменная облачность"</item>
+		<item>"Туманно"</item>
+		<item>"Облачно"</item>
+		<item>"Облачно, дождь"</item>
+		<item>"Облачно, дождь"</item>
+		<item>"Облачно, гроза"</item>
+		<item>"Облачно, гроза"</item>
+		<item>"облачно, снег"</item>
+		<item>"облачно, снег"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"ПН"</item>
+		<item>"ВТ"</item>
+		<item>"СР"</item>
+		<item>"ЧТ"</item>
+		<item>"ПТ"</item>
+		<item>"СБ"</item>
+		<item>"ВС"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"Обновить"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"Не удалось определить местоположение."</string>
+	<!---->
+	<string name="last_updated_label">"Обновлено:"</string>
+	<!---->
+	<string name="change_to_C">"Градусы Цельсия"</string>
+	<!---->
+	<string name="change_to_F">"Градусы Фаренгейта"</string>
+	<!---->
+	<string name="label_today">"Сегодня"</string>
+	<!---->
+	<string name="label_humidity">"Влажность"</string>
+	<!---->
+	<string name="label_pressure">"Давление"</string>
+	<!---->
+	<string name="label_wind">"Ветер"</string>
+	<!---->
+	<string name="label_visibility">"Видимость"</string>
+	<!---->
+	<string name="label_uv_index">"UV индекс"</string>
+	<!---->
+	<string name="label_high">"Высокий"</string>
+	<!---->
+	<string name="label_low">"Низкий"</string>
+	<!---->
+	<string name="label_high_rel">"Максимальный"</string>
+	<!---->
+	<string name="label_low_rel">"Минимальный"</string>
+	<!---->
+	<string name="label_precipitation">"Осадки"</string>
+	<string-array name="weather_weekly_fullname">
+		<item>"Понедельник"</item>
+		<item>"Вторник"</item>
+		<item>"Среда"</item>
+		<item>"Четверг"</item>
+		<item>"Пятница"</item>
+		<item>"Суббота"</item>
+		<item>"Воскресенье"</item>
+	</string-array>
+	<!---->
+	<string name="label_pressure_unit">"мб"</string>
+	<!---->
+	<string name="label_mm">"мм"</string>
+	<!---->
+	<string name="label_wind_unit_km">"км/ч"</string>
+	<!---->
+	<string name="label_wind_unit_m">"м/с"</string>
+	<!---->
+	<string name="label_wind_unit_mi">"миль/ч"</string>
+	<!---->
+	<string name="label_wind_unit_mi_rel">"миль/час"</string>
+	<!---->
+	<string name="label_visibility_unit_km">"км"</string>
+	<!---->
+	<string name="label_visibility_unit_mi">"миль"</string>
+	<!---->
+	<string name="change_to_mi">"Британская"</string>
+	<!---->
+	<string name="change_to_km">"Метрическая"</string>
+	<!---->
+	<string name="obtain_data_failed">"Не удалось получить данные о погоде. Пожалуйста, проверьте подключение к Интернету."</string>
+	<!---->
+	<string name="tokyo_name">"Токио"</string>
+	<!---->
+	<string name="just_now">"Сейчас"</string>
+	<plurals name="seconds_ago">
+		<item quantity="one">"1 секунду назад"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> с назад"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 минуту назад"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> мин назад"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 час назад"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> ч. назад"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"Вчера"</item>
+		<item quantity="other">"<xliff:g id="COUNT">%d</xliff:g> дн. назад"</item>
+	</plurals>
+	<plurals name="weeks_ago">
+		<item quantity="one">"1 неделю назад"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> недель назад"</item>
+	</plurals>
+	<plurals name="months_ago">
+		<item quantity="one">"1 месяц назад"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> месяцев назад"</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"Настройки"</string>
+	<!---->
+	<string name="pref_header_general">"Общие"</string>
+	<!---->
+	<string name="pref_header_metrics">"Единцы измерения"</string>
+	<!---->
+	<string name="title_pref_auto_update">"Автообновление прогноза погоды"</string>
+	<string-array name="pref_auto_update_titles">
+		<item>"В любой сети (за передачу данных в мобильной сети может взиматься плата)"</item>
+		<item>"Только через Wi-Fi"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_temp">"Температура"</string>
+	<string-array name="pref_temp_unit_titles">
+		<item>"Фаренгейт (°F)"</item>
+		<item>"Цельсий (°С)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_distance">"Расстояние"</string>
+	<string-array name="pref_distance_unit_titles">
+		<item>"Миля (миля)"</item>
+		<item>"Километр (км)"</item>
+	</string-array>
+	<!---->
+	<string name="title_pref_advanced_data">"Расширенные данные о погоде"</string>
+	<!---->
+	<string name="title_pref_feels_like">"Показывать ощущаемую температуру"</string>
+	<!---->
+	<string name="just_updated">"Сейчас"</string>
+	<!---->
+	<string name="gotoSettingTips">"Для получения местных погодных данных, разрешите доступ к Местоположению и Телефону."</string>
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"Настройки"</string>
+	<!---->
+	<string name="permission_poster_title">"Требуется ваше разрешение"</string>
+	<!---->
+	<string name="location_permission_description">"Приложению «Погода» требуется доступ к местоположению и телефону для отображения актуального прогноза погоды. Разрешите доступ для использования этой функции."</string>
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"OK"</string>
+</resources>

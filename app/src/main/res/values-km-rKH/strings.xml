@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+	<!--
+		this file is built by arct v:froyo_2011-03-23
+	-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	<!---->
+	<string name="app_name">"អាកាសធាតុ"</string>
+	<!-- no translation found for no_weather -->
+	<skip />
+	<!---->
+	<string name="menu_addlocation">"ថែម​ទីកន្លែង​មួយ"</string>
+	<!---->
+	<string name="menu_delete">"លុប​ទីកន្លែង"</string>
+	<!-- no translation found for menu_remove -->
+	<skip />
+	<!---->
+	<string name="menu_unit">"ប្ដូរ​ខ្នាត"</string>
+	<!---->
+	<string name="locate_auto">"ស្វ័យ​រកកន្លែង"</string>
+	<!-- no translation found for locate_or -->
+	<skip />
+	<!---->
+	<string name="locate_connect_error">"មិន​អាច​ភ្ជាប់​ទៅ​អ៊ីនធឺណិត។"</string>
+	<!---->
+	<string name="locate_goto_connect">"ចូលទៅ​ភ្ជាប់"</string>
+	<!---->
+	<string name="locate_failure">"ស្វ័យរកកន្លែងបានបរាជ័យ។ សូមស្វែងរកទីកន្លែងជំនួសមួយនេះ។"</string>
+	<!-- no translation found for locate_search -->
+	<skip />
+	<!---->
+	<string name="locate_location_service">"ស្វ័យ​រកកន្លែង​បាន​បរាជ័យ។ សូម​ពិនិត្យ​សេវា​ទីកន្លែង​របស់ Google។"</string>
+	<!---->
+	<string name="insert_location">"បញ្ចូល​ទីកន្លែង"</string>
+	<!-- no translation found for search_location -->
+	<skip />
+	<!---->
+	<string name="connect_timeout">"សេវា​ខ្សោយ។ សូម​សាកល្បង​វា​ពេលក្រោយ។"</string>
+	<!---->
+	<string name="connot_find_location">"មិន​អាច​រកឃើញ​ទីកន្លែង​នេះ។"</string>
+	<!---->
+	<string name="real_feel">"RealFeel"</string>
+	<!---->
+	<string name="citys_full">"សុំទោស អ្នក​អាច​ថែម​តែ​ទីក្រុង 11 ប៉ុណ្ណោះ។ សូម​លុប​មួយ។"</string>
+	<!-- no translation found for citys_six_full -->
+	<skip />
+	<!-- no translation found for citys_max_full -->
+	<skip />
+	<!-- no translation found for update_faild -->
+	<skip />
+	<!---->
+	<string name="searching">"កំពុង​ស្វែងរក…"</string>
+	<!---->
+	<string name="locating">"កំពុង​រក​កន្លែង…"</string>
+	<!---->
+	<string name="loading">"កំពុងដំណើរការ..."</string>
+	<!---->
+	<string name="weather_offline">"អាកាសធាតុ​ក្រៅ​បណ្ដាញ"</string>
+	<!---->
+	<string name="update_time">"អាប់ដេត​ម៉ោង"</string>
+	<!---->
+	<string name="common_ok">"ព្រម"</string>
+	<!---->
+	<string name="common_cancel">"បោះបង់"</string>
+	<!---->
+	<string name="date_am">"AM"</string>
+	<!---->
+	<string name="date_pm">"PM"</string>
+	<!---->
+	<string name="location">"ទីតាំង"</string>
+	<!---->
+	<string name="click_update">"ចុចទីនេះដើម្បីអាប់ដេត"</string>
+	<!-- no translation found for miniapp_widget_no_data -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_data_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission -->
+	<skip />
+	<!-- no translation found for miniapp_widget_no_permission_desc -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_no_location">"មិនមានទីតាំង"</string>
+	<!-- no translation found for miniapp_widget_no_location_desc -->
+	<skip />
+	<!-- no translation found for miniapp_widget_setting -->
+	<skip />
+	<!---->
+	<string name="miniapp_widget_add_location">"ថែម​ទីកន្លែង​មួយ"</string>
+	<!---->
+	<string name="weather_off_line_text">"សូមទោស មិនអាចភ្ជាប់បានទេ។"</string>
+	<string-array name="weather_icon_desc">
+		<item>"មាន​ពន្លឺ​ថ្ងៃ"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ច្រើន"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ខ្លះ"</item>
+		<item>"ពពក​មួយ​ដុំៗ"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ជាមួយ​អ័ព្ទ"</item>
+		<item>"មាន​ពពក​ច្រើន"</item>
+		<item>"មាន​ពពក"</item>
+		<item>"អាប់អួ"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"អ័ព្ទ"</item>
+		<item>"ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ខ្លះ​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"ព្យុះ​មាន​ផ្គរ​រន្ទះ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"មាន​ពន្លឺ​ថ្ងៃ​ខ្លះ​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"ភ្លៀង"</item>
+		<item>"ធ្លាក់​ព្រិល​មួយ​ប្រាវ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ការធ្លាក់​ព្រិល​មួយ​ប្រាវ"</item>
+		<item>"ពន្លឺ​ថ្ងៃ​ខ្លះ​ និងធ្លាក់​ព្រិល"</item>
+		<item>"ព្រិល​ទឹកកក"</item>
+		<item>"ពពក​ច្រើន​និងព្រិល​ទឹកកក"</item>
+		<item>"ទឹកកក"</item>
+		<item>"ភ្លៀង​លាយ​ព្រិល"</item>
+		<item>"ភ្លៀង​ទឹកកក"</item>
+		<!--inherit from default language-->
+		<item></item>
+		<!--inherit from default language-->
+		<item></item>
+		<item>"ភ្លៀង​លាយ​ព្រិល​ទឹកកក"</item>
+		<item>"ក្ដៅ"</item>
+		<item>"ត្រជាក់"</item>
+		<item>"ខ្យល់"</item>
+		<item>"ជម្រះ"</item>
+		<item>"ភាគច្រើន​ស្រឡះ"</item>
+		<item>"មាន​ពពក​ខ្លះ"</item>
+		<item>"ពពក​មួយ​ដុំៗ"</item>
+		<item>"ចុះ​អ័ព្ទ"</item>
+		<item>"មាន​ពពក​ច្រើន"</item>
+		<item>"មាន​ពពក​ខ្លះ​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ធ្លាក់"</item>
+		<item>"មាន​ពពក​ខ្លះ​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ភ្លៀង​ផ្គរ"</item>
+		<item>"មាន​ពពក​ច្រើន​ជាមួយ​ការធ្លាក់​ព្រិល​មួយ​ប្រាវ"</item>
+		<item>"ពពក​ច្រើន​ និង​ព្រិល"</item>
+	</string-array>
+	<string-array name="weather_weekly">
+		<item>"ចន្ទ"</item>
+		<item>"អង្គារ"</item>
+		<item>"ពុធ"</item>
+		<item>"ព្រហស្បតិ៍"</item>
+		<item>"សុក្រ"</item>
+		<item>"សៅរ៍"</item>
+		<item>"អាទិត្យ"</item>
+	</string-array>
+	<!---->
+	<string name="lable_refresh">"ធ្វើឲ្យស្រស់បស់ឡើងវិញ"</string>
+	<!---->
+	<string name="msg_unable_obtain_location">"មិនអាចទទួលបានទីតាំងចុងក្រោយ។"</string>
+	<!---->
+	<string name="last_updated_label">"ធ្វើឱ្យទាន់សម័យ ចុងក្រោយ"</string>
+	<!-- no translation found for change_to_C -->
+	<skip />
+	<!-- no translation found for change_to_F -->
+	<skip />
+	<!---->
+	<string name="label_today">"ថ្ងៃនេះ"</string>
+	<!-- no translation found for label_humidity -->
+	<skip />
+	<!-- no translation found for label_pressure -->
+	<skip />
+	<!-- no translation found for label_wind -->
+	<skip />
+	<!-- no translation found for label_visibility -->
+	<skip />
+	<!-- no translation found for label_uv_index -->
+	<skip />
+	<!---->
+	<string name="label_high">"ខ្ពស់"</string>
+	<!---->
+	<string name="label_low">"ទាប"</string>
+	<!-- no translation found for label_high_rel -->
+	<skip />
+	<!-- no translation found for label_low_rel -->
+	<skip />
+	<!-- no translation found for label_precipitation -->
+	<skip />
+	<string-array name="weather_weekly_fullname">
+		<!--inherit from default language-->
+		<item>"Monday"</item>
+		<!--inherit from default language-->
+		<item>"Tuesday"</item>
+		<!--inherit from default language-->
+		<item>"Wednesday"</item>
+		<!--inherit from default language-->
+		<item>"Thursday"</item>
+		<!--inherit from default language-->
+		<item>"Friday"</item>
+		<!--inherit from default language-->
+		<item>"Saturday"</item>
+		<!--inherit from default language-->
+		<item>"Sunday"</item>
+	</string-array>
+	<!-- no translation found for label_pressure_unit -->
+	<skip />
+	<!---->
+	<string name="label_mm">"mm"</string>
+	<!-- no translation found for label_wind_unit_km -->
+	<skip />
+	<!-- no translation found for label_wind_unit_m -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi -->
+	<skip />
+	<!-- no translation found for label_wind_unit_mi_rel -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_km -->
+	<skip />
+	<!-- no translation found for label_visibility_unit_mi -->
+	<skip />
+	<!-- no translation found for change_to_mi -->
+	<skip />
+	<!-- no translation found for change_to_km -->
+	<skip />
+	<!-- no translation found for obtain_data_failed -->
+	<skip />
+	<!-- no translation found for tokyo_name -->
+	<skip />
+	<!-- no translation found for just_now -->
+	<skip />
+	<plurals name="seconds_ago">
+		<item quantity="one">""</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> វិនាទីកន្លងទៅ"</item>
+	</plurals>
+	<plurals name="minutes_ago">
+		<item quantity="one">"1 នាទីកន្លងទៅ"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> នាទីកន្លងទៅ"</item>
+	</plurals>
+	<plurals name="hours_ago">
+		<item quantity="one">"1 ម៉ោងកន្លងទៅ"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ម៉ោងកន្លងទៅ"</item>
+	</plurals>
+	<plurals name="days_ago">
+		<item quantity="one">"ម្សិលមិញ"</item>
+		<item quantity="other">"<xliff:g id="count">%d</xliff:g> ថ្ងៃកន្លងទៅ"</item>
+	</plurals>
+	<!-- no translation found for weeks_ago -->
+	<skip />
+	<plurals name="months_ago">
+		<item quantity="one">"1 ខែកន្លងទៅ"</item>
+		<item quantity="other">""</item>
+	</plurals>
+	<!---->
+	<string name="title_activity_settings">"ការកំណត់"</string>
+	<!---->
+	<string name="pref_header_general">"ទូទៅ"</string>
+	<!-- no translation found for pref_header_metrics -->
+	<skip />
+	<!-- no translation found for title_pref_auto_update -->
+	<skip />
+	<string-array name="pref_auto_update_titles">
+		<!--inherit from default language-->
+		<item>"Any time. Data charges may apply."</item>
+		<!--inherit from default language-->
+		<item>"Auto-update over Wi-Fi only"</item>
+	</string-array>
+	<!-- no translation found for title_pref_temp -->
+	<skip />
+	<string-array name="pref_temp_unit_titles">
+		<!--inherit from default language-->
+		<item>"Fahrenheit (°F)"</item>
+		<!--inherit from default language-->
+		<item>"Celcius (°C)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_distance -->
+	<skip />
+	<string-array name="pref_distance_unit_titles">
+		<!--inherit from default language-->
+		<item>"Mile (mi.)"</item>
+		<!--inherit from default language-->
+		<item>"Kilometre (km)"</item>
+	</string-array>
+	<!-- no translation found for title_pref_advanced_data -->
+	<skip />
+	<!-- no translation found for title_pref_feels_like -->
+	<skip />
+	<!-- no translation found for just_updated -->
+	<skip />
+	<!-- no translation found for gotoSettingTips -->
+	<skip />
+	<!-- no translation found for gotoSettingTips_no_phone -->
+	<skip />
+	<!---->
+	<string name="settings">"ការសិត"</string>
+	<!-- no translation found for permission_poster_title -->
+	<skip />
+	<!-- no translation found for location_permission_description -->
+	<skip />
+	<!-- no translation found for location_permission_description_no_phone -->
+	<skip />
+	<!---->
+	<string name="gotit">"ទទួលបាន។"</string>
+</resources>
